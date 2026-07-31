@@ -1,0 +1,77 @@
+baseURL = "https://dsu-digital-sound-design.github.io/f-26-DAD-222-Audio-Production-I/"
+languageCode = "en-us"
+title = "DAD 222: Audio Production I"
+enableRobotsTXT = true
+
+# Console renders the course pages; reveal-hugo renders the lecture decks.
+# Order matters: Console is listed first so its templates win for HTML output,
+# while reveal-hugo's *.reveal.html templates win for the Reveal output format.
+theme = ["t-console-theme", "reveal-hugo"]
+
+[outputFormats.Reveal]
+  baseName = "index"
+  mediaType = "text/html"
+  isHTML = true
+
+[params]
+  accent = "#b6ff5c"
+  description = "A practical introduction to music technology, digital audio production, and creative sound design."
+
+  [params.course]
+    code = "DAD 222"
+    title = "Audio Production I"
+    term = "Fall 2026"
+    meeting = "MWF 10:00–10:50"
+    instructor = "Tate Carson"
+    # TODO: confirm your slot. DSU's final exam period is Dec 10–16, 2026.
+    final = "During the final exam period, December 10–16"
+
+  [params.schedule]
+    # Monday of week 1. DSU Fall 2026 classes begin Aug 24.
+    start = "2026-08-24"
+    filterPlaceholder = 'filter — try "reaper" or "due"'
+
+  [[params.facts]]
+    key = "Meets"
+    value = "MWF 10:00–10:50"
+  [[params.facts]]
+    key = "Room"
+    value = "Beacom 112 + Control Room A"
+  [[params.facts]]
+    key = "Instructor"
+    value = "Tate Carson"
+  [[params.facts]]
+    key = "Credits"
+    value = "3"
+  [[params.facts]]
+    key = "Software"
+    value = "REAPER, Vital, Sitala"
+  [[params.facts]]
+    key = "Grading"
+    value = "Projects 60% · Labs 20% · Quizzes 20%"
+
+[[menus.main]]
+  name = "schedule"
+  pageRef = "/schedule"
+  weight = 10
+[[menus.main]]
+  name = "projects"
+  pageRef = "/projects"
+  weight = 20
+[[menus.main]]
+  name = "syllabus"
+  pageRef = "/syllabus"
+  weight = 30
+[[menus.main]]
+  name = "resources"
+  pageRef = "/resources"
+  weight = 40
+
+[markup.goldmark.renderer]
+  # Lecture decks contain raw HTML (iframes, embeds).
+  unsafe = true
+
+[markup.tableOfContents]
+  ordered = false
+  startLevel = 1
+  endLevel = 2
