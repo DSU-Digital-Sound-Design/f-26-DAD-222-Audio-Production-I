@@ -23,8 +23,7 @@ theme = ["t-console-theme", "reveal-hugo"]
     term = "Fall 2026"
     meeting = "MWF 10:00–10:50"
     instructor = "Tate Carson"
-    # TODO: confirm your slot. DSU's final exam period is Dec 10–16, 2026.
-    final = "During the final exam period, December 10–16"
+    final = "Wednesday, December 16 · 8:00–10:00 AM"
 
   [params.schedule]
     # Monday of week 1. DSU Fall 2026 classes begin Aug 24.
@@ -36,7 +35,7 @@ theme = ["t-console-theme", "reveal-hugo"]
     value = "MWF 10:00–10:50"
   [[params.facts]]
     key = "Room"
-    value = "Beacom 112 + Control Room A"
+    value = "TCB 209"
   [[params.facts]]
     key = "Instructor"
     value = "Tate Carson"

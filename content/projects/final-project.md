@@ -4,7 +4,7 @@ number: "06"
 weight: 6
 week: 13
 assigned: "2026-11-16"
-due: "2026-12-14"
+due: "2026-12-16"
 summary: "A 3–5 minute piece that embodies your identity as an artist, using at least two techniques from the semester."
 tools: ["Your choice"]
 # this project carries its own rubric table in the body
@@ -33,7 +33,7 @@ Compose a **3-5-minute audio piece** that embodies your identity as an artist. Y
 
 **Stylistic Freedom:** Feel free to explore any genre, such as techno, vaporware/wave, drill-core, etc. Incorporating a video is also welcome.
 
-> **Presentation:** Projects will be presented during the final exam slot on December 12th, from 8 a.m. to 10 a.m. Attendance is mandatory; failure to attend will result in failing the exam.
+> **Presentation:** Projects will be presented during the final exam slot on Wednesday, December 16th, from 8 a.m. to 10 a.m. Attendance is mandatory; failure to attend will result in failing the exam.
 
 #### Deliverables:
 
