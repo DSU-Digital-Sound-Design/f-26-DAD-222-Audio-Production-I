@@ -4,7 +4,7 @@ number: "05"
 weight: 5
 week: 11
 assigned: "2026-11-06"
-due: "2026-11-20"
+due: "2026-11-23"
 summary: "Design 3–5 original Vital patches and compose a 2–3 minute piece around them."
 tools: ["Vital", "REAPER"]
 # this project carries its own rubric table in the body

@@ -164,17 +164,19 @@ funds undergraduate work.
 ## 11/6
 - [slides] [Effects and post-processing](/lectures/week-11/effects/)
 - **Last day to withdraw** from full-term courses
-- [project] [Project 5: Vital Synth](/projects/project-5-synth/) — due Friday 11/20
+- [project] [Project 5: Vital Synth](/projects/project-5-synth/) — due Monday 11/23
 
 ## 11/9
 - [slides] [Drum synthesis](/lectures/week-12/drum-synthesis/)
+- [slides] [Leads and keys](/lectures/week-12/leads-and-keys/)
+- No class Wednesday or Friday — I'm at the ATMI conference. On Monday 11/16 we'll have some volunteers share their patches from previous classes
 
 ## 11/11
-- [slides] [Leads and keys](/lectures/week-12/leads-and-keys/)
+- [off] **No class — I'm at [ATMI](https://atmimusic.com/) in Grand Rapids, MI** (Nov 11–14)
+- Keep working on [Project 5: Vital Synth](/projects/project-5-synth/) — now due Monday 11/23
 
 ## 11/13
-- [lab] [Recreate That Sound: synthesis ear training](/lectures/week-13/vital-listening/)
-- On Monday we'll have some volunteers share their patches from previous classes
+- [off] **No class — I'm at [ATMI](https://atmimusic.com/) in Grand Rapids, MI** (Nov 11–14)
 
 ## 11/16
 - Vital Synth patch sharing — students share a patch they made with the class
@@ -184,13 +186,14 @@ funds undergraduate work.
 
 ## 11/18
 - [slides] [Connecting influences to your creative voice](/lectures/week-13/final-project-influences/)
+- [lab] [Recreate That Sound: synthesis ear training](/lectures/week-13/vital-listening/) — reverse-engineer patches in Vital before Project 5 is due
 
 ## 11/20
-- Play Vital projects in class
+- Play in-progress Vital projects in class — last round of feedback before they're due
 - After you play your project, spend a few minutes presenting your final project proposal
-- [due] **Project 5: Vital Synth** — due today
 
 ## 11/23
+- [due] **Project 5: Vital Synth** — due today
 - [lab] **Technical setup day**
   - Divide the class into two groups of four
   - Group A (25 minutes): studio setup and troubleshooting
