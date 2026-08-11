@@ -17,6 +17,11 @@ theme = ["t-console-theme", "reveal-hugo"]
   accent = "#b6ff5c"
   description = "A practical introduction to music technology, digital audio production, and creative sound design."
 
+  [params.reveal_hugo]
+  custom_theme = "reveal-console.css"
+  transition = "fade"
+  slide_number = true
+
   [params.course]
     code = "DAD 222"
     title = "Audio Production I"
