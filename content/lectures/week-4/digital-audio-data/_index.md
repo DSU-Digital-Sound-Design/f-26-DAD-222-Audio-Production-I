@@ -130,6 +130,8 @@ In uncompressed file formats, digital audio is stored as a series of 16- or 24-b
 
 ---
 
+{{< slide class="stepped" >}}
+
 ## Compressed 
 
 * MP3 (MPEG-1 Audio Layer 3)

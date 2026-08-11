@@ -148,6 +148,8 @@ The mixer brings all audio signals together and allows us to balance these signa
 
 ---
 
+{{< slide class="stepped" >}}
+
 ## Simple mixer
 
 - input jack/controls

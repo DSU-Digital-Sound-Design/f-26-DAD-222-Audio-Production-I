@@ -412,6 +412,8 @@ Best practice
 
 ---
 
+{{< slide class="stepped" >}}
+
 ## Methods of synthesis at a glance
 
 - Subtractive
