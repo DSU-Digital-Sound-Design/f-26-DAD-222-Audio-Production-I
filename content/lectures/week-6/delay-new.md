@@ -62,7 +62,7 @@ A tempo-synced delay that locks perfectly with the groove.
 Elvis Presley – *Mystery Train*  
 Classic Sun Studios slapback—around 130 ms, minimal feedback.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EqP3wT5lpa4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xLy2SaSQAtA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 John Lennon – *Instant Karma!*  
 Short single echo for added vocal presence.
