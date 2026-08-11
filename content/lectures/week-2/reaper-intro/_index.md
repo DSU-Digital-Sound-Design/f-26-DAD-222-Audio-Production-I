@@ -2,11 +2,15 @@
 title = "Reaper intro"
 outputs = ["Reveal"]
 [reveal_hugo]
-theme = "blood"
 margin = 0.2
-separator = "##"
 +++
 
+
+{{< slide background-image="techivation-RINfyuHMZLg-unsplash.jpg" background-opacity="0.4" >}}
+
+## Reaper Intro
+
+---
 
 ## What is Reaper?
 Reaper is a digital audio workstation (DAW) known for its flexibility and customizability. Unlike other DAWs like Pro Tools, Logic Pro, or Ableton Live, Reaper allows you to customize nearly every aspect of its interface, including key commands, menus, toolbars, and mouse behaviors.

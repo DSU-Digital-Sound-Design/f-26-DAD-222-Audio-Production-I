@@ -2,7 +2,6 @@
 title = "Sampling History"
 outputs = ["Reveal"]
 [reveal_hugo]
-theme = "solarized"
 # show_notes = "separate-page"
 +++
 

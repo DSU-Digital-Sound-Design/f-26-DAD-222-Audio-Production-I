@@ -2,7 +2,6 @@
 title = "Mixing and EQ"
 outputs = ["Reveal"]
 [reveal_hugo]
-theme = "solarized"
 # show_notes = "separate-page"
 +++
 

@@ -3,7 +3,6 @@
 title = "MIDI"
 outputs = ["Reveal"]
 [reveal_hugo]
-theme = "solarized"
 # show_notes = "separate-page"  # uncomment if you want a separate notes page
 +++
 

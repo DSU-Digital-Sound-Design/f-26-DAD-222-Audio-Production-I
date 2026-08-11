@@ -2,9 +2,10 @@
 title = "Audio Hardware"
 outputs = ["Reveal"]
 [reveal_hugo]
-theme = "solarized"
 # show_notes = "separate-page"
 +++
+
+{{< slide background-image="neve.jpg" background-opacity="0.4" >}}
 
 # Audio Hardware
 
