@@ -7,7 +7,7 @@ margin = 0.2
 
 ## Introduction to Music Technology
 
-![Music Production Studio](production.jpeg)
+<img src="production.jpeg" alt="Music Production Studio" style="max-height:48vh">
 
 {{% note %}}
 - Identify and discuss the various pieces of music technology visible in the image.
@@ -36,6 +36,8 @@ Discuss how these elements interact in modern music production and performance.
 * Audio Engineering — [Broadcast/Sound Engineering Technician (BLS profile)](https://www.bls.gov/ooh/media-and-communication/broadcast-and-sound-engineering-technicians.htm). 
 * Music Production — [Music Producer (Berklee Online overview)](https://online.berklee.edu/takenote/music-production-what-does-a-music-producer-do/).
 * Acoustics — [Senior Acoustic Engineer (Acoustical Society of America example listing)](https://acousticalsociety.org/senior-acoustic-engineer/). 
+---
+
 * Computer Science — [Software Developer (BLS profile)](https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm). 
 * Electronic Engineering — [Electrical and Electronics Engineer (BLS profile)](https://www.bls.gov/ooh/architecture-and-engineering/electrical-and-electronics-engineers.htm). 
 * Music Performance — [Musicians and Singers (BLS profile)](https://www.bls.gov/ooh/entertainment-and-sports/musicians-and-singers.htm). 
@@ -210,6 +212,8 @@ Discuss the concept of networked music performance and how it challenges traditi
 - **Composing**: Creating original music using various technologies
 - **Mixing**: Balancing and enhancing individual tracks in a recording
 - **Mastering**: Preparing and transferring audio from a mix to a data storage device
+---
+
 - **Live Sound**: Managing audio during live performances
 - **Programming**: Writing code to create or manipulate sound
 - **Live Coding**: Performing music by writing and modifying code in real-time

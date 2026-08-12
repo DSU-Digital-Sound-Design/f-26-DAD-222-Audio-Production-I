@@ -70,6 +70,8 @@ Pierre Schaeffer’s musique concrète (from 1948) assembled recordings of every
 * **Splicing**: Cutting and rearranging tape to reorder audio.  
 * **Looping**: Creating repeating patterns of sound from tape recordings.  
 * **Reverse Playback**: Playing sounds backward for new effects.  
+---
+
 * **Speed Manipulation**: Changing the speed of a recording to alter pitch and timbre.
 * **Filtering**: Using EQ to remove or emphasize certain frequencies.
 * **Reverb**: Adding artificial reverb to create a sense of space.

@@ -98,18 +98,22 @@ MTC overview; MMC overview; ppqn discussion. ([MIDI.org][3])
       <li>RTP-MIDI over Ethernet/Wi-Fi (built into macOS/iOS; Windows driver available)</li>
     </ul>
   </div>
-  <figure style="flex: 0 0 300px; margin: 0">
-    <img alt="5-pin DIN connector" style="display:block; width:100%; height:auto; border-radius:4px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Cherry-Schneider-MF2-5-Pin-DIN-Connector.jpg/960px-Cherry-Schneider-MF2-5-Pin-DIN-Connector.jpg" />
-    <figcaption style="font-size: .7em; color: #666">5‑pin DIN connector</figcaption>
-    <img alt="TRS MIDI connector" style="display:block; width:80%; height:auto; border-radius:4px" src="https://cdn11.bigcommerce.com/s-mfjemmh3xf/images/stencil/500x659/products/24534/33998/c2caddext__48022.1736263749.jpg?c=1" />
-    <figcaption style="font-size: .7em; color: #666">3.5 mm TRS MIDI connector</figcaption>
-  </figure>
 
 </div>
 
-<div style="display:block; max-width: 340px; margin: 0.5rem auto 0;">
-  <iframe width="320" height="180" src="https://www.youtube.com/embed/fF0z3qc6mQk?si=xRqIdEB6mpi68d1M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  
+---
+
+### Connectors
+
+<div style="display:flex; gap:2rem; justify-content:center; align-items:flex-start">
+  <figure style="margin:0">
+    <img alt="5-pin DIN connector" style="display:block; width:340px; height:auto; border-radius:4px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Cherry-Schneider-MF2-5-Pin-DIN-Connector.jpg/960px-Cherry-Schneider-MF2-5-Pin-DIN-Connector.jpg" />
+    <figcaption style="font-size: .7em; color: #666">5‑pin DIN connector</figcaption>
+  </figure>
+  <figure style="margin:0">
+    <img alt="TRS MIDI connector" style="display:block; width:340px; height:auto; border-radius:4px" src="https://cdn11.bigcommerce.com/s-mfjemmh3xf/images/stencil/500x659/products/24534/33998/c2caddext__48022.1736263749.jpg?c=1" />
+    <figcaption style="font-size: .7em; color: #666">3.5 mm TRS MIDI connector</figcaption>
+  </figure>
 </div>
 
 {{% note %}}
@@ -125,6 +129,14 @@ References
 DIN electricals overview; TRS MIDI spec and announcement; BLE-MIDI spec; Apple network MIDI and Windows rtpMIDI. ([MIDI.org][4])
 
 {{% /note %}}
+
+---
+
+<div style="display:block; max-width: 560px; margin: 0.5rem auto 0;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/fF0z3qc6mQk?si=xRqIdEB6mpi68d1M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  
+</div>
+
 
 ---
 
