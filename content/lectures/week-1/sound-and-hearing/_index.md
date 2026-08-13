@@ -297,6 +297,8 @@ Use this to reinforce why engineers check mixes at multiple levels and why Fletc
 - 88 dB: 4 hours. 94 dB: 1 hour. 100 dB: 15 minutes.
 - A loud concert sits near 100 dB. Earbuds at full volume can too.
 
+Sources: [NIOSH noise exposure limits](https://www.cdc.gov/niosh/noise/prevent/understand.html) · [WHO safe listening](https://www.who.int/news-room/questions-and-answers/item/deafness-and-hearing-loss-safe-listening)
+
 {{% note %}}
 The 85 dB figure is NIOSH's recommended exposure limit, and the 3 dB exchange rate is the science-backed version (OSHA's legal standard is looser at 90 dB with a 5 dB rate). Even at exactly 85 dB for a 40-year career, NIOSH estimates an 8 percent excess risk of hearing loss. Ask the class: how many hours were you in headphones yesterday? At what volume?
 {{%/ note %}}
