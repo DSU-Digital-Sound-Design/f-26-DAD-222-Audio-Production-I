@@ -120,6 +120,8 @@ funds undergraduate work.
 
 ## 10/14
 - Putting together all we've learned to make a simple mix
+- [slides] [The rough balance — faders, panning, and sends](/lectures/week-6/rough-balance/)
+- [lab] Rough balance on the bluegrass multitrack — faders and pans only
 - [project] [Project 3: In-class mixing assignment](/projects/project-3-mix/) — due by 10/23
 
 ## 10/16

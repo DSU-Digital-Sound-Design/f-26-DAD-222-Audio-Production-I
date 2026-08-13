@@ -38,7 +38,7 @@ You'll follow the steps below to complete your own mix for this song.
 
 ## Build a mix
 
-> Tip: to get more fine-grained control over parameters press command (control) + drag.
+> Tip: to get more fine-grained control over parameters press ctrl (cmd on Mac) + drag.
 
 **1. Initialize the Mix:**
    - Start with all faders set to "-inf dB" (infinity decibels), which effectively mutes all tracks.
@@ -57,6 +57,13 @@ You'll follow the steps below to complete your own mix for this song.
 **5. Monitor and Adjust Levels:**
    - Continuously monitor the meters as you add more elements to the mix.
    - If you notice any tracks peaking above your target range of -3 to -6 dB, reduce their levels using their respective faders. This helps prevent clipping and maintains a balanced mix.
+   - Remember the rule from the [rough balance lesson](/lectures/week-6/rough-balance/): to make something louder, turn other things down.
+
+**6. Pan Your Tracks:**
+   - Keep the kick, bass, and lead vocal in the center.
+   - Split matched pairs (like the two guitar tracks) left and right to create width.
+   - Place the remaining elements off-center so the two sides stay roughly balanced.
+   - Check your mix in mono to make sure nothing important disappears.
 
 ## Equalization
 
@@ -172,7 +179,7 @@ You'll follow the steps below to complete your own mix for this song.
 | Criteria               | Exceeds Expectations (4 pts)                                                                    | Meets Expectations (3 pts)                                | Needs Improvement (2 pts)                                           | Incomplete (0-1 pt)                 |
 | ---------------------- | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------- | ------------------------------------------------------------------- | ----------------------------------- |
 | **Organization**       | Followed all steps to organize session including tempo, track order, grouping, and color coding | Followed most organization steps with minor errors        | Attempted some organization but multiple steps missing or incorrect | Little or no organization completed |
-| **Balance and Levels** | Excellent use of faders to establish balanced foundation                                        | Good use of faders to balance most elements appropriately | Inconsistent balance with some elements too loud or quiet           | No attempt made to balance elements |
+| **Balance and Levels** | Excellent use of faders and panning to establish a balanced, wide foundation                    | Good use of faders and panning to balance most elements   | Inconsistent balance or panning with some elements too loud, quiet, or crowded in the center | No attempt made to balance or pan elements |
 | **Equalization**       | Applied effective EQ to remove low frequencies and address masking across multiple tracks       | Adequate use of EQ on some tracks to control frequencies  | Limited or ineffective EQ usage                                     | No EQ used                          |
 | **Compression**        | Used compression appropriately on 2+ tracks to control dynamics and consistency                 | Compressed 1 track in a functional way                    | Compression used incorrectly or on wrong tracks                     | No compression used                 |
 | **Delay**              | Created 3 unique delay sends, applied creatively to enhance mix                                 | Created 2-3 delay sends and used adequately               | Only 1 delay send created or used ineffectively                     | No delay sends created              |
