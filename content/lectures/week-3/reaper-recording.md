@@ -42,7 +42,7 @@ Finally you can choose "Record mode: auto-punch selected items". Now you can mak
 
 **Set Your Recording Levels**  
    - Before recording, make sure your levels are correct to avoid clipping or too quiet recordings. Play some sound or speak into your microphone and watch the meter.  
-   - Adjust the input gain either on your audio interface until the meter shows levels between **-18 dB and -12 dB**. This gives you a good balance between loudness and headroom.  
+   - Adjust the input gain on your audio interface until peaks land between **-12 and -6 dB**, with the average sitting around **-18 dB**. This gives you a good balance between loudness and headroom. The next section explains where these numbers come from.  
   
    **Important**: Always adjust your input gain while monitoring the meter – never guess.
 
@@ -52,6 +52,59 @@ Finally you can choose "Record mode: auto-punch selected items". Now you can mak
 
 **Playback Your Recording**  
    After stopping the recording, Reaper will automatically place the recorded audio as a media item on the track. Hit **Play** to listen back to your recording.
+
+---
+
+### Gain Staging: Set It at the Knob, Not the Fader
+
+One distinction clears up most recording-level confusion:
+
+- The **input gain knob** on the interface decides what gets recorded into the file.
+- The **track fader** in Reaper only changes what you hear on playback.
+
+If a recording clipped, no fader move will ever fix it. Set levels at the knob, while watching the meter.
+
+**The two failure modes**
+
+- **Too hot:** the signal hits 0 dB and clips. Digital clipping is permanent distortion, recorded into the file forever.
+- **Too quiet:** the recording seems fine, but when you boost it later, the noise floor (hiss, room rumble, preamp noise) comes up with it.
+
+These are not equally bad. We record in 24-bit, and the noise floor at 24-bit is so low that a quiet recording is almost always recoverable. A clipped one never is. **When in doubt, err quiet.**
+
+**The numbers**
+
+- Peaks between **-12 and -6 dB**
+- Average level around **-18 dB**
+
+Why -18? It's roughly where the old analog consoles ran their meters at "0," and audio gear has been designed around that level ever since. There is no prize for getting close to the top of the meter.
+
+**Set gain at performance volume, then back off**
+
+Have the speaker or performer do a real-volume rehearsal while you set the knob, and then back the gain off a few more dB. People always get louder on the actual take than they were on the run-through.
+
+**Reading the meter: peak vs. RMS**
+
+Reaper's meters can show you two numbers at once. Right-click any track meter and choose **Peak + RMS**.
+
+- The **peak** value is the instantaneous maximum. Its job is to protect you from clipping.
+- The **RMS** value is a short average, and it tracks how loud the signal actually sounds to your ear.
+
+A snappy sound (a hand clap, a plosive "p") can peak high while its RMS stays low. That's why both numbers matter: peak guards the recording, RMS describes it.
+
+**Prove it to yourself (in-class drill)**
+
+Record the same spoken line three times:
+
+1. Gain cranked so it clips
+2. Healthy levels: peaks between -12 and -6 dB
+3. Way too quiet: peaks around -40 dB
+
+Normalize all three items to the same level (select the item, then `Shift+N`), and listen. The clipped take is distorted forever. The quiet take brought its hiss up with it. The healthy take is clean. That's the whole lesson in ten minutes of listening.
+
+**Resources**
+
+- [REAPER Metering: RMS vs Peak](https://timinglis.com.au/reaper-metering-rms-vs-peak/) — Reaper-specific walkthrough with tracking targets
+- [The beginner's guide to headroom and levels](https://www.musicradar.com/news/beginners-guide-headroom-levels)
 
 ---
 

@@ -79,6 +79,7 @@ funds undergraduate work.
 
 ## 9/21
 - [lab] Another recording day for more practice, focusing on editing and mixing
+- [lab] Gain staging drill — record the same line clipped, healthy, and too quiet, then normalize and compare ([instructions](/lectures/week-3/reaper-recording/))
 
 ## 9/23
 - Sound effects and music beds

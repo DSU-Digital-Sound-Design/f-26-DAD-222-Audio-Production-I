@@ -35,7 +35,7 @@ Your PSA should follow a traditional announcement structure while twisting it wi
 ### Required Process
 
 1. **Scriptwriting** – 75–90 words, clear hook, problem statement, and satirical “call to action.” Add notes for sound effects and music.
-2. **Recording** – DSU studio required; at least two distinct voices; labeled tracks.
+2. **Recording** – DSU studio required; at least two distinct voices; labeled tracks. Track with peaks between -12 and -6 dB, following the [gain staging steps](/lectures/week-3/reaper-recording/) from the recording lesson.
 3. **Editing** – Precisely 30 seconds; grid-free editing for natural pacing and comedic effect.
 4. **Sound Design** – Minimum of two sound effects plus a music bed that supports the humor without masking dialogue.
 5. **Mixing** – Balanced, professional final mix.
