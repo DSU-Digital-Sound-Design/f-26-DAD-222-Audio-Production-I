@@ -59,16 +59,10 @@ Finally you can choose "Record mode: auto-punch selected items". Now you can mak
 
 One distinction clears up most recording-level confusion:
 
-<div class="stat-row">
-  <div class="stat">
-    <span class="stat__label">Input gain knob</span>
-    <span class="stat__note">On the interface. Decides what gets <strong>recorded into the file</strong>.</span>
-  </div>
-  <div class="stat">
-    <span class="stat__label">Track fader</span>
-    <span class="stat__note">In Reaper. Only changes what you hear on <strong>playback</strong>.</span>
-  </div>
-</div>
+{{< stats >}}
+{{< stat label="Input gain knob" note="On the interface. Decides what gets **recorded into the file**." >}}
+{{< stat label="Track fader" note="In Reaper. Only changes what you hear on **playback**." >}}
+{{< /stats >}}
 
 If a recording clipped, no fader move will ever fix it. Set levels at the knob, while watching the meter.
 
@@ -81,16 +75,10 @@ These are not equally bad. We record in 24-bit, and the noise floor at 24-bit is
 
 #### The numbers
 
-<div class="stat-row">
-  <div class="stat">
-    <span class="stat__value">-12 to -6 dB</span>
-    <span class="stat__label">Peaks</span>
-  </div>
-  <div class="stat">
-    <span class="stat__value">about -18 dB</span>
-    <span class="stat__label">Average (RMS)</span>
-  </div>
-</div>
+{{< stats >}}
+{{< stat value="-12 to -6 dB" label="Peaks" >}}
+{{< stat value="about -18 dB" label="Average (RMS)" >}}
+{{< /stats >}}
 
 Why -18? It's roughly where the old analog consoles ran their meters at "0," and audio gear has been designed around that level ever since. There is no prize for getting close to the top of the meter.
 
@@ -107,16 +95,15 @@ Reaper's meters can show you two numbers at once. Right-click any track meter an
 
 A snappy sound (a hand clap, a plosive "p") can peak high while its RMS stays low. That's why both numbers matter: peak guards the recording, RMS describes it.
 
-<div class="drill">
-  <p class="drill__label">In-class drill: prove it to yourself</p>
-  <p>Record the same spoken line three times:</p>
-  <ol>
-    <li>Gain cranked so it clips</li>
-    <li>Healthy levels: peaks between -12 and -6 dB</li>
-    <li>Way too quiet: peaks around -40 dB</li>
-  </ol>
-  <p>Normalize all three items to the same level (select the item, then <code>Shift+N</code>), and listen. The clipped take is distorted forever. The quiet take brought its hiss up with it. The healthy take is clean. That's the whole lesson in ten minutes of listening.</p>
-</div>
+{{< drill label="In-class drill: prove it to yourself" >}}
+Record the same spoken line three times:
+
+1. Gain cranked so it clips
+2. Healthy levels: peaks between -12 and -6 dB
+3. Way too quiet: peaks around -40 dB
+
+Normalize all three items to the same level (select the item, then `Shift+N`), and listen. The clipped take is distorted forever. The quiet take brought its hiss up with it. The healthy take is clean. That's the whole lesson in ten minutes of listening.
+{{< /drill >}}
 
 #### Resources
 
