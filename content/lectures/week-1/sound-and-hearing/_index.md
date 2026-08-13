@@ -12,6 +12,7 @@ margin = 0.2
 - How the ear processes sound
 - Introduction to psychoacoustics: How we perceive sound
 - Practical implications for audio production
+- How to keep your hearing for a whole career
 
 {{% note %}}
 This slide sets the stage for the presentation by outlining what students will learn and why it's important. Emphasize that these fundamentals will be referenced throughout their studies and careers.
@@ -283,4 +284,51 @@ This is the **equal-loudness contour graph** (also called Fletcher–Munson curv
 Play tones of different frequencies at the same level.  
 Ask students: which sounds louder? They’ll notice midrange tones stand out more.  
 Use this to reinforce why engineers check mixes at multiple levels and why Fletcher–Munson curves matter.  
+{{%/ note %}}
+
+---
+
+{{< slide class="stepped" >}}
+
+## How Loud Is Too Loud?
+
+- The workplace safety limit: **85 dB averaged over 8 hours**
+- Every 3 dB more doubles the sound energy and halves the safe time
+- 88 dB: 4 hours. 94 dB: 1 hour. 100 dB: 15 minutes.
+- A loud concert sits near 100 dB. Earbuds at full volume can too.
+
+{{% note %}}
+The 85 dB figure is NIOSH's recommended exposure limit, and the 3 dB exchange rate is the science-backed version (OSHA's legal standard is looser at 90 dB with a 5 dB rate). Even at exactly 85 dB for a 40-year career, NIOSH estimates an 8 percent excess risk of hearing loss. Ask the class: how many hours were you in headphones yesterday? At what volume?
+{{%/ note %}}
+
+---
+
+{{< slide class="stepped" >}}
+
+## Your Ears Warn You
+
+- Muffled, underwater hearing after a loud night: **temporary threshold shift**
+- Ringing afterward: **tinnitus**
+- Both mean the hair cells in your inner ear were pushed past their limit
+- The muffling fades; the damage still adds up
+- Dead hair cells never grow back
+
+{{% note %}}
+A temporary threshold shift usually clears within hours to a couple of days, but it is a sign of injury, not a free pass. Repeated shifts become permanent loss, and tinnitus can become permanent too. Worth saying plainly: plenty of working engineers and musicians carry hearing damage from their twenties, and every one of them would trade a lot to undo it.
+{{%/ note %}}
+
+---
+
+{{< slide class="stepped" >}}
+
+## Habits That Protect Your Ears
+
+- Measure instead of guessing: the free **NIOSH Sound Level Meter** app
+- Keep earbuds near **60% of maximum** volume
+- Pick a comfortable monitoring level and leave it alone
+- Bring earplugs to shows. Foam works; musician's plugs sound better.
+- You can replace every piece of gear except your ears
+
+{{% note %}}
+The NIOSH SLM app is the one the WHO recommends; have everyone install it now and measure the room. The fixed monitoring level comes back in the mixing lessons: it protects your ears and your judgment at the same time, since louder always sounds better. Musician's earplugs cut all frequencies evenly instead of just muffling the highs, so music still sounds like music.
 {{%/ note %}}
