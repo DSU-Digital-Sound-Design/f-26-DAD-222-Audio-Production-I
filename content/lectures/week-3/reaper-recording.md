@@ -107,7 +107,7 @@ Normalize all three items to the same level (select the item, then `Shift+N`), a
 
 #### Resources
 
-- [REAPER Metering: RMS vs Peak](https://timinglis.com.au/reaper-metering-rms-vs-peak/) — Reaper-specific walkthrough with tracking targets
+- [REAPER Metering: RMS vs Peak](https://timinglis.com.au/reaper-metering-rms-vs-peak/), a Reaper-specific walkthrough with tracking targets
 - [The beginner's guide to headroom and levels](https://www.musicradar.com/news/beginners-guide-headroom-levels)
 
 ---
