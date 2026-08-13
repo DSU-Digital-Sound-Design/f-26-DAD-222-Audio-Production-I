@@ -131,6 +131,7 @@ funds undergraduate work.
 - [slides] [Sampling history](/lectures/week-7/sampling-history/)
 - [lab] [WhoSampled](http://whosampled.com) — covers and sampling
   - In-class project: find three of your favorite sampling uses on WhoSampled. Why do you like them? Describe how the artist used the sample and what it was about the original recording that made them want to use it. A few people present at the end of class.
+  - As people present, we'll also trace the rights side of each sample: who cleared it, who got paid, and who didn't (the Amen break, the Biz Markie ruling, De La Soul's decades off streaming).
 
 ## 10/21
 - Questions about the mixing assignment?

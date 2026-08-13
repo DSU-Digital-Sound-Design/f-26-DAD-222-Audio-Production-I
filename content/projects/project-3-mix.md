@@ -100,8 +100,8 @@ You'll follow the steps below to complete your own mix for this song.
 **3. Identify Compression Candidates:**
    - Based on your observations, determine which elements in your mix require compression. Good candidates include:
      - Vocals
-     - Drum Folder (e.g., a group of drums) - Consider using a compressor like the 1175.
-     - Drum Overheads - Also consider using a compressor like the 1175.
+     - Drum Folder (e.g., a group of drums) - Consider using a compressor like the 1176.
+     - Drum Overheads - Also consider using a compressor like the 1176.
      - Bass Guitar
 
 **4. Apply Compression:**

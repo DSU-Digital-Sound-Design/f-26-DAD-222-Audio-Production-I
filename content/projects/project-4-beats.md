@@ -16,8 +16,8 @@ Create a **16-32 measure** musical composition using samples from multiple sourc
 ### **Requirements:**
 
 - The project must contain at least **four tracks**, each using only MIDI information to trigger Sitala.
-- Download the samples using a YouTube downloader, such as [YTdown](https://ytdown.io/en2/).
-- After downloading, select and render the portion of the track you wish to use, then open it in Sitala.
+- Capture the audio from your source recordings. Any YouTube downloader works, or you can record the system audio with Audacity's WASAPI loopback on Windows ([setup guide](https://support.audacityteam.org/basics/recording-desktop-audio)). See the note on sampling and copyright below.
+- After capturing, select and render the portion of the track you wish to use, then open it in Sitala.
 - Use the production techniques we've covered in class, such as EQ, compression, reverb, and delay, to enhance your project.
 - Feel free to manipulate your samples in creative ways beyond just EQ and compression. You can use techniques like **time-stretching, reversing, pitch-shifting**, or other effects to make the samples your own.
 - Optionally, challenge yourself to explore a **new genre** or blend multiple genres for this project. This could help expand your musical creativity and push your boundaries.
@@ -46,6 +46,12 @@ Create a **16-32 measure** musical composition using samples from multiple sourc
    Source a sample from [Freesound.org](http://freesound.org) to add texture or "ear candy" to your composition. This could include vinyl noise, ambient field recordings, or other short sounds. Optionally, create your own found sound using a Zoom recorder or your phone.
 
 > **Note:** In addition to the four MIDI-triggered tracks, you may use **one** audio loop if you wish.
+
+### **Sampling and Copyright:**
+
+For this project we sample the way producers actually do: from records. That's workable here only because this is unpublished coursework for an educational setting. Outside this classroom, releasing a track built on samples requires **clearance**, meaning permission for both the recording (the master) and the song (the composition), which are usually owned by different people. The Winstons, whose *"Amen, Brother"* break underpins entire genres, famously never received royalties.
+
+So: **don't upload your Project 4 to SoundCloud, Spotify, or YouTube.** It's for D2L and our classroom. If you want a version you *can* release, build it from cleared sources: [Freesound](https://freesound.org) (check each license, since some require attribution), your own recordings, public-domain composers like the Brahms link above, or a paid clearance service like [Tracklib](https://www.tracklib.com/). We'll dig into the rights stories behind famous samples during the WhoSampled session in class.
 
 ### **Submission Instructions:**
 

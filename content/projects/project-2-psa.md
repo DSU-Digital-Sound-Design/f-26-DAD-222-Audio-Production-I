@@ -34,7 +34,7 @@ Your PSA should follow a traditional announcement structure while twisting it wi
 
 ### Required Process
 
-1. **Scriptwriting** – 75–90 words, clear hook, problem statement, and satirical “call to action.” Add notes for sound effecsts and music.
+1. **Scriptwriting** – 75–90 words, clear hook, problem statement, and satirical “call to action.” Add notes for sound effects and music.
 2. **Recording** – DSU studio required; at least two distinct voices; labeled tracks.
 3. **Editing** – Precisely 30 seconds; grid-free editing for natural pacing and comedic effect.
 4. **Sound Design** – Minimum of two sound effects plus a music bed that supports the humor without masking dialogue.
@@ -44,7 +44,7 @@ Your PSA should follow a traditional announcement structure while twisting it wi
 
 ### Deliverables
 
-* Reaper project folder with an “Media” subfolder containing all source files.
+* Reaper project folder with a “Media” subfolder containing all source files.
 * Final rendered 30-second WAV file.
 * Final script in Word or PDF format.
 
