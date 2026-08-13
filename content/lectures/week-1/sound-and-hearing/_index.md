@@ -21,6 +21,7 @@ This slide sets the stage for the presentation by outlining what students will l
 
 ---
 
+<!--
 ## Sound areas
 
 - The basics of sound
@@ -36,8 +37,13 @@ device -> energy conversion -> resulting energy
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/f/f5/Django_Reinhardt_%28Gottlieb_07301%29.jpg" width="50%" alt="https://commons.wikimedia.org/wiki/File:Django_Reinhardt_(Gottlieb_07301).jpg">
 
+-->
+
+![](transducers.png)
 
 {{% note %}}
+The transducer: device -> energy conversion -> resulting energy.
+
 ex:
 guitar - vibrations -> amplified by wood -> converted into sound pressure waves that we perceive as sound
 
@@ -47,10 +53,6 @@ What types of devices could be considered transducers?
 - etc
 
 {{%/ note %}}
-
----
-
-![](transducers.png)
 
 ---
 
@@ -77,6 +79,7 @@ This diagram is helpful, but this is not usually how we visualize sound. We do i
 
 ---
 
+<!--
 ## Understanding Amplitude
 
 ### Key Concepts
@@ -88,6 +91,7 @@ Introduce the concept of amplitude here. Stress that amplitude is a fundamental 
 {{%/ note %}}
 
 ---
+-->
 
 ## Amplitude
 
@@ -155,10 +159,11 @@ Discuss the concept of phase, emphasizing how out-of-phase signals can lead to i
 
 ---
 
+<!--
 [Random phases - square and sawtooth](https://tomasboril.cz/fourierseries3d/en/)
 
 ---
-
+-->
 
 ## Harmonic Content
 
@@ -200,6 +205,7 @@ Variations in sound pressure level or SPL and is measured on a logarithmic scale
 
 ---
 
+<!--
 ## Introduction to Psychoacoustics
 
 - **What Is It?** Psychoacoustics explores how our brain interprets sound.
@@ -210,6 +216,7 @@ Introduce the concept of psychoacoustics and explain why it's important in audio
 {{%/ note %}}
 
 ---
+-->
 
 ## Psychoacoustic Masking
 
