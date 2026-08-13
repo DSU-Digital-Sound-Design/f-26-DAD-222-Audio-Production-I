@@ -40,7 +40,7 @@ When a project is done, you export it as a single audio file. In Reaper this is 
 
 - **Source:** Master mix. **Bounds:** Entire project (or a time selection if you only want part).
 - **Sample rate:** match your project (44.1 kHz for music, 48 kHz for video work).
-- **Format:** which file type to write. That choice is worth understanding:
+- **Format:** which file type to write:
 
 {{< stats >}}
 {{< stat value="WAV, 24-bit" label="For submitting and archiving" note="Full quality, uncompressed. This is what you turn in for every project in this class." >}}
@@ -49,14 +49,14 @@ When a project is done, you export it as a single audio file. In Reaper this is 
 
 ## What Happens When You Upload
 
-One thing to know before you ever put a track online. Streaming platforms measure the loudness of everything uploaded and **turn tracks down to a common level**, so listeners don't reach for the volume knob between songs.
+Before you release a track online, know what the platform will do to it. Streaming services measure the loudness of everything uploaded and **turn tracks down to a common level**, so listeners don't reach for the volume knob between songs.
 
 {{< stats >}}
 {{< stat value="about -14 LUFS" label="Where most platforms level you" note="Spotify, YouTube, TIDAL, and Amazon all normalize near this point. Apple Music sits a little lower at -16." >}}
 {{< stat value="-1 dB true peak" label="Ceiling before encoding distorts" note="Lossy formats like MP3 and AAC can clip on playback if your master slams 0 dB." >}}
 {{< /stats >}}
 
-The practical takeaway: **there is no prize for loud**. A master crushed with a limiter to sound loud gets turned down to the same level as everyone else and keeps only the distortion. Export clean, leave the peaks some room, and let the platform do the leveling. How to actually master toward these numbers is a DAD 322 topic; for now, just don't fight the normalizer.
+**There is no prize for a loud track.** A master crushed with a limiter gets turned down to the same level as every other track, and the distortion the limiter added stays in. Export clean, leave the peaks some room, and let the platform do the leveling. Mastering toward these numbers is a DAD 322 topic; for now, don't fight the normalizer.
 
-- More detail: [iZotope — how streaming normalization works](https://www.izotope.com/community/blog/mastering-for-streaming-platforms)
+- More detail: [iZotope: how streaming normalization works](https://www.izotope.com/community/blog/mastering-for-streaming-platforms)
 
