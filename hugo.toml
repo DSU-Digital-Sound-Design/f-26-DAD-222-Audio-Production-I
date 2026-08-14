@@ -35,6 +35,33 @@ theme = ["t-console-theme", "reveal-hugo"]
     start = "2026-08-24"
     filterPlaceholder = 'filter — try "reaper" or "due"'
 
+    # Overrides the theme's default tag vocabulary (must restate all tags).
+    [[params.schedule.tags]]
+      id = "slides"
+      label = "Slides"
+      color = "#6ec1ff"
+    [[params.schedule.tags]]
+      id = "project"
+      label = "Projects"
+      color = "#b6ff5c"
+    [[params.schedule.tags]]
+      id = "due"
+      label = "Due"
+      color = "#ff7a5c"
+    [[params.schedule.tags]]
+      id = "lab"
+      label = "Labs"
+      color = "#ffc85c"
+    [[params.schedule.tags]]
+      id = "drill"
+      label = "Drills"
+      color = "#c58cff"
+    [[params.schedule.tags]]
+      id = "off"
+      label = "No class"
+      color = "#7d8a7a"
+      skip = true
+
   [[params.facts]]
     key = "Meets"
     value = "MWF 10:00–10:50"
