@@ -48,11 +48,11 @@ Compose a **3-5-minute audio piece** that embodies your identity as an artist. Y
 
 #### Your portfolio
 
-The finals from DAD 222, DAD 310, and DAD 422 are designed to add up to a
+The final projects in DAD 222, DAD 310, and DAD 422 can become a three-part
 portfolio: a produced track, a film sound design, and an immersive piece. This
-is the first one. Render it clean, name the files properly, and archive the
-project folder somewhere you will still have after graduation. When you apply
-for work or graduate programs, these pieces are the demo reel.
+is the first one. Make a clean render, use clear filenames, and keep the full
+project in storage you can access after graduation. Together, the three pieces
+can anchor a demo reel for jobs or graduate programs.
 
 #### Deliverables:
 
@@ -62,4 +62,3 @@ for work or graduate programs, these pieces are the demo reel.
   - **Influences:** Discuss the artists or works that influenced your composition. How does your piece differ from these influences?
   - **Creative Process:** Detail the steps you took, challenges faced, and solutions devised during the project's creation.
   - **Future Endeavors:** Share potential future projects or how you might further develop the skills acquired in this course.
-
