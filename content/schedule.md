@@ -134,13 +134,13 @@ funds undergraduate work.
 - [drill] [Ear training: space](/lectures/ear-training-drills/#1019-space) — 10 minutes
 - **Sampling and MIDI**
 - Any questions about the mix project?
-- [slides] [Sampling history](/lectures/week-7/sampling-history/)
 - [lab] [WhoSampled](http://whosampled.com) — covers and sampling
   - In-class project: find three of your favorite sampling uses on WhoSampled. Why do you like them? Describe how the artist used the sample and what it was about the original recording that made them want to use it. A few people present at the end of class.
   - As people present, we'll also trace the rights side of each sample: who cleared it, who got paid, and who didn't (the Amen break, the Biz Markie ruling, De La Soul's decades off streaming).
 
 ## 10/21
 - Questions about the mixing assignment?
+- [slides] [Sampling history](/lectures/week-7/sampling-history/) — the machines and records behind what we explored on WhoSampled
 - [slides] [MIDI history](/lectures/week-7/midi-history/) — the problem MIDI was invented to solve
 
 ## 10/23
@@ -178,7 +178,6 @@ funds undergraduate work.
 ## 11/9
 - [drill] [Ear training: synthesis ears](/lectures/ear-training-drills/#119-synthesis-ears) — 10 minutes
 - [slides] [Drum synthesis](/lectures/week-12/drum-synthesis/)
-- [slides] [Leads and keys](/lectures/week-12/leads-and-keys/)
 - No class Wednesday or Friday — I'm at the ATMI conference. On Monday 11/16 we'll have some volunteers share their patches from previous classes
 
 ## 11/11
@@ -189,6 +188,7 @@ funds undergraduate work.
 - [off] **No class — I'm at [ATMI](https://atmimusic.com/) in Grand Rapids, MI** (Nov 11–14)
 
 ## 11/16
+- [slides] [Leads and keys](/lectures/week-12/leads-and-keys/)
 - Vital Synth patch sharing — students share a patch they made with the class
 - [project] Start [final project](/projects/final-project/) discussions and brainstorming
   - Take a few minutes and write down some ideas. I'll come around and chat with each of you individually.
