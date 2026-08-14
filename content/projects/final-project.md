@@ -32,8 +32,8 @@ rubric:
 Compose a **3-5-minute audio piece** that embodies your identity as an artist. Your creation should integrate at least two techniques discussed during the semester. These could include:
 
 - **Studio Recording:** Incorporate recordings of instruments or voice.
-  - Utilize these recordings directly in your project.
-  - Alternatively, create samples from these recordings.
+  - Use the recordings directly, or cut them into samples.
+  - We practice tracking in class on 11/23. If your piece needs more recording, [book studio time](https://sites.google.com/view/charmstudios/studio-documentation).
 - **Audio Effects:** Employ various audio effects to enhance your composition.
 - **Percussion with Sitala:** Integrate MIDI drums or percussion.
 - **Vital Synth Usage:** Incorporate sounds created with the Vital Synth.

@@ -198,10 +198,10 @@ funds undergraduate work.
 
 ## 11/23
 - [due] **Project 5: Vital Synth** — due today
-- [lab] **Technical setup day**
+- [lab] **Final project studio day**
   - Divide the class into two groups of four
-  - Group A (25 minutes): studio setup and troubleshooting
-  - Group B (25 minutes): independent work on laptops in the classroom — sound sourcing, arranging
+  - Group A (25 minutes): tracking session in the studio. Choose a mic, set your input gain, build a cue mix, and record a few takes of a volunteer singing or playing. Keep everything; the takes can go straight into your final project.
+  - Group B (25 minutes): independent work on laptops in the classroom, sourcing sounds and arranging
   - Groups switch halfway through
 
 ## 11/25
