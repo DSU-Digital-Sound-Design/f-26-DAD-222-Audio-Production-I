@@ -94,6 +94,7 @@ funds undergraduate work.
 - [lab] [FX Roulette game](/lectures/week-5/fx-roulette/)
 
 ## 9/28
+- [drill] [Ear training: frequency bands](/lectures/ear-training-drills/#928-frequency-bands) — 10 minutes
 - [slides] [EQ](/lectures/week-5/EQ/)
 
 ## 9/30
@@ -126,9 +127,11 @@ funds undergraduate work.
 - [project] [Project 3: In-class mixing assignment](/projects/project-3-mix/) — due by 10/23
 
 ## 10/16
+- [drill] [Ear training: compression](/lectures/ear-training-drills/#1016-compression) — 10 minutes
 - [lab] Continue looking at [Project 3: In-class mixing assignment](/projects/project-3-mix/)
 
 ## 10/19
+- [drill] [Ear training: space](/lectures/ear-training-drills/#1019-space) — 10 minutes
 - **Sampling and MIDI**
 - Any questions about the mix project?
 - [slides] [Sampling history](/lectures/week-7/sampling-history/)
@@ -146,6 +149,7 @@ funds undergraduate work.
 - [project] [**Project 4: Drum Programming and Beatmaking**](/projects/project-4-beats/) — due Monday 11/2
 
 ## 10/26
+- [drill] [Ear training: balance and image](/lectures/ear-training-drills/#1026-balance-and-image) — 10 minutes
 - [lab] In-class work on the beatmaking project
 - [slides] [Beatmaking](/lectures/week-8/beatmaking/) — listening examples
 
@@ -157,6 +161,7 @@ funds undergraduate work.
 - [lab] [Vital Roulette game](/lectures/week-10/vital-roulette/)
 
 ## 11/2
+- [drill] [Ear training: one hidden difference](/lectures/ear-training-drills/#112-one-hidden-difference) — 10 minutes
 - Play beatmaking projects in class
 - [slides] [Vital Synth](/lectures/week-10/vital-intro/)
   - [Vital Synth manual (PDF)](https://hooklineismyhomie.weebly.com/uploads/1/4/9/6/149651803/vital_user_manual.pdf)
@@ -171,6 +176,7 @@ funds undergraduate work.
 - [project] [Project 5: Vital Synth](/projects/project-5-synth/) — due Monday 11/23
 
 ## 11/9
+- [drill] [Ear training: synthesis ears](/lectures/ear-training-drills/#119-synthesis-ears) — 10 minutes
 - [slides] [Drum synthesis](/lectures/week-12/drum-synthesis/)
 - [slides] [Leads and keys](/lectures/week-12/leads-and-keys/)
 - No class Wednesday or Friday — I'm at the ATMI conference. On Monday 11/16 we'll have some volunteers share their patches from previous classes

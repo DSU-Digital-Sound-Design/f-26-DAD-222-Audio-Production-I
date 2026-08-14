@@ -8,6 +8,18 @@ groups:
         url: "/lectures/week-5/musicfrequencycheatsheet.pdf"
         desc: "Where each instrument sits in the spectrum."
 
+  - group: Ear training
+    items:
+      - name: Ear training drills
+        url: "/lectures/ear-training-drills/"
+        desc: "The weekly in-class drill bank."
+      - name: Pro Audio Essentials
+        url: "https://pae.izotope.com/"
+        desc: "Free iZotope web modules on EQ, dynamics, and loudness."
+      - name: SoundGym
+        url: "https://www.soundgym.co/"
+        desc: "Daily listening workouts; the free tier is plenty."
+
   - group: Reaper
     items:
       - name: REAPER
