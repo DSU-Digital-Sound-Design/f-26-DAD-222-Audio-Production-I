@@ -34,7 +34,7 @@ funds undergraduate work.
 ## 9/4
 - [slides] [Saving and exporting](/lectures/week-2/this-is-reaper-2/)
 - [project] Introduce [Project 1: Arranging Clips](/projects/project-1/)
-  - Find loops and preview them on [Looperman](https://www.looperman.com) — show the different features of the site
+  - Find loops and preview them on [Looperman](https://www.looperman.com) — show the different features of the site, including what its license lets you do with the loops
   - Find drums, percussion, chords, and a cappella vocals
 - [lab] Find and preview loops on Looperman
 - [due] **Project 1: Arranging Clips** — due Monday 9/14 by class

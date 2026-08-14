@@ -38,11 +38,26 @@ Submit a rendered WAV file and a zipped Reaper project folder containing the loo
 
 ---
 
+## A note on loop licensing
+
+Looperman's [terms](https://www.looperman.com/help/terms) let you edit, remix, and
+build the loops into your own music, commercial or not, with no payment or credit
+required. Two limits are worth knowing. You can't re-share the loops themselves
+anywhere, on their own or in a pack. And acapellas follow different rules: they're
+licensed for non-commercial use unless the uploader grants more, so read the terms
+on an acapella's page before you build a track around one.
+
+Not every loop site is this generous. Whenever you download from a new source,
+find its license first. We'll look at sampling and copyright more deeply in
+Project 4.
+
+---
+
 ## Tips
 
 - Set your tempo to match the first track you import.
 - Adjust other tracks’ tempos to match the project tempo.
-- If items don’t auto-adjust, manually adjust them with `option (alt) + drag`.
+- If items don’t auto-adjust, manually adjust them with `alt (option on Mac) + drag`.
 - Enable snapping to the grid for precise alignment (`Shift + S`).
 
 ---
