@@ -4,73 +4,77 @@ summary: "Ten-minute listening drills that open class through the second half of
 tags: [ear training, critical listening]
 ---
 
-Engineers are hired for their ears. Starting in week 6, we open one class a week
-with a ten-minute drill: I change one thing about a sound, and you name the
-change on paper before anyone discusses it. Answers are revealed right away.
-Drills count toward participation, not your grade, so wrong guesses cost
-nothing. Streaks go on the whiteboard.
+Engineers are hired for their ears, and ears improve the way hands do: through
+short, repeated practice. Starting in week 6, we open one class each week with
+a ten-minute drill. I change one thing about a sound, you decide what changed,
+and you commit your answer on paper before anyone discusses it. Then I reveal
+the answer and we listen again. The drills count toward participation rather
+than your project grades, so guess boldly. Streaks go on the whiteboard.
 
-Each drill only tests material we've already covered, and each one trains a
-different part of your listening. By the final critique sessions you'll have
-named every kind of change a mix can make.
+Each drill tests only material we have already covered, and each one trains a
+different part of your listening. By the time we reach the final critique
+sessions, you will have practiced naming every kind of change a mix can make.
 
 ## 9/28: Frequency bands
 
-I boost one octave band by 12 dB with ReaEQ, first on pink noise, then on a
-song loop. You name the band: 100, 250, 500, 1k, 2k, 4k, or 8k Hz.
+I boost one octave band by 12 dB with ReaEQ, first on pink noise and then on a
+song loop, and you name the band: 100, 250, 500, 1k, 2k, 4k, or 8k Hz.
 
-This is a preview, not the full treatment. **MUS 109 (Musicianship II) spends a
-semester making you genuinely good at this**, with graded quizzes and practice
-software. If these ten minutes hook you, that course is the follow-through.
+Treat this one as a preview. **MUS 109 (Musicianship II) spends a whole
+semester building this exact skill**, with graded quizzes and practice
+software, and most of you will take it. If these ten minutes hook you, that
+course is the follow-through.
 
 {{< drill label="Drill format" >}}
-1. Listen to the flat version, then the boosted version, twice each.
-2. Write your answer. No changing it during discussion.
-3. Reveal, then one more listen knowing the answer. That last listen is where the learning happens.
+1. Listen to the original version and the changed version, twice each.
+2. Write down your answer and keep it. Changing your mind during the discussion defeats the point.
+3. I reveal the answer, and we listen one more time. That final listen, when you know what to hear, is where the learning happens.
 {{< /drill >}}
 
 ## 10/16: Compression
 
-Three rounds on a drum loop, each one harder:
-
-1. Compressed or not?
-2. Gentle (2:1, a few dB) or heavy (8:1, slammed)?
-3. Fast attack or slow? Listen for whether the stick hit survives.
+We run three rounds on a drum loop, and each round asks a harder question.
+First you decide whether the loop is compressed at all. Then you compare
+gentle compression, around 2:1 with a few dB of reduction, against a heavy
+8:1 squeeze. Last you judge the attack setting: listen for whether the stick
+hit survives the compressor or disappears into it.
 
 ## 10/19: Space
 
-Two rounds using sends you can't see:
-
-1. Reverb or delay?
-2. Small room or large hall? Listen to how long the tail hangs on.
-
-Then one wet/dry judgment: which of two passes has more effect on the vocal?
+Two rounds built on sends you cannot see. First you decide whether the effect
+on the vocal is a reverb or a delay. Then you judge the size of the space by
+how long the tail hangs on: a small room or a large hall. We finish with a
+wet and dry comparison, where you pick which of two passes carries more of
+the effect.
 
 ## 10/26: Balance and image
 
-I play a short mix twice. Between passes, one element moves: 3 dB up or down,
-or panned to a new spot. Name the element and the move. Last round: I collapse
-the mix to mono, and you tell me what vanished.
+I play a short mix twice, and between the passes one element changes. It
+moves 3 dB up or down, or it moves to a new spot in the stereo field. You
+name the element and describe the move. In the last round I collapse the mix
+to mono, and you tell me what vanished.
 
 ## 11/2: One hidden difference
 
-Two versions of the same mix section, loudness matched. One has a single
-processing change anywhere: an EQ move, compression, an effect. Name it. This
-is the hardest drill in the set and the closest to real mix work.
+You hear two versions of the same mix section, matched in loudness. One of
+them carries a single processing change, hidden anywhere in the mix: an EQ
+move, some compression, or an effect. Your job is to name it. This is the
+hardest drill in the set, and it is the one closest to what mixing actually
+asks of you.
 
 ## 11/9: Synthesis ears
 
-Straight into Vital territory, right before Project 5:
+The last drill points straight at Vital, right before Project 5. You identify
+the waveform of a mystery tone: sine, saw, square, or noise. You decide
+whether a filter sweep is a low-pass or a high-pass. And you describe an
+envelope by ear, telling a slow attack from a long release.
 
-1. Waveform: sine, saw, square, or noise?
-2. Filter: low-pass or high-pass sweep?
-3. Envelope: is that a slow attack or a long release?
-
-The [Recreate That Sound lab](/lectures/week-13/vital-listening/) in week 13 is
-the final exam for this whole thread: full patches, reverse-engineered by ear.
+The [Recreate That Sound lab](/lectures/week-13/vital-listening/) in week 13
+is the final exam for this whole thread: full patches, reverse-engineered by
+ear.
 
 ## Practicing between drills
 
-- [Pro Audio Essentials](https://pae.izotope.com/) from iZotope: free web modules on EQ, dynamics, and loudness with instant feedback
-- [SoundGym](https://www.soundgym.co/): free tier with daily listening workouts
-- Majors: MUS 109 is the real gym for frequency ears; these drills are the warm-up
+- [Pro Audio Essentials](https://pae.izotope.com/) from iZotope offers free web modules on EQ, dynamics, and loudness, with instant feedback on every answer.
+- [SoundGym](https://www.soundgym.co/) runs daily listening workouts, and the free tier covers plenty.
+- Majors: MUS 109 is the real gym for frequency ears. These drills are the warm-up.
