@@ -46,6 +46,14 @@ Compose a **3-5-minute audio piece** that embodies your identity as an artist. Y
 
 > **Presentation:** Projects are presented — and submitted — during the final exam slot on Wednesday, December 16, 8:00–10:00 a.m. The presentation is worth 5% of the course grade (the project and proposal are 15%). Presentations are for the audience as much as the presenter: this is where you return what your classmates have been sharing with you all semester. If you miss the session without a documented excuse, you receive a zero on the presentation portion and your project is graded from the render alone. With a documented excuse, contact me to arrange a make-up presentation.
 
+#### Your portfolio
+
+The finals from DAD 222, DAD 310, and DAD 422 are designed to add up to a
+portfolio: a produced track, a film sound design, and an immersive piece. This
+is the first one. Render it clean, name the files properly, and archive the
+project folder somewhere you will still have after graduation. When you apply
+for work or graduate programs, these pieces are the demo reel.
+
 #### Deliverables:
 
 - **Consolidated Project File:** Submit the complete project file used for your composition.
