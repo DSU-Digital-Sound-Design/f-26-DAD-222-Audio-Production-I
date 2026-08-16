@@ -187,6 +187,76 @@ The connection shows how experimental/electronic practices fed into hip hop and 
 
 ---
 
+# What MIDI is
+
+* Musical Instrument Digital Interface
+* Proposed in 1981, announced in 1982, first public demo in January 1983
+* Transmits performance data, not audio
+
+{{% note %}}
+
+Spoken notes
+
+* Define MIDI carefully: it’s a protocol and a family of specs for representing and exchanging musical performance information between instruments, computers, and controllers.
+* Timeline: proposal in 1981, industry alignment in 1982, and the first public demonstration at Winter NAMM 1983.
+* Contrast MIDI data vs audio: note numbers and velocities vs waveforms. This is why you can edit MIDI so freely in a DAW.
+* The problem it solved: before 1983, every manufacturer had its own incompatible interface. Dave Smith (Sequential) and Ikutaro Kakehashi (Roland) got competitors to agree on one standard—the NAMM demo was a Prophet-600 talking to a Jupiter-6.
+
+References
+MIDI history and first demo: The MIDI Association history chapters and photos of Prophet-600 ↔ Jupiter-6 at Winter NAMM 1983. ([MIDI.org][1])
+
+{{% /note %}}
+
+---
+
+# What MIDI sends
+
+* Channel voice messages: note on/off with velocity, poly key pressure, channel pressure, control change, program change, pitch bend
+* Common controller (CC) mappings: CC1 modulation, CC7 volume, CC10 pan, CC11 expression, CC64 sustain
+
+{{% note %}}
+
+Spoken notes
+
+* Channel voice messages are the bread and butter: they target a specific channel and carry musical intent. Demonstrate with a controller and a soft synth: send note on/off, wiggle the mod wheel (CC1), ride expression (CC11).
+* Pitch bend is high-resolution and centered at 0x2000; devices set bend range.
+
+References
+Message categories and CC examples: About MIDI Part 3 and Expanded MIDI 1.0 Messages List. ([MIDI.org][2])
+
+{{% /note %}}
+
+---
+
+## Samplers meet MIDI: workstations and grooveboxes
+
+<div style="display:flex; gap: 1rem; align-items:flex-start; flex-wrap: wrap">
+  <div style="flex: 0 0 340px; max-width: 100%; text-align:center">
+    <iframe width="320" height="180" src="https://www.youtube.com/embed/SENzTt3ftiU?start=165" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div style="flex: 1 1 360px; min-width: 260px">
+    <ul>
+      <li>Akai MPC lineage (from MPC60 in 1988)</li>
+      <li>Sampling + sequencing + pads in one box</li>
+      <li>Timing correct, note repeat, and swing as defining workflow concepts</li>
+    </ul>
+  </div>
+</div>
+
+{{% note %}}
+
+Spoken notes
+
+* Explain why the MPC paradigm matters to production culture: tight pad performance, step and realtime sequencing, and that famous swing feel.
+* Tie back to MIDI: MPCs both generate and respond to MIDI—great for hybrid rigs with soft synths and modules.
+
+References
+Historical/contextual coverage of MPC impact; recent Roger Linn commentary for modern perspective. ([Le Monde.fr][6])
+
+{{% /note %}}
+
+---
+
 ## Sample Clearance—The Practical Bits
 
 * Two rights to clear: master (sound recording) and publishing (composition).  

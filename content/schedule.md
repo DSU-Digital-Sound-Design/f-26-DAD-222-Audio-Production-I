@@ -14,13 +14,14 @@ funds undergraduate work.
   - What's your name, major, and what is the **last** song you listened to?
 - Introduction to the [syllabus](/syllabus/)
 - [slides] [Intro to Music Technology](/lectures/week-1/intro-to-music-tech-slides/)
-- [due] **Homework:** your favorite sound, submitted on D2L — due Friday 8/28
+- **Homework:** your favorite sound, submitted on D2L — due Friday 8/28
 
 ## 8/26
 - Your **favorite song** is due Friday
 - [slides] Finish [Intro to Music Technology](/lectures/week-1/intro-to-music-tech-slides/)
 
 ## 8/28
+- [due] **Homework:** your favorite sound — due tonight on D2L
 - [slides] [Sound and hearing](/lectures/week-1/sound-and-hearing/)
 
 ## 8/31
@@ -37,7 +38,7 @@ funds undergraduate work.
   - Find loops and preview them on [Looperman](https://www.looperman.com) — show the different features of the site, including what its license lets you do with the loops
   - Find drums, percussion, chords, and a cappella vocals
 - [lab] Find and preview loops on Looperman
-- [due] **Project 1: Arranging Clips** — due Monday 9/14 by class
+- **Project 1: Arranging Clips** — due Monday 9/14 by class
 - **Reminder:** all projects are played out loud in class. Make sure you are comfortable sharing what you've created with the group.
 
 ## 9/7
@@ -58,6 +59,7 @@ funds undergraduate work.
 - [slides] Finish [Audio hardware](/lectures/week-2/audio-hardware/#/4)
 
 ## 9/14
+- [due] **Project 1: Arranging Clips** — due today by class
 - Listen to loops projects
 - [project] **Project 2: [Satirical PSA](/projects/project-2-psa/)** — have your script ready by Monday 9/21
 
@@ -140,8 +142,7 @@ funds undergraduate work.
 
 ## 10/21
 - Questions about the mixing assignment?
-- [slides] [Sampling history](/lectures/week-7/sampling-history/) — the machines and records behind what we explored on WhoSampled
-- [slides] [MIDI history](/lectures/week-7/midi-history/) — the problem MIDI was invented to solve
+- [slides] [Sampling history](/lectures/week-7/sampling-history/) — the machines and records behind what we explored on WhoSampled, and the problem MIDI was invented to solve
 
 ## 10/23
 - [slides] [MIDI intro](/lectures/week-7/midi-intro/)
@@ -192,13 +193,14 @@ funds undergraduate work.
 - Vital Synth patch sharing — students share a patch they made with the class
 - [project] Start [final project](/projects/final-project/) discussions and brainstorming
   - Take a few minutes and write down some ideas. I'll come around and chat with each of you individually.
-- Project proposals due Friday
+- **Final project proposal** — due Friday 11/20, presented in class
 
 ## 11/18
 - [slides] [Connecting influences to your creative voice](/lectures/week-13/final-project-influences/)
 - [lab] [Recreate That Sound: synthesis ear training](/lectures/week-13/vital-listening/) — reverse-engineer patches in Vital before Project 5 is due
 
 ## 11/20
+- [due] **Final project proposal** — due today, presented in class
 - Play in-progress Vital projects in class — last round of feedback before they're due
 - After you play your project, spend a few minutes presenting your final project proposal
 
@@ -206,9 +208,9 @@ funds undergraduate work.
 - [due] **Project 5: Vital Synth** — due today
 - [lab] **Final project studio day**
   - Divide the class into two groups of four
-  - Group A (25 minutes): tracking session in the studio. Choose a mic, set your input gain, build a cue mix, and record a few takes of a volunteer singing or playing. Keep everything; the takes can go straight into your final project.
-  - Group B (25 minutes): independent work on laptops in the classroom, sourcing sounds and arranging
-  - Groups switch halfway through
+  - Group A (22 minutes): tracking session in the studio. Choose a mic, set your input gain, build a cue mix, and record a few takes of a volunteer singing or playing. Keep everything; the takes can go straight into your final project.
+  - Group B (22 minutes): independent work on laptops in the classroom, sourcing sounds and arranging
+  - Groups switch halfway through — the spare minutes cover the swap and wrap-up
 
 ## 11/25
 - [off] No class — Thanksgiving recess
@@ -239,3 +241,7 @@ funds undergraduate work.
 
 ## 12/9
 - [off] **Reading / study day — no class**
+
+## 12/16
+- [due] **Final project** — due today, submitted on D2L
+- Final project presentations — **8:00–10:00 AM**, our scheduled final exam slot
