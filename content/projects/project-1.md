@@ -71,3 +71,22 @@ Project 4.
    - Save the project.
    - Zip the entire project folder.
 3. Submit both the WAV file and the zipped Reaper project folder to D2L.
+
+---
+
+## Grading Rubric (40 points total)
+
+| Criterion | Exemplary | Proficient | Developing | Emerging | Points |
+| --- | --- | --- | --- | --- | --- |
+| **Phrase Structure (8 pts)** | 32 measures built from 4 and 8 measure phrases; at least one phrase returns with a change you can hear | 32 measures with phrase boundaries mostly clear; the variation is present but hard to hear | Length is close to 32 measures, or phrases run together without clear boundaries | Length is well off, or the piece repeats with no phrase structure | /8 |
+| **Track Layering (7 pts)** | Seven or more tracks, each a single instrument loop filling a role no other track fills | Seven tracks present; one or two duplicate a role already covered | Fewer than seven tracks, or a full song loop carries the arrangement | Three or fewer tracks, or one loop repeated | /7 |
+| **Balance (8 pts)** | Every loop stays audible from start to finish; no part masks another | Balance holds for most of the piece; one or two parts compete briefly | Several parts are buried or dominate; faders largely untouched | All tracks sit at default levels | /8 |
+| **Gain Staging (7 pts)** | No clipping on any track or the master; the master peaks with headroom to spare | Master stays clean; one or two tracks peak above 0 dB | Master clips occasionally | Master clips throughout | /7 |
+| **Session Organization (5 pts)** | Every track carries a name that says what is on it | Most tracks named; a few left as defaults | About half the tracks named | Tracks left as Track 1, Track 2 | /5 |
+| **File Submission (5 pts)** | Rendered WAV and a consolidated project folder with all media, zipped as specified | Both present; naming or folder structure differs from the instructions | One file missing, or media not copied into the project folder | Neither file usable | /5 |
+
+**Total: \_\_\_ / 40**
+
+Control of the software matters more here than the composition. A simple
+arrangement that is organized, balanced, and free of clipping scores higher than
+an ambitious one that is not.

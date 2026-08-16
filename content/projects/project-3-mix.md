@@ -174,14 +174,16 @@ You'll follow the steps below to complete your own mix for this song.
 - Use at least two reverb sends. 
 - Follow the same guidelines to setup the sends as with the delay effects. 
 
-### Mixing Project Rubric 
+### Mixing Project Rubric (45 points total)
 
-| Criteria               | Exceeds Expectations (4 pts)                                                                    | Meets Expectations (3 pts)                                | Needs Improvement (2 pts)                                           | Incomplete (0-1 pt)                 |
-| ---------------------- | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------- | ------------------------------------------------------------------- | ----------------------------------- |
-| **Organization**       | Followed all steps to organize session including tempo, track order, grouping, and color coding | Followed most organization steps with minor errors        | Attempted some organization but multiple steps missing or incorrect | Little or no organization completed |
-| **Balance and Levels** | Excellent use of faders and panning to establish a balanced, wide foundation                    | Good use of faders and panning to balance most elements   | Inconsistent balance or panning with some elements too loud, quiet, or crowded in the center | No attempt made to balance or pan elements |
-| **Equalization**       | Applied effective EQ to remove low frequencies and address masking across multiple tracks       | Adequate use of EQ on some tracks to control frequencies  | Limited or ineffective EQ usage                                     | No EQ used                          |
-| **Compression**        | Used compression appropriately on 2+ tracks to control dynamics and consistency                 | Compressed 1 track in a functional way                    | Compression used incorrectly or on wrong tracks                     | No compression used                 |
-| **Delay**              | Created 3 unique delay sends, applied creatively to enhance mix                                 | Created 2-3 delay sends and used adequately               | Only 1 delay send created or used ineffectively                     | No delay sends created              |
-| **Reverb**             | Created 2+ sends, used reverb effectively to blend elements                                     | Created 1-2 reverbs and used reasonably well              | Reverb used incorrectly or on inappropriate tracks                  | No reverb used                      |
-| **Overall Mix**        | Balanced, clear mix using effects to create professional polish                                 | Mostly balanced mix with good use of some tools           | Mix needs significant improvements in balance and use of tools      | Unbalanced mix with no effects used |
+| Criterion | Exemplary | Proficient | Developing | Emerging | Points |
+| --- | --- | --- | --- | --- | --- |
+| **Session Organization (5 pts)** | Tempo set, tracks ordered, groups built, and color coding applied throughout | Most organization steps done, with a few tracks left out | Some organization attempted; several steps missing | Session opened and mixed as delivered | /5 |
+| **Balance and Panning (8 pts)** | Faders and panning place every element in its own space across the stereo field | Most elements balanced and placed; a few crowd the center | Balance uneven, with elements too loud, too quiet, or stacked in the center | Faders and pans left at default | /8 |
+| **Equalization (8 pts)** | EQ clears low frequencies from tracks that do not need them and resolves masking between competing parts | EQ applied to several tracks to control problem frequencies | EQ present on one or two tracks with little audible effect | No EQ used | /8 |
+| **Compression (6 pts)** | Compression on two or more tracks, with settings that steady the dynamics rather than flatten them | One track compressed in a way that works | Compression applied where it is not needed, or settings undo the intent | No compression used | /6 |
+| **Delay (6 pts)** | Three delay sends, each with a purpose you can hear in the mix | Two or three sends created and used adequately | One send created, or a send that does not change the mix | No delay sends created | /6 |
+| **Reverb (6 pts)** | Two or more reverb sends used to place elements in a shared space | One or two reverbs used reasonably well | Reverb on tracks that do not need it, or set so it muddies the mix | No reverb used | /6 |
+| **Overall Mix (6 pts)** | Every part is audible and sits in a coherent space; effects serve the mix rather than decorate it | Mostly balanced, with good use of some tools | Balance and effect choices both need work | Unbalanced, with no effects used | /6 |
+
+**Total: \_\_\_ / 45**

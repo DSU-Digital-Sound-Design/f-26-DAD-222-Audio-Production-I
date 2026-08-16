@@ -52,13 +52,14 @@ Your PSA should follow a traditional announcement structure while twisting it wi
 
 ## Grading Rubric (45 points total)
 
-| Category                                | Excellent                                                     | Proficient                                       | Developing                             | Points |
-| --------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------ | -------------------------------------- | ------ |
-| **Script & Concept (12 pts)**           | Clever, well-structured satire; clear hook and flow           | Good idea with minor clarity or pacing issues    | Message confusing or lacking satire    | /12    |
-| **Dialogue Recording (8 pts)**          | Clean, well-leveled, no clipping                              | Minor noise or level issues                      | Noticeable noise or mic problems       | /8     |
-| **Editing & Timing (7 pts)**            | Seamless edits; perfect 30-sec runtime; strong comedic pacing | Minor timing or transition issues                | Edits rough or ad off-length           | /7     |
-| **Sound Design (7 pts)**                | Creative, well-integrated effects and music enhance satire    | Adequate effects/music with minor balance issues | Minimal or poorly chosen effects/music | /7     |
-| **Mix Quality (6 pts)**                 | Professional balance and polish; dialogue always clear        | Mostly balanced with small issues                | Mix obscures dialogue or lacks polish  | /6     |
-| **Professionalism & File Prep (5 pts)** | All files properly named/organized; submission as specified   | Minor naming/organization errors                 | Missing or disorganized files          | /5     |
+| Criterion | Exemplary | Proficient | Developing | Emerging | Points |
+| --- | --- | --- | --- | --- | --- |
+| **Satirical Concept (8 pts)** | The premise exaggerates a recognizable form until the parody is unmistakable | The premise reads as parody, though the exaggeration is mild or drops out partway | The subject is invented but played straight, with little satirical distance | No identifiable parody | /8 |
+| **Script Craft (7 pts)** | 75 to 90 words carrying a hook, a stated problem, and a call to action | Within the word range with all three parts present; one is underdeveloped | Outside the word range, or one of the three parts is missing | Two or more parts missing | /7 |
+| **Dialogue Recording (8 pts)** | Two or more distinct voices, peaks between -12 and -6 dB, no clipping and no audible room noise | Two voices with peaks in range; light noise or one inconsistent take | One voice only, or peaks outside the target range | Clipping or noise obscures words | /8 |
+| **Runtime and Pacing (7 pts)** | Exactly 30 seconds; edits are inaudible and pauses are timed for comic effect | Within a second of 30; edits clean, pacing even but not shaped | Off by two seconds or more, or edits are audible | Substantially off length | /7 |
+| **Sound Design (6 pts)** | Two or more effects plus a music bed, each chosen to land a specific moment | Required effects and music present and appropriate, placed without particular timing | Fewer than two effects, or a music bed unrelated to the content | No effects or music | /6 |
+| **Mix Balance (5 pts)** | Dialogue stays intelligible throughout; music sits well under it and never competes | Dialogue clear; music rises over it once or twice | Music or effects obscure words in places | Dialogue unintelligible for much of the piece | /5 |
+| **File Preparation (4 pts)** | Reaper folder with Media subfolder, rendered WAV, and script as Word or PDF, named as specified | All three present, with naming that differs from the instructions | One item missing, or media not consolidated | Two or more items missing | /4 |
 
 **Total: \_\_\_ / 45**

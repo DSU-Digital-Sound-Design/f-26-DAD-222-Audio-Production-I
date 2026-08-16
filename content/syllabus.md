@@ -3,8 +3,12 @@ title: "Syllabus"
 ---
 
 Welcome to Audio Production I. Below is the course structure, key topics,
-resources, and expectations. The signed PDF version is
-[available for download](/syllabus.pdf).
+resources, and expectations. The full signed syllabus, including university
+policies, is [available as a PDF](/syllabus.pdf).
+
+**Meets** MWF 9:00–9:50 AM in TCB 209 · **Credits** 3 · **Prerequisite** CSC 105
+
+**Last day to drop with a full refund** September 3 · **Last day to withdraw with a W** November 6
 
 ## Course description
 
@@ -13,8 +17,6 @@ basics of sound, signal flow, microphone techniques, digital audio workstations,
 and essential mixing concepts. Through lectures, hands-on labs, and creative
 projects, students develop foundational skills for music, podcast, and media
 production.
-
-**Prerequisite:** CSC 105. **Credits:** 3.
 
 ## Learning outcomes
 
@@ -66,13 +68,31 @@ Projects 50% · Attendance and participation 30% · Final project and
 proposal 20% — 15% for the project and proposal, 5% for the final
 presentation.
 
+### How the project rubrics work
+
+Every project is graded with the same kind of rubric: a set of criteria, each
+worth a stated number of points, scored at one of four levels.
+
+| Level | Meaning | Earns |
+| --- | --- | --- |
+| Exemplary | Meets the criterion fully, with control | 100% of the points |
+| Proficient | Meets the criterion with minor gaps | 75% |
+| Developing | Partly meets it; the skill is forming | 50% |
+| Emerging | Attempted, not yet meeting the criterion | 25% |
+
+Work that is not submitted earns zero, which is separate from the scale above.
+Each criterion covers one thing, so a strong mix does not cover for a missing
+reflection, and a weak mix does not sink an otherwise solid project. Every level
+describes something you can check in the file rather than a judgment about
+quality, so you can score your own work before you submit it.
+
 ### Attendance and participation (30%)
 
-- **Attendance (20%)** — three absences are free; after that, 10 points come off
-  a 50-point attendance pot for each additional absence (see the attendance
+- **Attendance (10%)** — a single 50-point item; three absences are free, and
+  after that 10 points come off for each additional absence (see the attendance
   policy below).
-- **Participation (10%)** — graded complete/incomplete, earned by the small
-  assignments and in-class exercises:
+- **Participation (20%)** — the small assignments and in-class exercises, each
+  worth an equal share:
   - Favorite-sound and class-playlist submissions on D2L (week 1)
   - In-class editing and EQ exercises
   - FX Roulette and Vital Roulette sessions
@@ -102,21 +122,45 @@ All projects are played out loud in class. Be ready to share what you have made.
 
 ## Attendance and make-up policy
 
-Students are expected to attend all scheduled classes. After three absences, 10
-points will be deducted from the 50-point attendance pot for each additional
-absence.
+Attendance is a single 50-point item in the combined attendance and
+participation category. The first three unexcused absences do not reduce the
+score. Beginning with the fourth, 10 points come off for each additional
+unexcused absence:
 
-Late work will only be accepted with a documented excuse. Students may redo work
-they received an undesirable grade on once, but only if they turned in something
-by the original due date. The deadline for redoing work is one week after the
-original due date. After this time, no late work will be accepted.
+| Unexcused absences | Attendance score |
+| --- | --- |
+| 0–3 | 50 |
+| 4 | 40 |
+| 5 | 30 |
+| 6 | 20 |
+| 7 | 10 |
+| 8 or more | 0 |
+
+Excused absences recognized under university policy do not count toward this
+total. An excused absence needs an emailed explanation before class, and where
+it applies, documentation such as a medical note, a family emergency, or an
+official university notice for university-sponsored travel.
+
+### Late work
+
+Every assignment has an automatic **72-hour grace period**, and you do not need
+to ask for it. D2L shows the original due date and stays open until the grace
+period ends. Grading normally begins after that window closes.
+
+After the grace period, work is accepted only for a documented excused absence,
+an approved accommodation, or another arrangement made with me. Work tied to a
+scheduled presentation, critique, or collaborative activity has to be ready on
+that date to earn credit for that portion.
+
+Unless an assignment includes a revision stage, graded work is not routinely
+revised and regraded.
 
 ## Communication
 
 - **Email:** [Tate.carson@dsu.edu](mailto:Tate.carson@dsu.edu) — the preferred contact method. I will respond within 48 hours during the school week.
 - **Office:** TCB 305 · 605-681-6183
-- **Office hours:** MWF 10 AM – 12 PM, T/Th 1 – 2 PM. [Book a meeting](https://calendly.com/tate-carson/office-hours).
-- **Feedback on assignments:** within 1–2 weeks of the due date.
+- **Office hours:** MWF 10:00–10:50 AM and 12:00–1:50 PM; additional times by appointment. [Book a meeting](https://calendly.com/tate-carson/office-hours).
+- **Feedback on assignments:** within 1–2 weeks after the 72-hour grace period closes.
 
 ## AI tools
 

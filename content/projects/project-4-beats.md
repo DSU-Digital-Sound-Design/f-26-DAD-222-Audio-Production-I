@@ -105,10 +105,14 @@ Submit to D2L the following:
 
 ## Rubric
 
-| **Overall Assessment** | **Points** | **Letter Grade** | **Criteria**                                                                                                                                                                                                                                 |
-| ---------------------- | ---------- | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Excellent**          | 41-45      | A (90-100)       | The composition uses samples in an original way. The arrangement and MIDI sequencing are controlled and intentional. EQ, compression, and the shared reverb or delay send produce a polished mix. |
-| **Good**               | 36-40      | B (80-89)        | The composition uses samples creatively. The arrangement, MIDI sequencing, and production choices work well, with only minor problems in the final mix. |
-| **Fair**               | 31-35      | C (70-79)        | The composition meets the basic requirements, but the arrangement, MIDI sequencing, sample use, or mix is inconsistent. |
-| **Poor**               | 26-30      | D (60-69)        | The composition misses some requirements or has substantial problems with the arrangement, MIDI sequencing, sample use, or mix. |
-| **Failing**            | Below 26   | F (Below 60)     | The composition misses several requirements or shows little control of the arrangement, MIDI sequencing, sample use, and production techniques. |
+| Criterion | Exemplary | Proficient | Developing | Emerging | Points |
+| --- | --- | --- | --- | --- | --- |
+| **Sample Sourcing (7 pts)** | All four categories present on their own tracks: drum break, chordal hit, vocal, and found sound | All four present, though one is a weak fit for its category | One category missing or doubled up on a track | Two or more categories missing | /7 |
+| **Sample Manipulation (7 pts)** | Samples reshaped through stretching, reversing, pitch shifting, or slicing so the source becomes your material | At least one sample meaningfully altered; the rest play close to source | Samples trimmed only | Samples play as downloaded | /7 |
+| **MIDI Sequencing (8 pts)** | Four or more tracks triggered by MIDI into Sitala, with parts placed deliberately rather than looped straight through | Four tracks triggered by MIDI; some parts repeat without variation | Fewer than four MIDI tracks, or audio dragged in place of sequencing | Little or no MIDI sequencing | /8 |
+| **Arrangement (8 pts)** | 16 to 32 measures that introduce, develop, and resolve; parts enter and drop out on purpose | Correct length with some development; a section or two stays static | Correct length but built from one repeating block | Off length, or a single loop repeated | /8 |
+| **Insert Processing (6 pts)** | EQ and compression on individual tracks, each addressing a specific problem in that part | EQ and compression present on several tracks and doing something audible | One processor used, or settings with no audible effect | No insert processing | /6 |
+| **Send Routing (5 pts)** | At least one reverb or delay send with two or more tracks routed to it, placing them in a shared space | A send created with two tracks routed, though the effect is subtle | A send created but only one track routed | No sends created | /5 |
+| **Submission and Source Notes (4 pts)** | Zipped project with all audio and samples, rendered master, and a list of every sample source and any separation tool used | All files present; the source list is incomplete | Files present, no source list | Missing files | /4 |
+
+**Total: \_\_\_ / 45**

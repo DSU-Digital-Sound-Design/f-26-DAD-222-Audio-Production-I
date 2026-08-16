@@ -49,20 +49,19 @@ Create a 2–3 minute original music composition using **Vital**, a powerful wav
 
 ---
 
-### Assessment Criteria
+### Grading Rubric (50 points total)
 
-**Synth Patch Quality (30%)**
+| Criterion | Exemplary | Proficient | Developing | Emerging | Points |
+| --- | --- | --- | --- | --- | --- |
+| **Patch Design (9 pts)** | Three to five patches, each labeled with its role and sounding distinct from the others | Three patches present; one or two overlap in role or timbre | Fewer than three patches, or patches hard to tell apart | One patch, or factory presets renamed | /9 |
+| **Synthesis Technique (6 pts)** | Oscillator, filter, envelope, and modulation settings each shape the sound in ways you can point to | Two or three of those areas used deliberately | A preset adjusted at one or two controls | Presets used as found | /6 |
+| **Composition Structure (10 pts)** | Two to three minutes that introduce, develop, and resolve material | Correct length with a workable structure; one section stays static | Correct length but built from one repeating idea | Off length, or a loop repeated | /10 |
+| **Patch Integration (6 pts)** | Your own patches are the primary sound sources throughout | Your patches carry most of the piece, with some stock sounds | Custom patches appear but stock sounds lead | Custom patches barely present | /6 |
+| **Mix Clarity (4 pts)** | Every part occupies its own frequency and stereo space; nothing masks anything else | Mostly clear, with one or two parts competing | Several parts masked | No balancing attempted | /4 |
+| **Reflection (9 pts)** | 250 to 400 words covering how each patch was built, how synthesis shaped the piece, and what proved difficult | Covers the process but stays general, or runs short | Present but too brief to show the process | Missing | /9 |
+| **File Organization (6 pts)** | All .vital presets, the Reaper project, and the exported WAV present and labeled by role | All files present; labels unclear | A file missing, or presets unlabeled | Two or more files missing | /6 |
 
-* Patches suit the genre and have distinct sonic identities.
-* Evidence of synthesis understanding and creative manipulation.
+**Total: \_\_\_ / 50**
 
-**Composition Quality (40%)**
-
-* Effective genre execution and originality.
-* Strong integration of custom patches.
-* Clear, cohesive mix with attention to balance and space.
-
-**Reflection & Organization (30%)**
-
-* Clear explanation of process and design choices.
-* Organized files and thoughtful documentation.
+The first two criteria are the patch work at 30% of the project, the next three
+are the composition at 40%, and the last two are documentation at 30%.

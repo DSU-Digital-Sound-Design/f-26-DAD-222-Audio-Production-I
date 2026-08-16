@@ -97,7 +97,7 @@ funds undergraduate work.
 
 ## 9/28
 - [drill] [Ear training: frequency bands](/lectures/ear-training-drills/#928-frequency-bands) — 10 minutes
-- [slides] [EQ](/lectures/week-5/EQ/)
+- [slides] [EQ](/lectures/week-5/eq/)
 
 ## 9/30
 - Listen to PSAs in class
@@ -106,7 +106,7 @@ funds undergraduate work.
 - [due] **Project 2: Satirical PSA** — due tonight by midnight
 
 ## 10/2
-- [lab] Exploring EQ on a multitrack recording — [instructions](/lectures/week-5/EQ-multitrack/)
+- [lab] Exploring EQ on a multitrack recording — [instructions](/lectures/week-5/eq-multitrack/)
 
 ## 10/5
 - [slides] Dynamic effects

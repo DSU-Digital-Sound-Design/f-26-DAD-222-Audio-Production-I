@@ -7,19 +7,8 @@ assigned: "2026-11-16"
 due: "2026-12-16"
 summary: "A 3–5 minute piece that embodies your identity as an artist, using at least two techniques from the semester."
 tools: ["Your choice"]
-rubric:
-  - key: "Technique application"
-    weight: "35%"
-    detail: "Proficient, creative use of at least two techniques from the semester (studio recording, effects, MIDI percussion, Vital synthesis)."
-  - key: "Artistic voice"
-    weight: "30%"
-    detail: "The piece reflects a personal style, engages with named influences, and is distinct from them."
-  - key: "Craft and complexity"
-    weight: "20%"
-    detail: "Elements integrate into a polished, balanced, well-mixed whole."
-  - key: "Reflective essay"
-    weight: "15%"
-    detail: "Influences, creative process, challenges, and future directions, genuinely thought through."
+# this project carries its own rubric table in the body
+rubric: false
 ---
 ####  Project Goals:
 
@@ -62,3 +51,17 @@ can anchor a demo reel for jobs or graduate programs.
   - **Influences:** Discuss the artists or works that influenced your composition. How does your piece differ from these influences?
   - **Creative Process:** Detail the steps you took, challenges faced, and solutions devised during the project's creation.
   - **Future Endeavors:** Share potential future projects or how you might further develop the skills acquired in this course.
+
+---
+
+## Grading Rubric (100 points total)
+
+| Criterion | Exemplary | Proficient | Developing | Emerging | Points |
+| --- | --- | --- | --- | --- | --- |
+| **Technique Application (35 pts)** | Two or more techniques from the semester used with control, each serving the piece rather than demonstrating the skill | Two techniques present and competently applied; one carries more weight than the other | Two techniques present, one only nominally | One technique, or techniques applied without evident control | /35 |
+| **Artistic Voice (30 pts)** | The piece engages its named influences and arrives somewhere they did not; the choices read as yours | A personal direction is audible, though it stays close to an influence | The piece resembles its influences more than it departs from them | No identifiable direction beyond the assignment requirements | /30 |
+| **Craft and Polish (12 pts)** | Balanced, cleanly rendered, free of clipping and artifacts; the mix holds up across playback systems | Cleanly rendered with minor balance issues | Audible artifacts, clipping, or a mix that collapses outside the studio | Render unusable | /12 |
+| **Structural Complexity (8 pts)** | Three to five minutes with sections that develop and connect | Correct length with sections present but loosely joined | Correct length built from one repeating idea | Off length | /8 |
+| **Reflective Essay (15 pts)** | Names influences and how the piece differs from them, traces the process and its problems, and identifies where the work goes next | Covers all three areas, one more thoroughly than the others | One of the three areas missing or handled in a sentence | Missing, or too brief to show the process | /15 |
+
+**Total: \_\_\_ / 100**

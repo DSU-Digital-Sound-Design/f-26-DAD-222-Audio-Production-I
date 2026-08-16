@@ -26,7 +26,7 @@ theme = ["t-console-theme", "reveal-hugo"]
     code = "DAD 222"
     title = "Audio Production I"
     term = "Fall 2026"
-    meeting = "MWF 10:00–10:50"
+    meeting = "MWF 9:00–9:50"
     instructor = "Tate Carson"
     final = "Wednesday, December 16 · 8:00–10:00 AM"
 
@@ -64,7 +64,7 @@ theme = ["t-console-theme", "reveal-hugo"]
 
   [[params.facts]]
     key = "Meets"
-    value = "MWF 10:00–10:50"
+    value = "MWF 9:00–9:50"
   [[params.facts]]
     key = "Room"
     value = "TCB 209"
@@ -79,7 +79,7 @@ theme = ["t-console-theme", "reveal-hugo"]
     value = "REAPER, Vital, Sitala"
   [[params.facts]]
     key = "Grading"
-    value = "Projects 60% · Labs 20% · Quizzes 20%"
+    value = "Projects 50% · Attendance & participation 30% · Final project 20%"
 
 [[menus.main]]
   name = "schedule"
