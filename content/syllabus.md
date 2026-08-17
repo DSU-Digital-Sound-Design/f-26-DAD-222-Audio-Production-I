@@ -183,3 +183,18 @@ University policies (accessibility, academic integrity, freedom in learning, gra
 - [Physical attributes of acoustic waves, part I](http://www.acousticslab.org/RECA220/PMFiles/Module02a.htm#1)
   and [part II](http://www.acousticslab.org/RECA220/PMFiles/Module02a.htm#2a)
 - [Companion website for the Routledge textbook](https://routledgetextbooks.com/textbooks/9780367470364/audio_files.php)
+
+---
+
+## The signed syllabus
+
+This page is the readable version. The signed PDF below is the official
+document and carries the university policies in full.
+
+<object data="/syllabus.pdf" type="application/pdf" width="100%" height="760"
+        style="border:1px solid var(--line, #2a2f38); border-radius:6px; background:#fff">
+  <p>Your browser will not display the PDF inline.
+  <a href="/syllabus.pdf">Download the syllabus (PDF)</a>.</p>
+</object>
+
+<p><a href="/syllabus.pdf">Open the syllabus in a new tab</a></p>
