@@ -10,30 +10,41 @@ tools: ["Your choice"]
 # this project carries its own rubric table in the body
 rubric: false
 ---
-####  Project Goals:
+Compose a **3-5 minute audio piece** that shows who you are as an artist.
+This is the one project of the semester where the subject is your own taste:
+what you've been listening to, what you want to make, and which of the tools
+from this course get you there.
 
-- **Personal Creative Expression:** Encourage students to explore and express their unique artistic identity through their projects.
-- **Technique Application:** Ensure students apply a variety of techniques learned during the course to manifest their creative vision.
-- **Artistic Development:** Foster the growth of each student's distinctive voice and style as an emerging artist.
+Your piece needs at least two techniques from the semester. Some options:
 
-#### Project Overview:
+- **Studio recording.** Record instruments or voice, then use the recordings
+  directly or cut them into samples. We practice tracking in class on 11/23.
+  If your piece needs more recording time,
+  [book studio time](https://sites.google.com/view/charmstudios/studio-documentation).
+- **Audio effects.** EQ, compression, reverb, delay, or anything else we've
+  covered, used as part of the sound rather than as cleanup.
+- **MIDI percussion with Sitala.**
+- **Sounds you designed in Vital.**
 
-Compose a **3-5-minute audio piece** that embodies your identity as an artist. Your creation should integrate at least two techniques discussed during the semester. These could include:
+**Not a composer?** That's fine. Send me a proposal for a podcast, a sound
+design piece, or another audio format that uses what you've learned, and we'll
+shape it together.
 
-- **Studio Recording:** Incorporate recordings of instruments or voice.
-  - Use the recordings directly, or cut them into samples.
-  - We practice tracking in class on 11/23. If your piece needs more recording, [book studio time](https://sites.google.com/view/charmstudios/studio-documentation).
-- **Audio Effects:** Employ various audio effects to enhance your composition.
-- **Percussion with Sitala:** Integrate MIDI drums or percussion.
-- **Vital Synth Usage:** Incorporate sounds created with the Vital Synth.
+**The rule on loops:** one or two loops are allowed if you alter them enough to
+make them yours, with effects or otherwise. Same goes for presets in other
+plugins like Spitfire LABS.
 
-**Alternative Projects:** If musical composition is not your preference, submit a proposal for an alternative project such as a podcast, sound design piece, or another audio format that showcases your learnings.
+**Style is open.** Techno, vaporwave, drill, whatever you're into. A video to
+go with it is welcome too.
 
-**Rule on Loops:** You may include one or two loops, provided they are significantly altered using effects or other methods to become your own. This same rule holds for other plugins where you use presets, such as Spitfire LABS. 
-
-**Stylistic Freedom:** Feel free to explore any genre, such as techno, vaporwave, drill, etc. Incorporating a video is also welcome.
-
-> **Presentation:** Projects are presented — and submitted — during the final exam slot on Wednesday, December 16, 8:00–10:00 a.m. The presentation is worth 5% of the course grade (the project and proposal are 15%). Presentations are for the audience as much as the presenter: this is where you return what your classmates have been sharing with you all semester. If you miss the session without a documented excuse, you receive a zero on the presentation portion and your project is graded from the render alone. With a documented excuse, contact me to arrange a make-up presentation.
+> **Presentation:** Projects are presented and submitted during the final exam
+> slot on Wednesday, December 16, 8:00-10:00 a.m. The presentation is worth 5%
+> of the course grade (the project and proposal are 15%). Presentations are for
+> the audience as much as the presenter: this is where you return what your
+> classmates have been sharing with you all semester. If you miss the session
+> without a documented excuse, you receive a zero on the presentation portion
+> and your project is graded from the render alone. With a documented excuse,
+> contact me to arrange a make-up presentation.
 
 #### Your portfolio
 
@@ -43,14 +54,14 @@ is the first one. Make a clean render, use clear filenames, and keep the full
 project in storage you can access after graduation. Together, the three pieces
 can anchor a demo reel for jobs or graduate programs.
 
-#### Deliverables:
+#### Deliverables
 
-- **Consolidated Project File:** Submit the complete project file used for your composition.
-- **Rendered Master Track:** Provide a final rendered version of your audio piece.
-- **Reflective Essay:** Submit a one-page reflection that includes:
-  - **Influences:** Discuss the artists or works that influenced your composition. How does your piece differ from these influences?
-  - **Creative Process:** Detail the steps you took, challenges faced, and solutions devised during the project's creation.
-  - **Future Endeavors:** Share potential future projects or how you might further develop the skills acquired in this course.
+- The complete, consolidated project file.
+- A rendered master track.
+- A one-page reflection covering three things: which artists or works
+  influenced the piece and how yours differs from them, how you actually made
+  it (including what went wrong and what you did about it), and where you'd
+  take this work next.
 
 ---
 

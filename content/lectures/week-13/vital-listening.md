@@ -4,18 +4,17 @@ date: 2024-06-20
 draft: false
 ---
 
-- **Duration:** 50 minutes
-- **Software:** Vital
-- **Objective:** Listen closely to several short synthesized sounds and recreate them as accurately as possible using Vital.
-You’ll use your ear to identify waveforms, filter shapes, envelopes, and modulation techniques.
+You'll hear several short synthesized sounds and rebuild each one in Vital,
+by ear. The skill being trained: hearing a sound and working out its
+waveform, filter, envelopes, and modulation. 50 minutes, four rounds.
 
 ---
 
 ## Setup (5 minutes)
 
-1. Open Vital and start with a blank/default patch.
-2. Make sure your DAW is ready to record or save your patch.
-3. Have paper or a notes document open to jot down your synthesis choices.
+1. Open Vital with a blank/default patch.
+2. Have your DAW ready to save patches.
+3. Keep notes on your synthesis choices as you go.
 
 ---
 
@@ -100,8 +99,6 @@ You’ll use your ear to identify waveforms, filter shapes, envelopes, and modul
 
 ## Reflection and Discussion (10 minutes)
 
-After completing the recreations:
-
 1. Play your patches for classmates.
-2. Discuss which parameters had the biggest impact on accuracy.
-3. Share one strategy that helped you get closer to the target sound.
+2. Which parameters mattered most for getting close?
+3. Share one strategy that helped you home in on the target.

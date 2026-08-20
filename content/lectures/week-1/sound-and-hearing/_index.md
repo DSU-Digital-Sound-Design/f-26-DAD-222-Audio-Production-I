@@ -15,7 +15,7 @@ margin = 0.2
 - How to keep your hearing for a whole career
 
 {{% note %}}
-This slide sets the stage for the presentation by outlining what students will learn and why it's important. Emphasize that these fundamentals will be referenced throughout their studies and careers.
+Everything this semester (recording, EQ, synthesis, hearing safety) comes back to these fundamentals. Worth saying that up front.
 {{%/ note %}}
 
 
@@ -110,7 +110,7 @@ The distance above or below the centerline of a waveform (such as a pure sine wa
 - **Tip:** When recording, always monitor amplitude levels to avoid distortion.
 
 {{% note %}}
-Use this slide to connect the concept of amplitude to everyday experiences. Play the sound clip and ask students to describe what they hear. Reinforce the importance of monitoring levels in recording.
+Run the interactive demo and have students describe what changes. Tie it forward to watching record levels in Reaper.
 {{%/ note %}}
 
 ---
@@ -124,8 +124,6 @@ Use this slide to connect the concept of amplitude to everyday experiences. Play
 ![](frequency.png)
 
 {{% note %}}
-Transition into the concept of frequency. Explain that frequency is crucial for understanding pitch, which is another fundamental aspect of sound.
-
 The rate at which an acoustic generator, electrical signal, or vibrating mass repeats within a cycle of positive and negative amplitude is known as the frequency of that signal.
 
 We can also measure a frequency in cycles per second; (Hz) or hertz (Hz). An "A" note is 440 Hz.
@@ -140,7 +138,7 @@ We can also measure a frequency in cycles per second; (Hz) or hertz (Hz). An "A"
 - **Tip:** Different frequencies interact in complex ways in a mix. 
 
 {{% note %}}
-Play the sound clip and discuss how low and high frequencies differ in sound. Highlight the importance of understanding frequency when working with EQ and other audio tools.
+Run the demo. This is the groundwork for the EQ unit; frequencies fighting each other is most of what mixing is.
 {{%/ note %}}
 
 ---
@@ -154,7 +152,7 @@ Play the sound clip and discuss how low and high frequencies differ in sound. Hi
 ![](phase.png)
 
 {{% note %}}
-Discuss the concept of phase, emphasizing how out-of-phase signals can lead to issues like phase cancellation. Use the demo to show this effect in practice.
+The demo shows phase cancellation happening in practice. This comes back when we record with more than one mic.
 {{%/ note %}}
 
 ---
@@ -172,8 +170,6 @@ Discuss the concept of phase, emphasizing how out-of-phase signals can lead to i
 - **Sound Clips:** [Fourier Series 3D interactive demonstration](https://tomasboril.cz/fourierseries3d/en/)
   
 {{% note %}}
-Explain harmonics and how they contribute to the unique sound of different instruments. Use the sound clips to demonstrate these differences in timbre.
-
 Most real life sounds are much more complex than a sine wave.
 
 The factor that helps us differentiate between instrumental “voicings” is the presence of frequencies (called partials) that exist in addition to the fundamental pitch that’s being played. Partials that are higher than the fundamental frequency are called upper partials or overtones. If the overtones are whole-number multiples of the fundamental frequency, they are called harmonics.

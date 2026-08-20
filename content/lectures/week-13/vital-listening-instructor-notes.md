@@ -1,19 +1,16 @@
 
 ## Class Exercise: Recreate That Sound — Ear Training in Synthesis
 
-**Duration:** 50 minutes
-**Software:** Vital
-**Learning Focus:** Listening analysis, synthesis fluency, modulation understanding, and reverse-engineering of sounds.
+50 minutes, Vital. Ear training through reverse-engineering: students hear a
+sound, then rebuild it.
 
 ---
 
 ### 1. Introduction and Setup (5 minutes)
 
-**Goals**
-
-* Explain: students will hear several short synthesized sounds and try to rebuild them in Vital.
-* Encourage note-taking on perceived waveform, filter type, envelopes, modulation, and effects.
-* Ensure everyone has Vital open in a DAW and a default patch loaded.
+* Explain the game: they'll hear short synthesized sounds and rebuild them in Vital.
+* Push note-taking: perceived waveform, filter type, envelopes, modulation, effects.
+* Check everyone has Vital open in a DAW with a default patch loaded.
 
 ---
 
@@ -125,13 +122,13 @@ Students should pick up the quick transient, sharp envelope, and bright tone tha
 
 **Discussion prompts**
 
-* Which parameters changed the sound most significantly?
+* Which parameters changed the sound most?
 * How did small modulation adjustments affect realism?
-* What strategies helped when reverse-engineering (e.g., matching envelope shape first)?
-* Encourage them to share patches and describe their process in 2–3 sentences.
+* What reverse-engineering strategies helped? (Matching envelope shape first is a common one.)
+* Have them share patches and describe their process in 2-3 sentences.
 
-**Optional Extension:**
-Assign each student to design their own “mystery sound” for the next class and swap them for peer recreation.
+**Optional extension:** each student designs a "mystery sound" for next
+class, then they swap and recreate each other's.
 
 ---
 

@@ -10,9 +10,8 @@ margin = 0.2
 <img src="production.jpeg" alt="Music Production Studio" style="max-height:48vh">
 
 {{% note %}}
-- Identify and discuss the various pieces of music technology visible in the image.
-- Encourage students to share their understanding or experience with any of the equipment.
-- Define music technology: The intersection of musical creativity, scientific understanding, and technological innovation used to create, perform, analyze, and distribute music.
+- What music technology can we spot in this picture? Who has used any of it?
+- Build a working definition together before showing the next slide: using technology to create, perform, analyze, and distribute music.
 {{% /note %}}
 
 ---
@@ -26,7 +25,7 @@ margin = 0.2
   - Technological innovation
 
 {{% note %}}
-Discuss how these elements interact in modern music production and performance.
+Point out that every tool this semester sits somewhere in this triangle.
 {{% /note %}}
 
 ---
@@ -117,7 +116,7 @@ Discuss how these elements interact in modern music production and performance.
 - **Tonewheel Organ**: Early electromechanical instrument
 
 {{% note %}}
-Explain the basic principles behind each technology and their typical applications in music.
+The common thread: each one converts energy from one form to another. That idea (the transducer) returns in week 1's sound lecture.
 {{% /note %}}
 
 ---
@@ -211,7 +210,7 @@ Discuss the concept of networked music performance and how it challenges traditi
 - **Sequencing**: Arranging musical elements for playback
 - **Composing**: Creating original music using various technologies
 - **Mixing**: Balancing and enhancing individual tracks in a recording
-- **Mastering**: Preparing and transferring audio from a mix to a data storage device
+- **Mastering**: Final preparation and polish of a finished mix for release
 ---
 
 - **Live Sound**: Managing audio during live performances

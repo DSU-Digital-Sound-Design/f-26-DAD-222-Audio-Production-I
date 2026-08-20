@@ -2,9 +2,9 @@
 title: "Syllabus"
 ---
 
-Welcome to Audio Production I. Below is the course structure, key topics,
-resources, and expectations. The full signed syllabus, including university
-policies, is [available as a PDF](/syllabus.pdf).
+Welcome to Audio Production I. This page covers how the course runs and what
+is expected; the full signed syllabus with university policies is
+[available as a PDF](/syllabus.pdf).
 
 **Meets** MWF 9:00–9:50 AM in TCB 209 · **Credits** 3 · **Prerequisite** CSC 105
 
@@ -12,11 +12,11 @@ policies, is [available as a PDF](/syllabus.pdf).
 
 ## Course description
 
-This course is designed for students new to audio production. It covers the
-basics of sound, signal flow, microphone techniques, digital audio workstations,
-and essential mixing concepts. Through lectures, hands-on labs, and creative
-projects, students develop foundational skills for music, podcast, and media
-production.
+This course assumes no audio background. We start with what sound is and how
+you hear it, then work through signal flow, microphones, recording, and mixing
+in a DAW. By the end you'll have made several finished pieces of your own,
+and you'll have the skills to keep making them: music, podcasts, or sound for
+media.
 
 ## Learning outcomes
 

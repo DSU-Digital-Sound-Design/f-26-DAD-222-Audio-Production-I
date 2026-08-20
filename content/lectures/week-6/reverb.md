@@ -4,7 +4,7 @@ title: "Mixing with reverb"
 
 > Download the audio files [here](https://dakotastateuniversity-my.sharepoint.com/:f:/g/personal/tate_carson_dsu_edu/Em4CtTSSKXRDhmr9Iaxn5TIBclFmF2zb6MVO49FjPDsR3A?e=2OBZ5y).
 
-Reverb is an essential tool in mixing, used to enhance various elements in your sound. Here’s how it can affect your mix:
+Reverb does more jobs in a mix than most people expect. Five of them, with examples:
 
 - **Blend**  
   Reverb helps different parts of a mix feel like they’re in the same space. For instance, on The Ronettes’ Be My Baby, chamber reverb merges dozens of instruments and vocals into one lush texture, a hallmark of Phil Spector’s “Wall of Sound.”
@@ -15,13 +15,13 @@ Reverb is an essential tool in mixing, used to enhance various elements in your 
   <iframe width="560" height="75" src="https://www.youtube.com/embed/usNsCeOV4GM?si=c1ZvTXPjElePlG4u&amp;start=167" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 - **Tone**  
-  Reverb doesn’t just add space—it can dramatically change the timbre of an instrument. Dick Dale’s use of Fender’s spring reverb on Misirlou gives his Stratocaster that bright, percussive “drip” tone that defines surf guitar.
-  Another example: It is likely (though not confirmed) that producers of the Nashville Sound used plate or chamber reverb or echo devices in vocal production to smooth and enhance the vocals. Patsy Cline’s recordings, evolving in that era under Owen Bradley and engineers in Nashville, exhibit a polished ambience consistent with plate-oriented techniques. But no definitive session log confirms a specific plate unit for her vocal chain.
+  Reverb can change an instrument's timbre, not just its sense of space. Dick Dale’s use of Fender’s spring reverb on Misirlou gives his Stratocaster that bright, percussive “drip” tone that defines surf guitar.
+  Another example: the Nashville Sound. Patsy Cline's recordings under Owen Bradley have a polished vocal ambience that points to plate or chamber reverb, though no session log survives to confirm exactly what was in the chain.
   <iframe width="560" height="75" src="https://www.youtube.com/embed/9UmmbF1Zyvk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   <iframe width="560" height="75" src="https://www.youtube.com/embed/YWKeuYcDAoo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 - **Sustain**  
-  Reverb can extend the life of a sound, making it linger beyond its natural decay. In I Will Always Love You by Whitney Houston, the long plate reverb adds fullness and emotional resonance, carrying her held notes and filling silence between phrases.
+  Reverb can extend the life of a sound, making it linger beyond its natural decay. In I Will Always Love You by Whitney Houston, the long plate reverb carries her held notes and fills the silence between phrases.
   <iframe width="560" height="75" src="https://www.youtube.com/embed/3JWTaaS7LdU?si=BjqGhMiZI6nIRiWS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
 
 - **Spread**  
@@ -29,7 +29,7 @@ Reverb is an essential tool in mixing, used to enhance various elements in your 
 
 ## Analog Reverb Techniques
 
-Before digital plugins, engineers used physical spaces and devices to create reverb. Some of these methods included chambers, plates, and springs.
+Before digital plugins, reverb came from physical spaces and devices: chambers, plates, and springs.
 
 ### Inside the Reverb Chambers at Capricorn Sound Studios
 
@@ -45,16 +45,13 @@ Before digital plugins, engineers used physical spaces and devices to create rev
 
 ## Reaper Stock Plugins for Reverb
 
-In Reaper, there are two primary reverb plugins you can use:
-
-- **ReaVerb**
-- **ReaVerbate**
+Reaper ships with two reverb plugins, ReaVerb and ReaVerbate.
 
 Check out the [ReaEffects Guide](https://www.reaper.fm/guides/REAPEREffectsGuide2021.pdf) for more details on these plugins.
 
 ## ReaVerbate
 
-Let’s start by learning how to use ReaVerbate on single instruments, and then apply it to enhance the elements mentioned earlier. ReaVerbate is a stock reverb plugin in Reaper. Start by adding it to your guitar track.
+We'll start with ReaVerbate on single instruments, then put it to work on the jobs listed above. Add it to your guitar track.
 
 Here are key parameter descriptions (from the ReaEffects guide):
 
@@ -65,7 +62,6 @@ Here are key parameter descriptions (from the ReaEffects guide):
 - **Stereo Width**: Controls the width of the stereo field for the reverb.
 - **Initial Delay**: Adds a delay before the reverb starts, creating more space.
 - **Lowpass/Highpass**: Filter controls to apply reverb to only certain frequency ranges.
- - **Low-pass/High-pass**: Filter controls to apply reverb to only certain frequency ranges.
 
 ### Reverb on One Instrument
 
@@ -84,7 +80,7 @@ Often, you want to apply the same reverb to multiple instruments. To do this in 
 
 ## ReaVerb
 
-ReaVerb offers more advanced customization and supports convolution reverb. It has several modules, including:
+ReaVerb is the deeper of the two, and it does convolution reverb. Its modules:
 
 - **Echo Generator**: Creates echo or delay effects.
 - **Reverb Generator**: Adds traditional reverb.
