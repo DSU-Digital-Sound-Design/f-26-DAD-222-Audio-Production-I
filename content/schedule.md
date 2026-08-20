@@ -133,18 +133,25 @@ funds undergraduate work.
 - [lab] Continue looking at [Project 3: In-class mixing assignment](/projects/project-3-mix/)
 
 ## 10/19
-- [drill] [Ear training: space](/lectures/ear-training-drills/#1019-space) — 10 minutes
-- **Sampling and MIDI**
-- Any questions about the mix project?
-- [lab] [WhoSampled](http://whosampled.com) — covers and sampling
-  - In-class project: find three of your favorite sampling uses on WhoSampled. Why do you like them? Describe how the artist used the sample and what it was about the original recording that made them want to use it. A few people present at the end of class.
-  - As people present, we'll also trace the rights side of each sample: who cleared it, who got paid, and who didn't (the Amen break, the Biz Markie ruling, De La Soul's decades off streaming).
+- [guest] **BAD BEAT (Tino Gomez)** visits class
+  - Las Vegas techno and house producer and DJ, co-founder of the [MNTRA](https://www.instagram.com/mntravegas/) collective and the Techno Taco Tuesday party
+  - How a track gets built: drum machines, synths, and arranging for a dancefloor
+  - How he uses compression, reverb, and delay in his own music, picking up the effects work we just finished
+  - Running a collective and a recurring night: booking, promoting, and making a living in the scene
+  - Come with a question. The session counts toward participation.
+- **WhoSampled write-up** — due Friday 10/23 on D2L
+  - Find three of your favorite sampling uses on [WhoSampled](http://whosampled.com). Why do you like them? Describe how the artist used the sample and what it was about the original recording that made them want to use it.
+  - For one of the three, trace the rights side: who cleared it, who got paid, and who didn't.
 
 ## 10/21
+- [drill] [Ear training: space](/lectures/ear-training-drills/#1019-space) — 10 minutes
 - Questions about the mixing assignment?
-- [slides] [Sampling history](/lectures/week-7/sampling-history/) — the machines and records behind what we explored on WhoSampled, and the problem MIDI was invented to solve
+- [slides] [Sampling history](/lectures/week-7/sampling-history/) — the machines and records behind sampling, and the problem MIDI was invented to solve
+  - The sample clearance section at the end sets up the rights part of your write-up
 
 ## 10/23
+- [due] **WhoSampled write-up** — due tonight on D2L
+- A few volunteers share one pick from their write-up
 - [slides] [MIDI intro](/lectures/week-7/midi-intro/)
 - [due] **Project 3: In-class mixing assignment** — due tonight by midnight
 - [project] [**Project 4: Drum Programming and Beatmaking**](/projects/project-4-beats/) — due Monday 11/2

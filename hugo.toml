@@ -57,6 +57,10 @@ theme = ["t-console-theme", "reveal-hugo"]
       label = "Drills"
       color = "#c58cff"
     [[params.schedule.tags]]
+      id = "guest"
+      label = "Guests"
+      color = "#5cffd6"
+    [[params.schedule.tags]]
       id = "off"
       label = "No class"
       color = "#7d8a7a"

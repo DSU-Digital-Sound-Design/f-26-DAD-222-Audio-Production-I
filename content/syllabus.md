@@ -46,6 +46,7 @@ By the end of the course, students will be able to:
 
 - **Lectures** — weekly sessions covering theory and demonstrations
 - **Labs** — hands-on practice with equipment and software
+- **Guest artists** — working producers and engineers visiting class to talk about how they actually work
 - **Projects** — creative assignments and a final project
 - **Readings** — core articles and online resources
 - **Resources** — curated list of software, plugins, and tutorials
@@ -58,7 +59,7 @@ The [schedule](/schedule/) has the day-by-day plan. In broad strokes:
 - **Weeks 2–3** — Arranging with loops (Project 1); audio hardware; the move to the studio
 - **Weeks 4–6** — Recording and editing dialogue; the satirical PSA (Project 2)
 - **Weeks 6–8** — EQ, compression, delay, and reverb; the multitrack mix (Project 3)
-- **Weeks 8–10** — Sampling, MIDI, and beatmaking (Project 4)
+- **Weeks 8–10** — Sampling, MIDI, and beatmaking (Project 4); guest artist BAD BEAT on October 19
 - **Weeks 10–13** — Synthesis with Vital (Project 5)
 - **Weeks 13–16** — Final projects: proposals, work sessions, critiques, and the exam-slot presentation
 
@@ -97,6 +98,7 @@ quality, so you can score your own work before you submit it.
   - In-class editing and EQ exercises
   - FX Roulette and Vital Roulette sessions
   - The WhoSampled sampling write-up
+  - The guest artist session on October 19 — come with a question
   - Vital patch sharing and the Recreate That Sound ear-training session
   - Spoken feedback during critique sessions — one specific observation and one
     concrete suggestion when a classmate's work is played
