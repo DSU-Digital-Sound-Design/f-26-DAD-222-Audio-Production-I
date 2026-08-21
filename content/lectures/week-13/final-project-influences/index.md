@@ -31,15 +31,23 @@ Ask yourself:
 
 Use the time to look up how your influence creates their work. Focus on production decisions, techniques, and sound-making strategies rather than biography.
 
-Useful things to look for:
+Reverse-engineer your influence the way Kuhn and Hein deconstruct Future's "Mask Off" in *Electronic Music School*. For each element you hear, ask:
 
-* tools or instruments they rely on
-* how they build textures, rhythms, or space
-* signature effects or processing
-* their approach to recording or sampling
-* ways they use structure or contrast
+* Is that instrument sampled or synthesized?
+* Is the backbeat a snare or a clap?
+* Are the hi-hats hand-programmed, or generated with an arpeggiator or note repeat?
+* Is the bass a sampled 808 or a synth waveform?
+* What one trope makes this genre instantly recognizable?
 
-Take notes on one or two techniques that stand out.
+Some study pairs from their book, to show what the analysis looks like:
+
+* Vaporwave: play Macintosh Plus's "Floral Shoppe" next to its source, Diana Ross's "It's Your Move," and name what the slowing and pitching changed.
+* Lo-fi hip-hop: J Dilla's *Donuts* runs on swing, dusty EQ, and loop craft.
+* Trap: Travis Scott's "SICKO MODE" is built from programmed sub-bass and note-repeat hats.
+* Future bass: Flume's "Never Be Like You" leans on seventh chords and the pop drop.
+* House: Robin S's "Show Me Love" is a 909 four-on-the-floor with an organ bassline.
+
+Take notes on one or two techniques that stand out in your own influence.
 
 ## Step 3: Connect Their Methods to Your Project (8–10 minutes)
 
@@ -56,7 +64,9 @@ Some examples of translation:
 * You’re inspired by a producer’s glitchy percussion → you experiment with slicing, reversing, and reprocessing your own samples.
 * You admire a soundtrack’s sense of space → you experiment with layered reverbs and automation to create depth.
 
-Write down a short plan: influence → technique → your adaptation.
+Write down a short plan: influence, then technique, then your adaptation.
+
+Kuhn and Hein build every project from the same formula: a music concept plus a technology concept plus a fun hook. Your adaptation line should name all three, and the technology concept should come from this course: a Vital patch, a Sitala kit, REAPER routing or automation, or a field recording chain.
 
 ## Step 4: Small-Group Sharing (15 minutes)
 
@@ -78,3 +88,5 @@ By the end of class, you should have:
 * a concrete angle for your proposal and your Friday mini-share
 
 Today’s work is meant to give you momentum and clarity. Use your notes to refine your proposal before Friday, and bring any remaining questions to the end of class or email when needed.
+
+The analysis checklist, the study pairs, and the project formula come from Will Kuhn and Ethan Hein, *Electronic Music School* (Oxford, 2021), the same book Project 1 is based on.

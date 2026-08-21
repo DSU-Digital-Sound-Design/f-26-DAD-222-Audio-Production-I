@@ -92,9 +92,8 @@ You'll follow the steps below to complete your own mix for this song.
    - Reduce the volume of the problematic frequencies in one of the instruments by lowering the corresponding EQ band. This carves out space for the other instrument in the mix.
    - Repeat this process for any other masking pairs you've identified.
 
-**5. Continuously Listen and Adjust:**
-   - As you make these EQ adjustments, continuously listen to the mix to ensure that you're achieving better separation and clarity between instruments.
-   - Make fine-tuned adjustments as needed to strike the right balance between instruments and minimize masking.
+**5. Adjust in Context:**
+   - Judge every EQ move in the full mix, and A/B against the unprocessed version before you commit.
 
 ## Compression
 
@@ -105,29 +104,23 @@ You'll follow the steps below to complete your own mix for this song.
    - Similarly, identify elements that seem to get drowned out or buried in the mix at certain points. These are the elements that may benefit from compression to maintain a more consistent presence.
 
 **3. Identify Compression Candidates:**
-   - Based on your observations, determine which elements in your mix require compression. Good candidates include:
-     - Vocals
-     - Drum Folder (e.g., a group of drums) - Consider using a compressor like the 1176.
-     - Drum Overheads - Also consider using a compressor like the 1176.
-     - Bass Guitar
+   - Based on your observations, determine which elements in your mix require compression. Good candidates include vocals, the drum folder, the drum overheads, and the bass guitar.
 
 **4. Apply Compression:**
-   - Start by selecting one of the identified elements that require compression (e.g., vocals).
-   - Insert a ReaComp on the track for that element.
+   - Start with one of the elements you identified, such as the vocals.
+   - Insert a ReaComp on that track.
 
-**5. Configure the Compressor:**
-   - Adjust the compressor's settings to control the dynamics of the element. 
-     - Threshold: Set the level at which compression begins. Adjust it to catch the dynamic variations you want to control.
-     - Ratio: Determine how much compression is applied once the signal exceeds the threshold. Start with a moderate ratio and adjust as needed.
-     - Makeup Gain: Compensate for the reduction in volume caused by compression by increasing the output gain. With ReaComp the makeup gain is controlled with the Wet slider. 
+**5. Configure ReaComp:**
+   These starting points come from Senior's compression chapter, the same book behind our rough balance lesson.
+   - Begin by pinning about 6 dB of gain reduction on the peaks, so you can clearly hear what the compressor is doing. Then raise the threshold until you keep the balance with less squeeze.
+   - Set the ratio between 2:1 and 3:1 for routine evening on vocals and guitars. Save high ratios of 12:1 and up for taming isolated peaks.
+   - On the kick and bass, keep the attack at 50 ms or slower. Faster attacks clamp the first waveform cycles and thin out the low end.
+   - On the drum folder, the attack and release decide what the drums become: a fast attack with a fast release brings up sustain, while a slow attack with a slow release sharpens the snap. Set them so the gain-reduction meter bounces in time with the song.
+   - If vocal peaks still poke through, add a second ReaComp in series doing 2 to 3 dB of reduction rather than making one compressor work hard.
+   - With ReaComp, the Wet slider acts as the makeup gain.
 
-**6. Listen and Fine-Tune:**
-   - Play your mix and listen to the impact of the compression on the selected element.
-   - Make adjustments to the compressor's settings as necessary to achieve a more consistent level for that element throughout the mix.
-   - Repeat this process for other elements you've identified as compression candidates.
-
-**7. A/B Testing:**
-   - Always use A/B testing to compare the compressed and uncompressed versions of the track. Ensure that compression enhances the element's consistency without introducing unwanted artifacts.
+**6. Check Your Work:**
+   - A/B the compressed track against the bypassed version in the full mix, and confirm the element now holds a steadier place without sounding squashed.
 
 ## Delay
 
@@ -162,9 +155,8 @@ You'll follow the steps below to complete your own mix for this song.
    - Experiment with different delay lengths to achieve unique effects, such as rhythmic delays that add movement to your mix.
    - Adjust the send level and delay settings on each chord instrument track to create an interesting and balanced sonic texture.
 
-**6. Listen and Refine:**
-   - Play back your mix in Reaper and carefully listen to how the delays interact with the vocals and chord instruments.
-   - Make any necessary adjustments to the send levels, delay lengths, or feedback settings to achieve the desired sonic character while maintaining a well-balanced mix.
+**6. Check Your Work:**
+   - Listen to how the delays sit against the vocals and chords in the full mix, and adjust send levels or delay times until they support the balance instead of clouding it.
 
 
 ## Reverb

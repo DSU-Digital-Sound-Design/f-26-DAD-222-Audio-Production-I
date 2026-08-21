@@ -4,98 +4,103 @@ outputs = ["Reveal"]
 [reveal_hugo]
 +++
 
-## Overview & Objectives
+## Mixing and EQ
 
-- Introduce the concept of equalization and its historical evolution.
-- Compare different types of EQ tools (parametric, graphic, dynamic, shelving, etc.).
-- Explain the audio frequency spectrum and how EQ interacts with it.
-- Demonstrate practical techniques for tone shaping, problem solving, and creative sound design.
-- Highlight EQ’s role in mixing, mastering, live performance, and sound design.
+Equalization shapes the frequency content of a signal by boosting or cutting selected ranges. Today we learn one method for using it, taken from Mike Senior's *Mixing Secrets for the Small Studio*.
 
 {{% note %}}
-Equalization (EQ) refers to the process of shaping the frequency content of an audio signal by selectively boosting or cutting specific frequencies. It is a versatile tool used in mixing and mastering to remove unwanted noise, add clarity and presence, emphasize the thump of a kick drum, or reduce muddiness caused by instruments clashing in the same frequency range. EQ allows precise adjustments across the 20 Hz – 20 kHz human hearing range, making it a core skill for audio engineers.
+- The whole lesson runs on ReaEQ. Every technique here works in the stock plugin.
+- Frame the goal early: EQ at mixdown exists to make room between instruments. Making any single track prettier is secondary.
 {{%/ note %}}
 
 ---
 
-## Historical Context
+## Cut first, boost last
 
-- **Analog beginnings**: Early equalizers were built into analogue consoles for radio and film work.
-- **Graphic EQ**: Introduced in the 1950s with multiple fixed bands controlled by sliders.
-- **Parametric EQ**: Invented in the 1970s, offering variable frequency, bandwidth (Q), and gain.
-- **Digital EQ**: Modern DAWs include visual interfaces, dynamic automation, and linear-phase processing.
+Senior gives four reasons to make cutting your default:
+
+1. Louder sounds better to your brain, so a boost fools you with volume alone.
+2. A boost distorts phase most exactly where you boosted.
+3. EQ filters ring, and cuts hide the ringing while boosts expose it.
+4. Boosts eat headroom.
+
+His rule of thumb: if you need more than one boost filter, or more than 6 dB, back off the EQ and push the fader instead.
 
 {{% note %}}
-Digital audio workstations now integrate EQ plugins that allow surgical sound adjustments, making room for different instruments in a mix or polishing a track before release. Avid’s Channel Strip plugin provides multiple filter nodes (low, low-mid, high-mid, high) and adjustable slopes for precise control.
+- Demonstrate the loudness bias directly: boost a track 3 dB with a wide bell, ask if it sounds better, then match the volume back down and ask again.
+- Source: Senior, ch. 11, "Equalizing for a Reason."
 {{%/ note %}}
 
 ---
 
+## High-pass almost everything
 
-## Equalization uses
-
-1. Tone Shaping.
-2. Fixing frequency problems.
-3. Balancing instruments in a mix.
-4. Enhancing clarity and presence.
-5. Removing unwanted noise.
-6. Creating special effects.
-
+- Every track except the kick and the bass gets a high-pass filter.
+- Use Roger Nichols' rule to set it: raise the cutoff until you hear the low end change, then back it off by about 15 percent.
+- Keep the slope moderate, between 6 and 18 dB per octave, with no resonance.
+- Be careful on drums, because the transient dulls before the tone audibly changes.
 
 {{% note %}}
-
-1. **Tone Shaping**: EQ is often used to shape the tonal characteristics of a sound source. You can boost or cut specific frequency ranges to make an instrument or voice sound warmer, brighter, or more natural.
-
-2. **Fixing Frequency Problems**: Sometimes, audio recordings or live sound environments can have unwanted resonances, hums, or noise in certain frequency ranges. EQ can be used to reduce or eliminate these issues.
-
-3. **Balancing Instruments**: In a mix, different instruments and vocals can clash in terms of frequency content. EQ helps in carving out space for each instrument and making sure they don't step on each other's sonic territory.
-
-4. **Enhancing Clarity**: By boosting the high frequencies (treble) of a signal, you can increase clarity and presence, making it easier for the listener to hear details in the sound.
-
-5. **Removing Unwanted Noise**: EQ can be used to roll off low frequencies that might contain rumble or wind noise. High-pass filters are a common tool for this purpose.
-
-6. **Creating Special Effects**: Extreme EQ settings can be used creatively to achieve special effects like a telephone voice (narrow bandpass), a radio broadcast sound (filtered high frequencies), or a vintage vinyl record effect (boosting certain frequency ranges while cutting others).
-
+- The point of filtering everything is headroom: dozens of tracks each carrying inaudible rumble add up to real low-end mud on the mix bus.
+- Have students HPF the Angels in Amplifiers guitars while watching the master meter.
+- Source: Senior, ch. 11.
 {{%/ note %}}
 
 ---
 
-7. Correcting room acoustics.
-8. Preventing feedback in live sound.
-9. Matching the sound of different sources.
-10.  Finalizing audio mixes (mastering).
-11.  Sound design for media.
-12.  DJ mixing.
-13.  Optimizing live performance sound.
+## Boost, sweep, cut
+
+1. Set a narrow band and boost it 10 dB or more.
+2. Sweep the frequency until the ugly resonance jumps out.
+3. Return the gain to zero for ten seconds and let your ears reset.
+4. Cut gently at the frequency you found.
+
+The trap: any frequency boosted 10 dB sounds terrible. Hunt only for problems you already heard in the mix, and resist sweeping every track on principle.
 
 {{% note %}}
-7. **Room Correction**: In audio production, it's important to ensure that the playback environment doesn't color the sound. Room correction EQ systems can analyze the room's acoustics and apply EQ to compensate for any uneven frequency response caused by the room itself.
-
-8. **Feedback Control**: In live sound reinforcement, EQ can be used to prevent feedback by notching out frequencies that are prone to feedback in a particular room or setup.
-
-9. **Matched EQ**: You can use EQ to match the tonal characteristics of two different audio sources, like matching the sound of two guitar amplifiers or blending two different microphone recordings of the same instrument.
-
-10. **Mastering**: In the final stages of audio production, mastering engineers use EQ to fine-tune the overall tonal balance of a mix and prepare it for distribution.
-
-11. **Sound Design**: Sound designers for film, video games, and other media use EQ to shape and manipulate audio elements to create specific atmospheres, textures, and moods.
-
-12. **DJ Mixing**: DJs use EQ on their mixers to blend songs smoothly by adjusting the bass, midrange, and treble frequencies of two tracks to match.
-
-13. **Live Performance**: Musicians and bands often use EQ on their instruments and vocal channels to optimize their sound in a live setting, adapting to the acoustics of the venue.
+- The ten-second reset step is the one students skip, and it is the one that keeps them from cutting the wrong thing. Enforce it in the lab.
+- Source: Senior, ch. 11.
 {{%/ note %}}
 
 ---
 
-## Types of Equalizers
+## Masking is EQ's real job
 
-- **Parametric EQ** – Continuously variable frequency, gain, and bandwidth.
-- **Graphic EQ** – Fixed frequency bands with sliders for broad adjustments.
-- **Dynamic EQ** – EQ that responds to signal level for automated boosts/cuts.
-- **Shelving EQs** – High- and low-shelf filters boost or cut all frequencies above or below a cutoff.
-- **Filter Types** – High-pass, low-pass, band-pass, notch, and bell curves (peaking filters).
+- Two instruments in the same range hide each other. That collision is called masking.
+- Never make EQ decisions in solo, because masking only exists in the full mix.
+- Check your work in mono, where clashes get more obvious.
+- When two parts fight, the less important one takes the cut.
+
+You can also brighten a track by darkening its neighbors. Senior's example is Adele's "Hello," where a deliberately dark piano makes an ordinary vocal sound brilliant.
 
 {{% note %}}
-Parametric EQ provides precise control via adjustable nodes for low, low-mid, high-mid, and high frequencies. Graphic EQ presents fixed bands and sliders—fast for broad tone shaping but less surgical. Dynamic EQ automates EQ based on input level, useful for de-essing vocals or taming harsh transients. Shelving filters uniformly boost or reduce extremes. Bell/peaking filters boost or cut around a central frequency. Notch filters remove narrow resonant hums. Band-pass filters isolate a narrow band for effects like a telephone sound.
+- Play "Hello" and have students describe the piano in isolation versus in context.
+- Connect this to the rough balance lesson: the order you brought tracks in is also the order of who wins a masking fight.
+- Source: Senior, ch. 11. His ch. 12 covers what to do when the frequencies you want are not in the recording at all.
+{{%/ note %}}
+
+---
+
+## Learn the landmarks
+
+Corbett's ear-training guide to the spectrum:
+
+| Range | What you hear |
+|---|---|
+| below 150 Hz | weight |
+| 150 - 400 Hz | thickness, and mud when overdone |
+| 400 - 500 Hz | boxiness |
+| 600 - 800 Hz | honk |
+| 1 - 1.6 kHz | nasal tone |
+| 2 - 3 kHz | cheap, tinny tone |
+| 4 kHz | harshness, but also vocal clarity |
+| 8 kHz | brightness and sibilance |
+| above 12 kHz | air |
+
+These are landmarks for your ears, not recipes. Senior refuses to print a recommended-frequencies chart at all, because every key, singer, and arrangement moves the numbers.
+
+{{% note %}}
+- Source for the table: Corbett, *Mic It!*, ch. 2. Source for the refusal: Senior, ch. 11.
 {{%/ note %}}
 
 ---
@@ -103,101 +108,57 @@ Parametric EQ provides precise control via adjustable nodes for low, low-mid, hi
 ![](./DBS_PosterHearingVoicingRange.en.x1024.png)
 
 {{% note %}}
-This poster illustrates the human hearing range and the frequency spectrum, highlighting the importance of EQ in audio production.
+This poster maps the hearing range and where common instruments sit in it. It pairs with the landmarks table on the previous slide.
 {{%/ note %}}
 
 ---
 
-## Audio Frequency Spectrum
-
-- **Sub/Low (20 Hz – 250 Hz)** – Weight and power; sub-bass and bass.
-- **Low Mids (250 Hz – 500 Hz)** – Fullness of rhythm instruments and warmth of voice.
-- **Mids (500 Hz – 2 kHz)** – Core harmonic content; presence and punch.
-- **High Mids (2 kHz – 4 kHz)** – Clarity and definition; attack and articulation.
-- **Highs (4 kHz – 20 kHz)** – Air and sparkle; cymbals, string brilliance, vocal breathiness.
-
-{{% note %}}
-Understanding frequency ranges helps you decide which bands to adjust. Boosting low frequencies adds weight; reducing high frequencies can remove hiss or harshness; adjusting mids shapes the core tone.
-{{%/ note %}}
-
----
-
-## EQ Controls
-
-- **Frequency Selection** – Choose the precise frequency band to adjust.
-- **Gain** – Boosts or cuts the level of a selected frequency band.
-- **Quality Factor (Q)** – Controls bandwidth of the adjustment.
-- **Filter Type** – High-pass, low-pass, band-pass, notch, shelving, or bell.
-
-{{% note %}}
-Key controls include Gain to increase or decrease selected frequencies; Frequency to choose the band; Bandwidth/Q to set how narrow or wide the adjustment is; high-pass and low-pass filters for removing unwanted lows or highs; shelving filters for boosting or cutting extremes; and sweepable mids for targeted corrections.
-{{%/ note %}}
-
-
----
-
-## Filter Types & Techniques
-
-- **High-Pass Filter** – Removes low-end rumble.
-- **Low-Pass Filter** – Cuts high frequencies.
-- **High/Low Shelf Filters** – Boost or cut all frequencies above/below a cutoff.
-- **Bell (Peaking) Filter** – Boosts or cuts around a central frequency.
-- **Notch Filter** – Removes narrow resonant frequencies.
-- **Band-Pass Filter** – Allows only a specific frequency range.
-
-{{% note %}}
-Low-pass filters attenuate high frequencies above a cutoff point, while high-pass filters remove unwanted low-frequency rumble. Shelf filters affect everything above or below a cutoff frequency, ideal for adding brilliance or warmth. Bell curves are versatile for boosting or cutting around a chosen frequency. Notch filters surgically remove specific hums. Band-pass filters isolate a narrow band for creative effects.
-{{%/ note %}}
-
----
-
+## Audio frequency spectrum
 
 | Band | Range | Characteristics |
 |---|---|---|
-| Low (Sub & Bass) | 20 Hz – 250 Hz | Adds weight and warmth |
-| Low Mids | 250 Hz – 500 Hz | Thickness and body |
-| Mids | 500 Hz – 2 kHz | Core harmonic content |
-| High Mids | 2 kHz – 4 kHz | Clarity and articulation |
-| Highs | 4 kHz – 20 kHz | Air and sparkle |
+| Low (sub and bass) | 20 Hz - 250 Hz | Adds weight and warmth |
+| Low mids | 250 Hz - 500 Hz | Thickness and body |
+| Mids | 500 Hz - 2 kHz | Core harmonic content |
+| High mids | 2 kHz - 4 kHz | Clarity and articulation |
+| Highs | 4 kHz - 20 kHz | Air and sparkle |
 
 {{% note %}}
-These ranges are guidelines rather than strict rules. For example, boosting 80–100 Hz can add punch to a kick drum, while boosting 3–5 kHz helps vocals cut through a mix. Cutting 600 Hz may reduce mid-range muddiness. Always adjust by ear and in context.
+This is the reference table students screenshot. The ranges are guidelines; the landmarks table gives the finer vocabulary.
 {{%/ note %}}
 
 ---
 
-## Guess the Range
+## Guess the range
 
-- I'll play a sound clip, and you guess which frequency range was boosted or cut.
-- You don't need to specify exact frequencies, just the general band (e.g., Low, Low Mids, Mids, High Mids, High).
+We train the way Corey's ear-training course does:
 
+1. The source is pink noise, which carries equal energy per octave, so a change anywhere is equally audible.
+2. We start with +12 dB boosts at only three frequencies: 500 Hz, 1 kHz, and 2 kHz, at Q 2.
+3. Once those land, we widen to the nine octave frequencies from 63 Hz to 16 kHz.
+4. Then we switch to cuts, which are much harder to hear. Toggle bypass and listen for the band that reappears.
+
+{{% note %}}
+- Corey recommends short daily drills, 10 to 15 minutes, over long cramming sessions. Point students at TrainYourEars or SoundGym for practice between classes.
+- Source: Jason Corey, *Audio Production and Critical Listening*, 2nd ed., which defines this exact drill progression.
+{{%/ note %}}
 
 ---
 
-## Additional Resources
-
----
-
-**Frequency Cheatsheet** 
+**Frequency cheatsheet**
 
 <iframe src="musicfrequencycheatsheet.pdf" style="width:100%; height: 700px"></iframe>
 
 ---
 
-**Reaper Effects Guide** 
+**Reaper effects guide**
 
 <iframe src="https://dlz.reaper.fm/userguide/REAPEREffectsGuide2021.pdf#page=17" style="width:100%; height: 700px"></iframe>
 
 ---
 
-## Wrap-Up & Takeaways
+## Sources
 
-- EQ is a foundational tool for shaping, balancing, and enhancing audio.
-- Understanding frequency bands and filter types is essential.
-- Subtractive EQ should generally precede additive EQ.
-- Creative EQ techniques can evoke environments and textures.
-- Practice and critical listening are key to mastering EQ.
-
-{{% note %}}
-Encourage students to experiment with EQ settings on different material. Emphasize that effective EQ is about balance and subtlety: each adjustment should serve the greater goal of improving the overall sonic landscape.
-{{%/ note %}}
+- Mike Senior, *Mixing Secrets for the Small Studio*, 3rd ed. (Focal Press, 2026), ch. 11 "Equalizing for a Reason" and ch. 12 "Beyond EQ."
+- Ian Corbett, *Mic It!*, 2nd ed. (Routledge, 2020), ch. 2.
+- Jason Corey, *Audio Production and Critical Listening: Technical Ear Training*, 2nd ed. (Routledge, 2016).

@@ -11,219 +11,173 @@ margin = 0.2
 
 {{% note %}}
 - What music technology can we spot in this picture? Who has used any of it?
-- Build a working definition together before showing the next slide: using technology to create, perform, analyze, and distribute music.
+- Build a working definition together: using technology to create, perform, analyze, and distribute music.
+- The claim of the day, which the two case studies will test: recording technology changes how people make music, not only how it reaches listeners.
 {{% /note %}}
 
 ---
 
-## What is Music Technology?
+## The recording changed how violins are played
 
-- The use of technology to create, perform, analyze, and distribute music
-- Combines elements of:
-  - Musical creativity
-  - Scientific understanding
-  - Technological innovation
+- Before recording, vibrato was a rare ornament. Joseph Joachim's 1903 recording of Bach is almost entirely straight tone.
+- Fritz Kreisler became the first violinist to vibrate continuously, and by the 1930s Jascha Heifetz's constant vibrato defined the modern violin sound.
+- Mark Katz calls this a "phonograph effect": a change in musical behavior caused by recording technology.
 
 {{% note %}}
-Point out that every tool this semester sits somewhere in this triangle.
+Katz gives three reasons the phonograph pushed vibrato from ornament to default:
+
+- Vibrato projected through the acoustic recording horn. A straight tone got lost in the surface noise, while vibrato's pulsing intensity cut through, like a blinking light in fog.
+- Recording made mistakes permanent. Vibrato oscillates the pitch fast enough that the ear hears a single average, which gives the player room to correct intonation on the fly.
+- Recording removed the performer's body. Listeners could no longer see passion, so players put it in the sound.
+
+Listening pair: Mischa Elman's straight-tone 1910 recording of Chopin's Nocturne in E-flat, then Heifetz's 1918 recording of the same piece. On the high E-flat, Elman nearly disappears and Heifetz rings out.
+
+Source: Mark Katz, *Capturing Sound*, rev. ed., ch. 4, "Aesthetics Out of Exigency."
 {{% /note %}}
 
 ---
 
-### Fields Intersecting with Music Technology
+## Sampling quotes a performance, not a score
 
-* Audio Engineering — [Broadcast/Sound Engineering Technician (BLS profile)](https://www.bls.gov/ooh/media-and-communication/broadcast-and-sound-engineering-technicians.htm). 
-* Music Production — [Music Producer (Berklee Online overview)](https://online.berklee.edu/takenote/music-production-what-does-a-music-producer-do/).
-* Acoustics — [Senior Acoustic Engineer (Acoustical Society of America example listing)](https://acousticalsociety.org/senior-acoustic-engineer/). 
----
-
-* Computer Science — [Software Developer (BLS profile)](https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm). 
-* Electronic Engineering — [Electrical and Electronics Engineer (BLS profile)](https://www.bls.gov/ooh/architecture-and-engineering/electrical-and-electronics-engineers.htm). 
-* Music Performance — [Musicians and Singers (BLS profile)](https://www.bls.gov/ooh/entertainment-and-sports/musicians-and-singers.htm). 
-
----
-
-* Sound Design — [Sound Designer (Prospects job profile)](https://www.prospects.ac.uk/job-profiles/sound-designer). 
-* Interactive Media — [Interactive Media Specialist (Berklee career role)](https://www.berklee.edu/careers/roles/interactive-mixed-media-specialist). 
-* Music Education — [Consider a Career in Music Education (NAfME)](https://nafme.org/resource/consider-a-career-in-music-education/).
-* Music Therapy — [Careers in Music Therapy (AMTA)](https://www.musictherapy.org/careers/).
-* Game Audio — [Sound Designer (PlayStation example posting)](https://gamejobs.co/Sound-Designer-at-Sony-Playstation-5713).
-* Virtual and Augmented Reality — [Audio Software Engineer, AR/VR (Meta Reality Labs)](https://www.metacareers.com/jobs/1940052986525399).
-
-
+- Public Enemy's "Fight the Power" (1989) stacks dense, chopped samples because the degraded vinyl sound itself carried the message.
+- Fatboy Slim's "Praise You" (1998) samples Camille Yarbrough's 1975 "Take Yo' Praise," slowed down, with the vinyl crackle left loud on purpose.
+- The Grey Album (2004) mixed Jay-Z's vocals with Beatles samples. EMI's cease-and-desist triggered "Grey Tuesday," a coordinated protest download day on February 24, 2004.
 
 {{% note %}}
-- Briefly explain how each field relates to music technology.
-- Ask students which areas they're most interested in exploring. 
+- Katz's distinction: quoting a score borrows notes, while sampling borrows a specific performance, with its room, its groove, and its surface noise.
+- The Bomb Squad chose sampling over live musicians because the vinyl "aura" of the source records carried political authenticity a session band could not.
+- The "Praise You" crackle is a phonograph effect simulated digitally, which links this slide back to the vibrato story.
+- Discussion: which of these is theft, homage, or a new work, and who should decide?
+
+Source: Katz, *Capturing Sound*, ch. 7, "Music in 1s and 0s."
 {{% /note %}}
 
 ---
 
-## Quick Activity: Exploring 120 Years of Electronic Music
+## Quick activity: 120 years of electronic music
 
 * Visit [120years.net](https://120years.net/)
 * Spend a few minutes browsing the site
 * Pick one instrument, invention, or story that stands out to you
 
 {{% note %}}
-
-* Encourage students not to overthink — just choose something surprising, weird, or cool.
-  {{% /note %}}
-
----
-
-## Step 2: Small Group Sharing
-
-* Turn to a partner or small group
-* Share what you found:
-
-  * What is it called and when was it made?
-  * What stood out to you (design, sound, history)?
-  * Can you connect it to anything you already know about music or sound design?
-
-{{% note %}}
-
-* Keep this short — a couple of minutes each.
-* Aim for curiosity, not detailed research.
-  {{% /note %}}
-
----
-
-## Step 3: Whole Class Discussion
-
-* Volunteers share highlights
-* Guiding questions:
-
-  * Did anyone find an instrument that feels like an ancestor to today’s tech?
-  * Did you notice recurring themes in invention or use?
-  * Which ones seemed totally bizarre or impractical?
-
-{{% note %}}
-
-* End by tying discoveries back to sound design history and innovation.
-  {{% /note %}}
-
----
-
-### Hardware: Sound Capture and Production
-
-- **Microphones**: Convert sound waves into electrical signals
-  - Dynamic, Condenser, Ribbon types
-- **Loudspeakers**: Convert electrical signals back into sound waves
-- **Pickups**:
-  - **Magnetic (Coil)**: For electric guitars and basses
-  - **Piezoelectric**: For acoustic instruments
-- **Tonewheel Organ**: Early electromechanical instrument
-
-{{% note %}}
-The common thread: each one converts energy from one form to another. That idea (the transducer) returns in week 1's sound lecture.
+* Encourage students not to overthink it. They should choose something surprising, weird, or cool.
 {{% /note %}}
 
 ---
 
-## Electronic Instruments
+## Small group sharing
+
+* Turn to a partner or small group and share what you found:
+  * What is it called and when was it made?
+  * What stood out to you about its design, sound, or history?
+  * Can you connect it to anything you already know about music or sound design?
+
+{{% note %}}
+* Keep this short, a couple of minutes each. Aim for curiosity rather than detailed research.
+{{% /note %}}
+
+---
+
+## Whole class discussion
+
+* Volunteers share highlights. Guiding questions:
+  * Did anyone find an instrument that feels like an ancestor to today's tech?
+  * Did you notice recurring themes in invention or use?
+  * Which ones seemed totally bizarre or impractical?
+  * Katz's question, applied backward: what did this invention change about how people made music?
+
+{{% note %}}
+* End by tying the discoveries to the two case studies: every tool in this course will also shape what you make.
+{{% /note %}}
+
+---
+
+### Fields that touch music technology
+
+* Audio engineering: [Broadcast/Sound Engineering Technician (BLS)](https://www.bls.gov/ooh/media-and-communication/broadcast-and-sound-engineering-technicians.htm)
+* Music production: [Music Producer (Berklee Online)](https://online.berklee.edu/takenote/music-production-what-does-a-music-producer-do/)
+* Acoustics: [Senior Acoustic Engineer (ASA)](https://acousticalsociety.org/senior-acoustic-engineer/)
+* Sound design: [Sound Designer (Prospects)](https://www.prospects.ac.uk/job-profiles/sound-designer)
+* Game audio: [Sound Designer (PlayStation)](https://gamejobs.co/Sound-Designer-at-Sony-Playstation-5713)
+* Music education: [NAfME](https://nafme.org/resource/consider-a-career-in-music-education/) and music therapy: [AMTA](https://www.musictherapy.org/careers/)
+
+{{% note %}}
+- Ask students which of these they can imagine themselves in, and which they had never heard of.
+{{% /note %}}
+
+---
+
+### Hardware: sound capture and production
+
+- Microphones convert sound waves into electrical signals. The main types are dynamic, condenser, and ribbon.
+- Loudspeakers convert electrical signals back into sound waves.
+- Pickups come in two families: magnetic coils for electric guitars and basses, and piezoelectric elements for acoustic instruments.
+
+{{% note %}}
+The common thread is that each device converts energy from one form to another. That idea, the transducer, returns in week 1's sound lecture.
+{{% /note %}}
+
+---
+
+## Electronic instruments
 
 ### Theremin
 
-- One of the earliest electronic instruments
-- Controlled without physical contact
+- The theremin is one of the earliest electronic instruments, and you play it without touching it.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pSzTPGlNa5U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 {{% note %}}
-Discuss the unique control method of the theremin and its influence on later electronic instruments.
+Discuss the theremin's control method and its influence on later electronic instruments. It also appears on 120years.net, so someone may have already found it.
 {{% /note %}}
 
 ---
 
 ### Synthesizers
 
-- Generate sound electronically
-- Extensive sound-shaping capabilities
-- Analog vs. Digital synthesizers
+- Synthesizers generate sound electrically and shape it with filters, envelopes, and modulation.
 
-#### Buchla Synthesizer Demo
+#### Buchla synthesizer demo
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Uhtar8FlgzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 {{% note %}}
-- Explain basic synthesis concepts: oscillators, filters, envelopes, LFOs.
-- Discuss the impact of synthesizers on various music genres.
+- Name the basic synthesis blocks in passing: oscillators, filters, envelopes, and LFOs. We spend weeks 10 through 13 inside them with Vital.
 {{% /note %}}
 
 ---
 
-## Software Tools
+## Software tools
 
-- **Software Synthesizers**: Virtual instruments simulating hardware or creating new sounds
-- **Sample Libraries**: Collections of pre-recorded sounds for music creation
-- **Audio Effects**: Digital signal processing tools for altering sound
+- Software synthesizers are virtual instruments that model hardware or invent new sounds.
+- Sample libraries are collections of recorded sounds ready for music creation.
+- Audio effects process sound digitally, and DAWs like REAPER tie all of it together.
 
 {{% note %}}
-Demonstrate a few popular software synths and discuss the advantages of software-based music production.
+Demonstrate one software synth briefly. REAPER gets its full introduction in week 2.
 {{% /note %}}
 
 ---
 
-## Digital Audio Workstations (DAWs)
+**Activities in music technology**
 
-- **Ableton Live**: Popular for electronic music and live performance
-- **Reaper**: Flexible and cost-effective
-- **Pro Tools**: Industry standard for recording and post-production
-- **Logic Pro**: Widely used on Mac for music production
-- **FL Studio**: Popular for beat-making and electronic music production
-
-{{% note %}}
-- Briefly demonstrate the interface of one or two DAWs.
-- Discuss the role of DAWs in modern music production workflows.
-{{% /note %}}
+- Sequencing arranges musical elements for playback, and composing creates the material in the first place.
+- Mixing balances the tracks of a recording, and mastering prepares the finished mix for release.
+- Live sound, programming, and live coding carry the same skills onto the stage.
 
 ---
 
-## Emerging Technologies in Music
-
-- **AI-assisted composition and production**
-- **Virtual and Augmented Reality in music creation and performance**
-- **New interfaces for musical expression (NIME)**
-
-{{% note %}}
-Discuss how these technologies might shape the future of music creation and consumption.
-{{% /note %}}
-
----
-
-## NIME: Laptop Orchestra
-
-- Combines live performance with computer-generated sound
-- Musicians use laptops and other digital instruments as primary tools
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/S-T8kcSRLL0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-{{% note %}}
-Discuss the concept of networked music performance and how it challenges traditional notions of ensemble playing.
-{{% /note %}}
-
----
-
-**Activities in Music Technology**
-
-- **Sequencing**: Arranging musical elements for playback
-- **Composing**: Creating original music using various technologies
-- **Mixing**: Balancing and enhancing individual tracks in a recording
-- **Mastering**: Final preparation and polish of a finished mix for release
----
-
-- **Live Sound**: Managing audio during live performances
-- **Programming**: Writing code to create or manipulate sound
-- **Live Coding**: Performing music by writing and modifying code in real-time
-
----
-
-## Live Coding Demonstration
+## Live coding demonstration
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G1m0aX9Lpts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 {{% note %}}
-- Explain the concept of live coding and its relationship to algorithmic composition.
-- Discuss the skills required for live coding (programming, music theory, improvisation).
+- Explain live coding as performance and as algorithmic composition. It draws on programming, music theory, and improvisation at once.
 {{% /note %}}
+
+---
+
+## Source
+
+The two case studies come from Mark Katz, *Capturing Sound: How Technology Has Changed Music*, rev. ed. (University of California Press, 2010), chapters 1, 4, and 7.
