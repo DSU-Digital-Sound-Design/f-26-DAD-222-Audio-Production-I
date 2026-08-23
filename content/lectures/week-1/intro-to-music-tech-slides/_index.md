@@ -17,6 +17,20 @@ margin = 0.2
 
 ---
 
+## Two case studies
+
+**Does the tool change the music?**
+
+- A violin technique that recording invented
+- A composition method that only exists because of records
+
+{{% note %}}
+- Frame both stories as tests of the same claim: recording technology changes how people make music, not only how it reaches listeners.
+- Keep it to fifteen seconds. The point is that students know two examples are coming and know what they are listening for.
+{{% /note %}}
+
+---
+
 ## The recording changed how violins are played
 
 - Before recording, vibrato was a rare ornament. Joseph Joachim's 1903 recording of Bach is almost entirely straight tone.
@@ -37,11 +51,11 @@ Source: Mark Katz, *Capturing Sound*, rev. ed., ch. 4, "Aesthetics Out of Exigen
 
 ---
 
-## Sampling quotes a performance, not a score
+## Sampling quotes a performance
 
 - Public Enemy's "Fight the Power" (1989) stacks dense, chopped samples because the degraded vinyl sound itself carried the message.
-- Fatboy Slim's "Praise You" (1998) samples Camille Yarbrough's 1975 "Take Yo' Praise," slowed down, with the vinyl crackle left loud on purpose.
-- The Grey Album (2004) mixed Jay-Z's vocals with Beatles samples. EMI's cease-and-desist triggered "Grey Tuesday," a coordinated protest download day on February 24, 2004.
+- Fatboy Slim's "Praise You" (1998) samples Camille Yarbrough's 1975 "Take Yo' Praise," slowed down, with the vinyl crackle left loud.
+- The Grey Album (2004) mixed Jay-Z's vocals with Beatles samples. 
 
 {{% note %}}
 - Katz's distinction: quoting a score borrows notes, while sampling borrows a specific performance, with its room, its groove, and its surface noise.
@@ -55,6 +69,8 @@ Source: Katz, *Capturing Sound*, ch. 7, "Music in 1s and 0s."
 ---
 
 ## Quick activity: 120 years of electronic music
+
+Katz gave us two inventions that changed music. Now go find your own.
 
 * Visit [120years.net](https://120years.net/)
 * Spend a few minutes browsing the site
