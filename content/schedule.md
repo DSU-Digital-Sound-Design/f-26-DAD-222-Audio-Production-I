@@ -14,11 +14,13 @@ funds undergraduate work.
   - What's your name, major, and what is the **last** song you listened to?
 - Introduction to the [syllabus](/syllabus/)
 - [slides] [Intro to Music Technology](/lectures/week-1/intro-to-music-tech-slides/)
+### homework
 - **Homework:** your favorite sound, submitted on D2L — due Friday 8/28
 
 ## 8/26
-- Your **favorite song** is due Friday
 - [slides] Finish [Intro to Music Technology](/lectures/week-1/intro-to-music-tech-slides/)
+### homework
+- Your **favorite song** is due Friday
 
 ## 8/28
 - [due] **Homework:** your favorite sound — due tonight on D2L
@@ -38,8 +40,9 @@ funds undergraduate work.
   - Find loops and preview them on [Looperman](https://www.looperman.com) — show the different features of the site, including what its license lets you do with the loops
   - Find drums, percussion, chords, and a cappella vocals
 - [lab] Find and preview loops on Looperman
-- **Project 1: Arranging Clips** — due Monday 9/14 by class
 - **Reminder:** all projects are played out loud in class. Make sure you are comfortable sharing what you've created with the group.
+### homework
+- **Project 1: Arranging Clips** — due Monday 9/14 by class
 
 ## 9/7
 - [off] **No class — Labor Day**
@@ -61,6 +64,7 @@ funds undergraduate work.
 ## 9/14
 - [due] **Project 1: Arranging Clips** — due today by class
 - Listen to loops projects
+### homework
 - [project] **Project 2: [Satirical PSA](/projects/project-2-psa/)** — have your script ready by Monday 9/21
 
 ## 9/16
@@ -126,6 +130,7 @@ funds undergraduate work.
 - Putting together all we've learned to make a simple mix
 - [slides] [The rough balance — faders, panning, and sends](/lectures/week-6/rough-balance/)
 - [lab] Rough balance on the bluegrass multitrack — faders and pans only
+### homework
 - [project] [Project 3: In-class mixing assignment](/projects/project-3-mix/) — due by 10/23
 
 ## 10/16
@@ -139,6 +144,7 @@ funds undergraduate work.
   - How he uses compression, reverb, and delay in his own music, picking up the effects work we just finished
   - Running a collective and a recurring night: booking, promoting, and making a living in the scene
   - Come with a question. The session counts toward participation.
+### homework
 - **WhoSampled write-up** — due Friday 10/23 on D2L
   - Find three of your favorite sampling uses on [WhoSampled](http://whosampled.com). Why do you like them? Describe how the artist used the sample and what it was about the original recording that made them want to use it.
   - For one of the three, trace the rights side: who cleared it, who got paid, and who didn't.
@@ -154,6 +160,7 @@ funds undergraduate work.
 - A few volunteers share one pick from their write-up
 - [slides] [MIDI intro](/lectures/week-7/midi-intro/)
 - [due] **Project 3: In-class mixing assignment** — due tonight by midnight
+### homework
 - [project] [**Project 4: Drum Programming and Beatmaking**](/projects/project-4-beats/) — due Monday 11/2
 
 ## 10/26
@@ -181,6 +188,7 @@ funds undergraduate work.
 ## 11/6
 - [slides] [Effects and post-processing](/lectures/week-11/effects/)
 - **Last day to withdraw** from full-term courses
+### homework
 - [project] [Project 5: Vital Synth](/projects/project-5-synth/) — due Monday 11/23
 
 ## 11/9
@@ -190,6 +198,7 @@ funds undergraduate work.
 
 ## 11/11
 - [off] **No class — I'm at [ATMI](https://atmimusic.com/) in Grand Rapids, MI** (Nov 11–14)
+### homework
 - Keep working on [Project 5: Vital Synth](/projects/project-5-synth/) — now due Monday 11/23
 
 ## 11/13
@@ -200,6 +209,7 @@ funds undergraduate work.
 - Vital Synth patch sharing — students share a patch they made with the class
 - [project] Start [final project](/projects/final-project/) discussions and brainstorming
   - Take a few minutes and write down some ideas. I'll come around and chat with each of you individually.
+### homework
 - **Final project proposal** — due Friday 11/20, presented in class
 
 ## 11/18
