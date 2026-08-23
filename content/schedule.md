@@ -15,7 +15,7 @@ funds undergraduate work.
 - Introduction to the [syllabus](/syllabus/)
 - [slides] [Intro to Music Technology](/lectures/week-1/intro-to-music-tech-slides/)
 ### homework
-- **Homework:** your favorite sound, submitted on D2L — due Friday 8/28
+- Your **favorite sound**, submitted on D2L — due Friday 8/28
 
 ## 8/26
 - [slides] Finish [Intro to Music Technology](/lectures/week-1/intro-to-music-tech-slides/)
@@ -23,7 +23,7 @@ funds undergraduate work.
 - Your **favorite song** is due Friday
 
 ## 8/28
-- [due] **Homework:** your favorite sound — due tonight on D2L
+- [due] Your **favorite sound** — due tonight on D2L
 - [slides] [Sound and hearing](/lectures/week-1/sound-and-hearing/)
 
 ## 8/31
