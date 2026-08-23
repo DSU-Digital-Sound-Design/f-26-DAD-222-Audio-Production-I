@@ -180,7 +180,7 @@ groups:
     items:
       - name: DSU Live
         url: "https://www.facebook.com/DSU.Live/"
-        desc: "Student-run live sound and record label club."
+        desc: "Student-run live sound club."
       - name: Sound Design Discord
         url: "https://discord.gg/w85WUcpQ"
         desc: "Peer help, project sharing, program news."
