@@ -55,7 +55,7 @@ Source: Mark Katz, *Capturing Sound*, rev. ed., ch. 4, "Aesthetics Out of Exigen
 
 - Public Enemy's "Fight the Power" (1989) stacks dense, chopped samples because the degraded vinyl sound itself carried the message.
 - Fatboy Slim's "Praise You" (1998) samples Camille Yarbrough's 1975 "Take Yo' Praise," slowed down, with the vinyl crackle left loud.
-- The Grey Album (2004) mixed Jay-Z's vocals with Beatles samples. 
+- The Grey Album (2004) mixed Jay-Z's vocals with Beatles samples.
 
 {{% note %}}
 - Katz's distinction: quoting a score borrows notes, while sampling borrows a specific performance, with its room, its groove, and its surface noise.
@@ -64,6 +64,91 @@ Source: Mark Katz, *Capturing Sound*, rev. ed., ch. 4, "Aesthetics Out of Exigen
 - Discussion: which of these is theft, homage, or a new work, and who should decide?
 
 Source: Katz, *Capturing Sound*, ch. 7, "Music in 1s and 0s."
+{{% /note %}}
+
+---
+
+## Fields that touch music technology
+
+* Audio engineering: [Broadcast/Sound Engineering Technician (BLS)](https://www.bls.gov/ooh/media-and-communication/broadcast-and-sound-engineering-technicians.htm)
+* Music production: [Music Producer (Berklee Online)](https://online.berklee.edu/takenote/music-production-what-does-a-music-producer-do/)
+* Acoustics: [Senior Acoustic Engineer (ASA)](https://acousticalsociety.org/senior-acoustic-engineer/)
+* Sound design: [Sound Designer (Prospects)](https://www.prospects.ac.uk/job-profiles/sound-designer)
+* Game audio: [Sound Designer (PlayStation)](https://gamejobs.co/Sound-Designer-at-Sony-Playstation-5713)
+* Music education: [NAfME](https://nafme.org/resource/consider-a-career-in-music-education/) and music therapy: [AMTA](https://www.musictherapy.org/careers/)
+
+{{% note %}}
+- Ask students which of these they can imagine themselves in, and which they had never heard of.
+{{% /note %}}
+
+---
+
+## Hardware: sound capture and production
+
+- Microphones convert sound waves into electrical signals. The main types are dynamic, condenser, and ribbon.
+- Loudspeakers convert electrical signals back into sound waves.
+- Pickups come in two families: magnetic coils for electric guitars and basses, and piezoelectric elements for acoustic instruments.
+
+{{% note %}}
+The common thread is that each device converts energy from one form to another. That idea, the transducer, returns in week 1's sound lecture.
+{{% /note %}}
+
+---
+
+## Electronic instruments
+
+### Theremin
+
+- The theremin is one of the earliest electronic instruments, and you play it without touching it.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pSzTPGlNa5U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{{% note %}}
+Discuss the theremin's control method and its influence on later electronic instruments. It also appears on 120years.net, so it may come back in the activity later.
+{{% /note %}}
+
+---
+
+### Synthesizers
+
+- Synthesizers generate sound electrically and shape it with filters, envelopes, and modulation.
+
+#### Buchla synthesizer demo
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Uhtar8FlgzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{{% note %}}
+- Name the basic synthesis blocks in passing: oscillators, filters, envelopes, and LFOs. We spend weeks 10 through 13 inside them with Vital.
+{{% /note %}}
+
+---
+
+## Software tools
+
+- Software synthesizers are virtual instruments that model hardware or invent new sounds.
+- Sample libraries are collections of recorded sounds ready for music creation.
+- Audio effects process sound digitally, and DAWs like REAPER tie all of it together.
+
+{{% note %}}
+Demonstrate one software synth briefly. REAPER gets its full introduction in week 2.
+{{% /note %}}
+
+---
+
+## Activities in music technology
+
+- Sequencing arranges musical elements for playback, and composing creates the material in the first place.
+- Mixing balances the tracks of a recording, and mastering prepares the finished mix for release.
+- Live sound, programming, and live coding carry the same skills onto the stage.
+
+---
+
+## Live coding demonstration
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/G1m0aX9Lpts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{{% note %}}
+- Explain live coding as performance and as algorithmic composition. It draws on programming, music theory, and improvisation at once.
 {{% /note %}}
 
 ---
@@ -105,91 +190,6 @@ Katz gave us two inventions that changed music. Now go find your own.
 
 {{% note %}}
 * End by tying the discoveries to the two case studies: every tool in this course will also shape what you make.
-{{% /note %}}
-
----
-
-### Fields that touch music technology
-
-* Audio engineering: [Broadcast/Sound Engineering Technician (BLS)](https://www.bls.gov/ooh/media-and-communication/broadcast-and-sound-engineering-technicians.htm)
-* Music production: [Music Producer (Berklee Online)](https://online.berklee.edu/takenote/music-production-what-does-a-music-producer-do/)
-* Acoustics: [Senior Acoustic Engineer (ASA)](https://acousticalsociety.org/senior-acoustic-engineer/)
-* Sound design: [Sound Designer (Prospects)](https://www.prospects.ac.uk/job-profiles/sound-designer)
-* Game audio: [Sound Designer (PlayStation)](https://gamejobs.co/Sound-Designer-at-Sony-Playstation-5713)
-* Music education: [NAfME](https://nafme.org/resource/consider-a-career-in-music-education/) and music therapy: [AMTA](https://www.musictherapy.org/careers/)
-
-{{% note %}}
-- Ask students which of these they can imagine themselves in, and which they had never heard of.
-{{% /note %}}
-
----
-
-### Hardware: sound capture and production
-
-- Microphones convert sound waves into electrical signals. The main types are dynamic, condenser, and ribbon.
-- Loudspeakers convert electrical signals back into sound waves.
-- Pickups come in two families: magnetic coils for electric guitars and basses, and piezoelectric elements for acoustic instruments.
-
-{{% note %}}
-The common thread is that each device converts energy from one form to another. That idea, the transducer, returns in week 1's sound lecture.
-{{% /note %}}
-
----
-
-## Electronic instruments
-
-### Theremin
-
-- The theremin is one of the earliest electronic instruments, and you play it without touching it.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pSzTPGlNa5U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-{{% note %}}
-Discuss the theremin's control method and its influence on later electronic instruments. It also appears on 120years.net, so someone may have already found it.
-{{% /note %}}
-
----
-
-### Synthesizers
-
-- Synthesizers generate sound electrically and shape it with filters, envelopes, and modulation.
-
-#### Buchla synthesizer demo
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Uhtar8FlgzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-{{% note %}}
-- Name the basic synthesis blocks in passing: oscillators, filters, envelopes, and LFOs. We spend weeks 10 through 13 inside them with Vital.
-{{% /note %}}
-
----
-
-## Software tools
-
-- Software synthesizers are virtual instruments that model hardware or invent new sounds.
-- Sample libraries are collections of recorded sounds ready for music creation.
-- Audio effects process sound digitally, and DAWs like REAPER tie all of it together.
-
-{{% note %}}
-Demonstrate one software synth briefly. REAPER gets its full introduction in week 2.
-{{% /note %}}
-
----
-
-**Activities in music technology**
-
-- Sequencing arranges musical elements for playback, and composing creates the material in the first place.
-- Mixing balances the tracks of a recording, and mastering prepares the finished mix for release.
-- Live sound, programming, and live coding carry the same skills onto the stage.
-
----
-
-## Live coding demonstration
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/G1m0aX9Lpts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-{{% note %}}
-- Explain live coding as performance and as algorithmic composition. It draws on programming, music theory, and improvisation at once.
 {{% /note %}}
 
 ---
