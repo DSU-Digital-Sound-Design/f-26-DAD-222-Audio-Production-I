@@ -4,7 +4,7 @@ number: "06"
 weight: 6
 week: 13
 assigned: "2026-11-16"
-due: "2026-12-16"
+due: "2026-12-11"
 summary: "A 3–5 minute piece that embodies your identity as an artist, using at least two techniques from the semester."
 tools: ["Your choice"]
 # this project carries its own rubric table in the body
@@ -38,7 +38,7 @@ plugins like Spitfire LABS.
 go with it is welcome too.
 
 > **Presentation:** Projects are presented and submitted during the final exam
-> slot on Wednesday, December 16, 8:00-10:00 a.m. The presentation is worth 5%
+> slot on Friday, December 11, 8:00-10:00 a.m. The presentation is worth 5%
 > of the course grade (the project and proposal are 15%). Presentations are for
 > the audience as much as the presenter: this is where you return what your
 > classmates have been sharing with you all semester. If you miss the session

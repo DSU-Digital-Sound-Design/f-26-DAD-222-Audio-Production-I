@@ -111,7 +111,7 @@ quality, so you can score your own work before you submit it.
 | D | 60–69% |
 | F | 59% or below |
 
-**Final exam:** Wednesday, December 16, 8:00–10:00 AM. The final exam period is
+**Final exam:** Friday, December 11, 8:00–10:00 AM. The final exam period is
 the final project presentation, and presenting is part of the grade: of the
 final project's 20%, 5% is the presentation itself. Presentations are for the
 audience as much as the presenter — your classmates spent the semester sharing
