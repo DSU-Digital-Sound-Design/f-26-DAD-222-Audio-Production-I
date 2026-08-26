@@ -5,17 +5,17 @@ outputs = ["Reveal"]
 margin = 0.2
 +++
 
-## Introduction to Sound and Hearing
+## Sound and hearing
 
-### What You'll Learn
-- Basics of sound: amplitude, frequency, phase, and harmonics
-- How the ear processes sound
-- Introduction to psychoacoustics: How we perceive sound
-- Practical implications for audio production
-- How to keep your hearing for a whole career
+### What you'll learn
+- How amplitude, frequency, phase, and harmonics shape sound
+- How the ear turns pressure waves into perception
+- How psychoacoustics affects what we hear
+- How these ideas guide recording and mixing decisions
+- How to protect your hearing throughout your career
 
 {{% note %}}
-Everything this semester (recording, EQ, synthesis, hearing safety) comes back to these fundamentals. Worth saying that up front.
+Everything we cover this semester, including recording, EQ, synthesis, and hearing safety, rests on these fundamentals. Make that connection clear at the start.
 {{%/ note %}}
 
 
@@ -42,28 +42,28 @@ device -> energy conversion -> resulting energy
 ![](transducers.png)
 
 {{% note %}}
-The transducer: device -> energy conversion -> resulting energy.
+Every transducer converts energy from one form into another.
 
-ex:
-guitar - vibrations -> amplified by wood -> converted into sound pressure waves that we perceive as sound
+For example, a guitar string vibrates. The body amplifies that vibration and transfers it to the air as pressure waves that we hear as sound.
 
-What types of devices could be considered transducers?
+Ask: What devices could be considered transducers?
 
-- microphone
-- etc
+- Microphones
+- Loudspeakers
+- Pickups
 
 {{%/ note %}}
 
 ---
 
-## The basics of sound
+## Sound begins with changing air pressure
 
 ![](the-daily-show-john-oliver.gif)
 
 {{% note %}}
-Sound arrives at the ear as periodic variations in atmospheric pressure called sound-pressure waves. This atmospheric pressure is the same as the weather service measures. The changes in pressure heard by the ear are too small in magnitude and fluctuate too rapidly to be observed on a barometer.
+Sound reaches the ear as rapid changes in atmospheric pressure called sound-pressure waves. This is the same kind of pressure measured by a weather station, but sound produces changes that are much smaller and faster than a barometer can show.
 
-It is sort of like when you pop a balloon!
+A balloon popping creates a sudden pressure change. Most sounds create a repeating pattern of smaller changes.
 
 {{%/ note %}}
 
@@ -72,9 +72,9 @@ It is sort of like when you pop a balloon!
 ![](wave-prop.jpg)
 
 {{% note %}}
-Any vibrating mass, such as the voice or guitar, causes compression and rarefaction creating areas of high and low-pressure states. These pressure states move the sound wave out from the source, allowing us to hear it.
+Any vibrating object, such as a vocal fold or guitar string, compresses and expands the surrounding air. These alternating regions of high and low pressure travel away from the source.
 
-This diagram is helpful, but this is not usually how we visualize sound. We do it with a waveform, a graphic representation of the sound-pressure level. Looking at the waveform, we can tell if the sound is quiet or loud and sometimes the frequency of the sound.
+This diagram shows how sound moves through air. In audio production, we usually represent those pressure changes as a waveform. A waveform lets us see level over time and, with simple periodic sounds, estimate frequency.
 {{%/ note %}}
 
 ---
@@ -98,61 +98,61 @@ Introduce the concept of amplitude here. Stress that amplitude is a fundamental 
 ![](amplitude.png)
 
 {{% note %}}
-The distance above or below the centerline of a waveform (such as a pure sine wave) represents the amplitude level of that signal. The greater the distance or displacement from that centerline, the more intense the pressure variation, electrical signal level or physical displacement will be within a medium.
+Amplitude is the waveform's distance above or below its centerline. Greater displacement means a larger pressure change, a stronger electrical signal, or more physical movement in the medium.
 {{%/ note %}}
 
 ---
 
-## Amplitude in the Real World
+## Greater amplitude usually sounds louder
 
-- **Example:** Think about the difference in loudness between a whisper and a shout.
-- **Interactive Example** [amplitude](https://contrib.pbslearningmedia.org/WGBH/buac20/buac20-int-wavesamplitude/index.html)
-- **Tip:** When recording, always monitor amplitude levels to avoid distortion.
+- Compare the level of a whisper with the level of a shout.
+- Try the [interactive amplitude demo](https://contrib.pbslearningmedia.org/WGBH/buac20/buac20-int-wavesamplitude/index.html).
+- Watch your recording levels. Too much amplitude can cause clipping and distortion.
 
 {{% note %}}
-Run the interactive demo and have students describe what changes. Tie it forward to watching record levels in Reaper.
+Run the demo and ask students to describe what changes. Connect their observations to recording levels in Reaper.
 {{%/ note %}}
 
 ---
 
-## Understanding Frequency
+## Frequency describes how fast a wave repeats
 
-### Key Concepts
-- Frequency refers to the number of cycles per second in a sound wave.
-- It determines the pitch of the sound.
+- Frequency measures the number of cycles a wave completes each second.
+- We measure it in hertz (Hz).
+- Frequency strongly influences perceived pitch.
 
 ![](frequency.png)
 
 {{% note %}}
-The rate at which an acoustic generator, electrical signal, or vibrating mass repeats within a cycle of positive and negative amplitude is known as the frequency of that signal.
+Frequency is the rate at which a vibration or signal repeats. One hertz equals one cycle per second.
 
-We can also measure a frequency in cycles per second; (Hz) or hertz (Hz). An "A" note is 440 Hz.
+The A above middle C is commonly tuned to 440 Hz.
 {{%/ note %}}
 
 ---
 
-## Frequency in Action
+## Frequency shapes pitch and the balance of a mix
 
-- **Example:** A bass note versus a high-pitched whistle.
-- **Interactive Example** [frequency](https://contrib.pbslearningmedia.org/WGBH/buac20/buac20-int-wavesfreq/index.html)
-- **Tip:** Different frequencies interact in complex ways in a mix. 
+- Compare a low bass note with a high whistle.
+- Try the [interactive frequency demo](https://contrib.pbslearningmedia.org/WGBH/buac20/buac20-int-wavesfreq/index.html).
+- When sounds occupy the same frequency range, they can compete for attention in a mix.
 
 {{% note %}}
-Run the demo. This is the groundwork for the EQ unit; frequencies fighting each other is most of what mixing is.
+Run the demo. This prepares students for the EQ unit, where they will learn to manage sounds that compete in the same frequency range.
 {{%/ note %}}
 
 ---
 
-## Phase Relationships
+## Phase describes timing between waves
 
-- **Key Concept:** Phase refers to the timing relationship between two sound waves.
-- **Impact:** Out-of-phase waves can cancel each other out, leading to a reduction in sound.
-- **Sound Demo:** [Phase](https://youtu.be/bc1Z1ck9hKQ)
+- Phase describes the timing relationship between two waves.
+- When similar waves fall out of phase, some frequencies may weaken or cancel.
+- Hear it in this [phase-cancellation demonstration](https://youtu.be/bc1Z1ck9hKQ).
 
 ![](phase.png)
 
 {{% note %}}
-The demo shows phase cancellation happening in practice. This comes back when we record with more than one mic.
+The demo makes phase cancellation audible. We will return to this problem when recording one source with multiple microphones.
 {{%/ note %}}
 
 ---
@@ -163,40 +163,42 @@ The demo shows phase cancellation happening in practice. This comes back when we
 ---
 -->
 
-## Harmonic Content
+## Harmonics give sounds their character
 
-- **Key Concept:** Harmonics are additional frequencies in a sound that define its timbre.
-- **Real-World Example:** Why a guitar and piano sound different, even when playing the same note.
-- **Sound Clips:** [Fourier Series 3D interactive demonstration](https://tomasboril.cz/fourierseries3d/en/)
+- Most musical sounds contain a fundamental frequency plus higher partials.
+- The pattern and strength of those partials help define timbre.
+- This is why a guitar and piano sound different even when they play the same note.
+- Explore the [Fourier Series 3D demonstration](https://tomasboril.cz/fourierseries3d/en/).
   
 {{% note %}}
-Most real life sounds are much more complex than a sine wave.
+Most real-world sounds are far more complex than a sine wave.
 
-The factor that helps us differentiate between instrumental “voicings” is the presence of frequencies (called partials) that exist in addition to the fundamental pitch that’s being played. Partials that are higher than the fundamental frequency are called upper partials or overtones. If the overtones are whole-number multiples of the fundamental frequency, they are called harmonics.
+We distinguish instruments partly by the frequencies that accompany the fundamental. These frequencies are called partials. Partials above the fundamental are upper partials, or overtones. When those overtones occur at whole-number multiples of the fundamental, they are harmonics.
 
 Harmonics also form the basis of synthesis.
 {{%/ note %}}
 
 ---
 
-# The Decibel
+# Decibels describe level on a logarithmic scale
 
 ![](db.webp)
 
 {{% note %}}
-Variations in sound pressure level or SPL and is measured on a logarithmic scale in decibels (dB).
+We measure sound-pressure level, or SPL, in decibels (dB). The scale is logarithmic, so a small numerical increase can represent a large increase in sound energy.
 {{%/ note %}}
 
 ---
 
-# The Ear
+# The ear turns pressure changes into neural signals
 
 ![](Anatomy-of-the-Ear2.jpg)
 
 {{% note %}}
-* Sound is collected by the pinna. 
-* Then it travels through the eardrum, which vibrates, converting sound-pressure waves into mechanical vibrations. 
-* The sound then goes to the cochlea, this snail looking organ covered in tiny hair receptors. It is here that we perceive frequencies of a sound.
+- The pinna collects sound and directs it into the ear canal.
+- Pressure waves vibrate the eardrum and become mechanical motion.
+- The middle-ear bones transfer that motion to the cochlea.
+- Inside the cochlea, hair cells respond to different frequencies and send signals to the brain.
 {{%/ note %}}
 
 ---
@@ -214,126 +216,120 @@ Introduce the concept of psychoacoustics and explain why it's important in audio
 ---
 -->
 
-## Psychoacoustic Masking
+## One sound can hide another
 
-- **Key Concept:** One sound can make another harder to hear, especially if they are close in frequency.  
-- **Example:** Kick drum and bass guitar often mask each other.  
-- **Why It Matters:** MP3 and AAC compression rely on masking to discard “inaudible” sounds.  
+- One sound can make another harder to hear, especially when they occupy nearby frequencies.
+- Kick drum and bass guitar often mask each other.
+- MP3 and AAC encoders use masking models to remove sounds that listeners are unlikely to notice.
 
-**Interactive Demo:** [Auditory Masking Experiment (Music Perception Lab)](https://auditoryneuroscience.com/index.php/scene_analysis/masking_tone_noise/)  
+Try the [auditory masking experiment](https://auditoryneuroscience.com/index.php/scene_analysis/masking_tone_noise/).
 
 {{% note %}}
-Play a steady low-frequency tone, then add a second tone slightly above it.  
-Ask students if they can hear both equally. Often, the first tone seems to fade or disappear.  
-Relate this to mixing challenges and codec design.  
+Play a steady low-frequency tone, then add a second tone slightly above it.
+Ask whether students hear both tones equally. One may seem to fade or disappear.
+Connect the effect to mixing decisions and perceptual audio coding.
 {{%/ note %}}
 
 ---
 
-## Binaural Beats
+## The brain can create a beat that is not in either ear
 
-- **Key Concept:** Two slightly different frequencies, one to each ear, produce a perceived “beat” at the difference frequency.  
-- **Example:** 440 Hz in the left ear and 446 Hz in the right ear produces a 6 Hz beat.  
-- **Why It Matters:** Shows how the brain constructs sound beyond the ear.  
+- Send a slightly different frequency to each ear and the listener may perceive a third, pulsing beat.
+- For example, 440 Hz in the left ear and 446 Hz in the right can produce a perceived 6 Hz beat.
+- The effect shows that hearing depends on how the brain combines information from both ears.
 
-**Interactive Demo:** [Binaural Beats Generator](https://mynoise.net/NoiseMachines/binauralBrainwaveGenerator.php/)  
+Try the [binaural beat generator](https://mynoise.net/NoiseMachines/binauralBrainwaveGenerator.php/) with headphones.
 
 {{% note %}}
-Use headphones!  
-This demo highlights how perception emerges in the brain, not just in the ears.  
-Connect it to psychoacoustics concepts like spatial hearing and pitch perception.  
+Use headphones. The demo shows that auditory perception emerges in the brain, not only in the ears. Connect it to spatial hearing and pitch perception.
 {{%/ note %}}
 
 ---
 
-## Auditory Perception
+## Our sensitivity changes across the frequency range
 
 ![](fm-curve.png)
 
 {{% note %}}
-This is the **equal-loudness contour graph** (also called Fletcher–Munson curves).  
+This graph shows equal-loudness contours, often called Fletcher-Munson curves.
 
-**What it shows:**  
-- **X-axis (Hz):** frequency, from bass (20 Hz) to treble (20,000 Hz).  
-- **Y-axis (dB SPL):** physical loudness level.  
-- **Curves:** each line shows tones judged as equally loud by listeners.  
-- The numbers on the curves are in **phons**, matched to the loudness of a 1,000 Hz tone at that level.  
+What it shows:
+- The x-axis shows frequency in Hz, from bass to treble.
+- The y-axis shows sound-pressure level in dB SPL.
+- Each curve connects tones that listeners judge to be equally loud.
+- The curve labels are phons, referenced to the perceived loudness of a 1,000 Hz tone.
 
-**Why multiple lines?**  
-- Each curve starts with a different **reference loudness** at 1,000 Hz.  
-- Example: a 40-phon contour = 1,000 Hz tone at 40 dB SPL used as the reference.  
-- An 80-phon contour = 1,000 Hz tone at 80 dB SPL.  
-- Listeners adjusted other frequencies until they sounded equally loud, producing this family of curves.  
+Why there are multiple curves:
+- Each curve uses a different reference level at 1,000 Hz.
+- A 40-phon contour uses a 1,000 Hz tone at 40 dB SPL as its reference.
+- An 80-phon contour uses a 1,000 Hz tone at 80 dB SPL.
+- Listeners adjusted tones at other frequencies until they sounded equally loud.
 
-**Key takeaways for students:**  
-- At low levels (20–40 phons), bass and treble need much more level to be perceived as equally loud.  
-- At higher levels (80–100 phons), the curves flatten — the ear is more balanced across the spectrum.  
-- This explains why music sounds “thin” when quiet but “full” when louder.  
-- It’s also why old stereos had a “loudness” button — to boost bass and treble at low volumes.  
+What students should notice:
+- At low levels, bass and extreme treble need more energy to sound as loud as the midrange.
+- At higher levels, the curves flatten and our response becomes more even across the spectrum.
+- This helps explain why quiet music can sound thin and why older stereos included a loudness control to boost lows and highs at low playback levels.
 {{%/ note %}}
 
 
 ---
 
-## Equal-Loudness Contours in Action
+## Playback level changes the tonal balance we perceive
 
-- **Key Concept:** Our ears don’t hear all frequencies equally well.  
-- **Example:** Bass must be louder than midrange to be perceived equally loud.  
-- **Why It Matters:** Mixing at low volume often makes bass and treble feel weak.  
+- Our ears are most sensitive to the midrange.
+- Bass must be physically louder than midrange to sound equally loud.
+- At low monitoring levels, bass and treble often seem weaker.
 
-**Interactive Demo:** [Equal Loudness Experiment](https://www.phys.unsw.edu.au/jw/hearing.html)  
+Try the [equal-loudness experiment](https://www.phys.unsw.edu.au/jw/hearing.html).
 
 {{% note %}}
-Play tones of different frequencies at the same level.  
-Ask students: which sounds louder? They’ll notice midrange tones stand out more.  
-Use this to reinforce why engineers check mixes at multiple levels and why Fletcher–Munson curves matter.  
+Play tones of different frequencies at the same level and ask which sounds louder. Midrange tones will usually stand out. Use the result to explain why engineers check mixes at several monitoring levels.
 {{%/ note %}}
 
 ---
 
 {{< slide class="stepped" >}}
 
-## How Loud Is Too Loud?
+## Safe listening time shrinks as level rises
 
-- The workplace safety limit: **85 dB averaged over 8 hours**
-- Every 3 dB more doubles the sound energy and halves the safe time
-- 88 dB: 4 hours. 94 dB: 1 hour. 100 dB: 15 minutes.
-- A loud concert sits near 100 dB. Earbuds at full volume can too.
+- NIOSH recommends no more than **85 dBA averaged over 8 hours**.
+- Each 3 dB increase doubles the sound energy and halves the recommended exposure time.
+- 88 dBA: 4 hours. 94 dBA: 1 hour. 100 dBA: 15 minutes.
+- Loud concerts can approach 100 dBA. Earbuds at full volume can reach dangerous levels too.
 
 Sources: [NIOSH noise exposure limits](https://www.cdc.gov/niosh/noise/prevent/understand.html) · [WHO safe listening](https://www.who.int/news-room/questions-and-answers/item/deafness-and-hearing-loss-safe-listening)
 
 {{% note %}}
-The 85 dB figure is NIOSH's recommended exposure limit, and the 3 dB exchange rate is the science-backed version (OSHA's legal standard is looser at 90 dB with a 5 dB rate). Even at exactly 85 dB for a 40-year career, NIOSH estimates an 8 percent excess risk of hearing loss. Ask the class: how many hours were you in headphones yesterday? At what volume?
+The 85 dBA figure is NIOSH's recommended exposure limit, based on a 3 dB exchange rate. OSHA's legal standard is less protective at 90 dBA with a 5 dB exchange rate. Ask the class: How many hours did you spend in headphones yesterday? At what level?
 {{%/ note %}}
 
 ---
 
 {{< slide class="stepped" >}}
 
-## Your Ears Warn You
+## Muffled hearing and ringing are warning signs
 
-- Muffled, underwater hearing after a loud night: **temporary threshold shift**
-- Ringing afterward: **tinnitus**
-- Both mean the hair cells in your inner ear were pushed past their limit
-- The muffling fades; the damage still adds up
-- Dead hair cells never grow back
+- Muffled hearing after a loud event is a **temporary threshold shift**.
+- Ringing or buzzing is **tinnitus**.
+- Both signal that the auditory system has been stressed.
+- The symptoms may fade, but repeated exposure can cause permanent damage.
+- In humans, damaged cochlear hair cells do not regrow.
 
 {{% note %}}
-A temporary threshold shift usually clears within hours to a couple of days, but it is a sign of injury, not a free pass. Repeated shifts become permanent loss, and tinnitus can become permanent too. Worth saying plainly: plenty of working engineers and musicians carry hearing damage from their twenties, and every one of them would trade a lot to undo it.
+A temporary threshold shift may clear within hours or days, but it is a warning, not a free pass. Repeated exposure can lead to permanent hearing loss, and tinnitus can become chronic. Many engineers and musicians live with damage they acquired early in their careers.
 {{%/ note %}}
 
 ---
 
 {{< slide class="stepped" >}}
 
-## Habits That Protect Your Ears
+## Protect your hearing before it becomes a problem
 
-- Measure instead of guessing: the free **NIOSH Sound Level Meter** app
-- Keep earbuds near **60% of maximum** volume
-- Pick a comfortable monitoring level and leave it alone
-- Bring earplugs to shows. Foam works; musician's plugs sound better.
-- You can replace every piece of gear except your ears
+- Measure sound levels instead of guessing. The **NIOSH Sound Level Meter** app is free for iOS.
+- Keep personal-listening volume low enough to hear comfortably without strain.
+- Choose a comfortable monitoring level and resist turning it up as your ears tire.
+- Bring earplugs to shows. Foam plugs protect well; musician's plugs preserve more of the frequency balance.
 
 {{% note %}}
-The NIOSH SLM app is the one the WHO recommends; have everyone install it now and measure the room. The fixed monitoring level comes back in the mixing lessons: it protects your ears and your judgment at the same time, since louder always sounds better. Musician's earplugs cut all frequencies evenly instead of just muffling the highs, so music still sounds like music.
+If students use iOS, have them install the NIOSH Sound Level Meter app and measure the room. Return to consistent monitoring levels during the mixing unit. A stable reference protects hearing and improves judgment because louder playback often seems more impressive. Musician's earplugs aim for more even attenuation across the spectrum, so they preserve the character of the music better than typical foam plugs.
 {{%/ note %}}
