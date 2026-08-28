@@ -1,5 +1,5 @@
 +++
-title = "Reaper intro"
+title = "REAPER intro"
 outputs = ["Reveal"]
 [reveal_hugo]
 margin = 0.2
@@ -8,149 +8,162 @@ margin = 0.2
 
 {{< slide background-image="techivation-RINfyuHMZLg-unsplash.jpg" background-opacity="0.4" >}}
 
-## Reaper Intro
+## REAPER intro
 
 ---
 
-## What is Reaper?
-Reaper is a digital audio workstation (DAW) known for its flexibility and customizability. Unlike other DAWs like Pro Tools, Logic Pro, or Ableton Live, Reaper allows you to customize nearly every aspect of its interface, including key commands, menus, toolbars, and mouse behaviors.
+## What is REAPER?
+REAPER is a digital audio workstation (DAW) built around flexibility. You can customize its shortcuts, menus, toolbars, and mouse behavior, but its defaults are enough to get started.
 
 
 {{% note %}}
 
-One of the most unique features of Reaper compared to other DAWs, such as Pro Tools, Logic Pro, or Ableton Live, is that everything is customizable, including key commands, menus, toolbars, and mouse behaviors. Reaper has reasonable defaults, so you don't have to worry about customizing everything immediately.
+REAPER lets you customize key commands, menus, toolbars, and mouse behavior. Its defaults work well, so students do not need to customize anything yet.
 {{%/ note %}}
 
 ---
 
 
 
-## Main View
+## Main view
 
-![](../images/views.png)
+<img src="../images/views.png" alt="The main REAPER arrange view" width="760">
 
-We can hide the mixer by closing it (cmd+M).
-
----
-
-
-## Track Management
-
-* **Delete Tracks:** Select the track and hit delete on your computer keyboard.
-* **Create New Tracks:** Double-click in the track pane.
-
-<video src="create-tracks.mov" loop autoplay muted controls width=725>
-
+Show or hide the mixer with `Cmd + M` on macOS or `Ctrl + M` on Windows.
 
 ---
 
-## Tracks in Reaper
-- There are no specific track types in Reaper. Tracks can include audio, MIDI, or video items, or even multiples on the same track.
-- Tracks can also become folders containing many tracks.
 
-### Try This:
-> Create a track with multiple types of media, then create a folder with many tracks. 
+## Track management
+
+* **New track:** Press `Cmd/Ctrl + T`, or double-click below the last track.
+* **Delete a track:** Select it and press `Delete`.
+
+<video src="create-tracks.mov" loop autoplay muted controls width=470>
 
 
 ---
-## Timeline Customization
+
+## Tracks in REAPER
+- A track can hold audio, MIDI, video, or a mix of media types.
+- Any track can become a folder that contains other tracks.
+
+### Try this
+> Put two media types on one track. Then create a folder that contains several tracks.
+
+
+---
+## Timeline customization
 > Right-click on your timeline to change its units.
 
-<video src="timeline.mov" loop autoplay muted controls width=725>
+<video src="timeline.mov" loop autoplay muted controls width=470>
 
 ---
 
-## You Try 
+## You try
 
-> Find a few random sounds from [freesound.org](https://freesound.org) and import them. Notice how the track name changes to match the item name. As you drag in clips, notice how the items snap to the grid. If this doesn't happen, make sure you have snapping turned on.
-
-
----
-
-
-# Working with Items
-
-* **Items or Media Items:** In Reaper, audio files are referred to as Items or Media Items.
-* **Copy, Paste, and Move:** Items can be copied, pasted, and moved around freely.
-* **Trimming:** Use your mouse cursor to trim the beginning and end of the tracks.
-* **Multi-File Trim:** Select multiple files and trim them all at once.
-
----
-
-## Looping and Fading
-* **Looping:** Drag an item to the right to start looping.
-* **Fades:** Add fade-ins and fade-outs by hovering over the top corner of the items. You can also apply fades to all selected tracks.
-* **Zooming:**
-  * **Vertical:** Use your mouse wheel to zoom in and out of items vertically.
-  * **Horizontal:** Use the modifier `Cmd` and your mouse wheel to zoom horizontally.
-* **Contextual Menu:** Right-click the items to see a contextual menu with more options.
+> Find a few sounds on [Freesound](https://freesound.org) and drag them into REAPER. Watch the track names and the way items snap to the grid. Use the magnet button if snapping is off. Press `Space` to play or stop.
 
 
 ---
 
 
-## Track Control Panel (TCP)
+## Working with items
 
-![](../images/tcp.png)
+* REAPER calls clips **media items**, or simply **items**.
+* Drag an item to move it. Hold `Shift` while dragging to ignore snapping.
+* Hold `Cmd` on macOS or `Ctrl` on Windows while dragging to copy an item.
+* Drag an item's left or right edge to trim it. Select several items to trim them together.
+
+---
+
+## Looping and fades
+* **Loop an item:** Drag its right edge past the end of the source.
+* **Add a fade:** Drag the handle at an item's top corner.
+* **Crossfade:** Overlap two items with auto-crossfade enabled, or select the items and a time range, then press `X`.
+* Press `R` to toggle repeat playback.
+
+---
+
+## Fast item editing
+* Press `S` to split selected items at the edit cursor.
+* Press `F2` to open item properties.
+* Hold `Shift` while moving an item to ignore snapping.
+* Right-click an item when you need the full set of editing commands.
+
+---
+
+## Zoom and move around
+* **Horizontal zoom:** Mouse wheel, or `-` and `+`.
+* **Vertical zoom:** `Cmd + wheel` on macOS or `Ctrl + wheel` on Windows.
+* **Horizontal scroll:** `Option + wheel` on macOS or `Alt + wheel` on Windows.
+* Press `W` to jump to the project start. Press `End` to jump to the project end.
+
+
+---
+
+
+## Track control panel (TCP)
+
+<img src="../images/tcp.png" alt="REAPER track control panel" width="700">
 
 * The TCP gives you access to each track's volume, mute, solo, pan, and other parameters.
 
 
 ---
-## Track Context Menu
+## Track context menu
 
 * **Right-Click:** Right-click the track to access a contextual menu with more options.
 
-<video src="context-menu.mov" loop autoplay muted controls width=725>
+<video src="context-menu.mov" loop autoplay muted controls width=470>
 
 ---
 
-## The Mixer Pane
+## The mixer
 
-* **Opening the Mixer Pane:** Open the mixer pane to view all track levels.
-* **Rearrange the Mixer:** The mixer window can be rearranged to another part of the screen or floated.
+* Toggle the mixer with `Cmd + M` on macOS or `Ctrl + M` on Windows. Dock it in the main window or float it on another display.
 
-<video src="mixer-move.mov" loop autoplay muted controls width=725>
-
-
----
-
-## Adjusting Project Tempo
-
-* **Change BPM:** Adjust the BPM of the project from the tempo menu on the bottom right of the screen (the transport).
-
-<video src="tempo.mov" loop autoplay muted controls width=725>
-
----
-
-## Adjusting Track Heights and Widths
-
-* **Track Heights:** Adjust the track heights or widths as needed.
-
-<video src="track-height.mov" loop autoplay muted controls width=725>
+<video src="mixer-move.mov" loop autoplay muted controls width=470>
 
 
 ---
 
-## Exploring Reaper Themes
+## Set the project tempo
 
-<iframe src="https://blog.landr.com/10-best-reaper-themes/" width=900 height=900></iframe>
+* Edit the BPM field on the right side of the transport. Click it repeatedly to tap a tempo.
 
----
-
-## Actions in Reaper
-
-* **Actions Menu:** Control almost anything in Reaper with Actions. View the actions menu (`shift + ?`).
-
-<video src="actions.mov" loop autoplay muted controls width=725>
+<video src="tempo.mov" loop autoplay muted controls width=470>
 
 ---
 
+## Change track size
 
-## Additional Resources
+* Drag a track edge or use `Cmd/Ctrl + wheel` to resize tracks.
+* `Page Up/Down` also work on full-size keyboards.
 
-* **Reaper User Guide:** [Reaper User Guide](https://www.reaper.fm/userguide.php)
-* **Online Tutorials:** Explore Reaper tutorials on YouTube and other platforms.
-  * [REAPER Mania - YouTube](https://www.youtube.com/@REAPERMania)
-* **Community Forums:** Join the Reaper community forums for tips and support.
-  * [REAPER Forums - Cockos Incorporated Forums](https://forum.cockos.com/forumdisplay.php?f=20)
+<video src="track-height.mov" loop autoplay muted controls width=470>
+
+
+---
+
+## Explore REAPER themes
+
+<iframe title="Examples of REAPER themes" src="https://blog.landr.com/10-best-reaper-themes/" width=820 height=500></iframe>
+
+---
+
+## Actions in REAPER
+
+* Press `?` to open the Actions list.
+* Search for any command, run it, or assign your own keyboard shortcut.
+
+<video src="actions.mov" loop autoplay muted controls width=470>
+
+---
+
+
+## Additional resources
+
+* [REAPER User Guide](https://www.reaper.fm/userguide.php)
+* [REAPER Mania tutorials](https://www.youtube.com/@REAPERMania)
+* [REAPER community forums](https://forum.cockos.com/forumdisplay.php?f=20)
