@@ -2,7 +2,9 @@
 title = "REAPER intro"
 outputs = ["Reveal"]
 [reveal_hugo]
-margin = 0.2
+width = 1440
+height = 900
+margin = 0.08
 +++
 
 
