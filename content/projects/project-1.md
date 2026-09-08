@@ -10,6 +10,12 @@ tools: ["REAPER", "Looperman"]
 ---
 _Adapted from Will Kuhn, Ethan Hein - Electronic Music School_
 
+## Before you begin
+
+Follow [Working with loops in REAPER](/lectures/week-3/working-with-loops/) to set
+up your project, fit loops with Option-drag, and glue edited clips into reusable
+phrases. Keep the guide open while you work.
+
 ## Technical Goals
 - Understand transport and track controls in the DAW.
 - Use Looperman to find clips and place them onto tracks.
@@ -50,15 +56,6 @@ on an acapella's page before you build a track around one.
 Not every loop site is this generous. Whenever you download from a new source,
 find its license first. We'll look at sampling and copyright more deeply in
 Project 4.
-
----
-
-## Tips
-
-- Set your tempo to match the first track you import.
-- Adjust other tracks’ tempos to match the project tempo.
-- If items don’t auto-adjust, manually adjust them with `alt (option on Mac) + drag`.
-- Enable snapping to the grid for precise alignment (`Shift + S`).
 
 ---
 

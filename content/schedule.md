@@ -49,6 +49,7 @@ funds undergraduate work.
   - Work on your loops project independently
 
 ## 9/9
+- [lab] Walk through [Working with loops in REAPER](/lectures/week-3/working-with-loops/): timebase setup, Option-drag, and gluing clips
 - [lab] Show a basic version of the loops project
   - Find 7 clips from Looperman
   - Layer and rename tracks in Reaper
