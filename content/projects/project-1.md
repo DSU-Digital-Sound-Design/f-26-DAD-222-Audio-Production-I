@@ -87,3 +87,11 @@ Project 4.
 Control of the software matters more here than the composition. A simple
 arrangement that is organized, balanced, and free of clipping scores higher than
 an ambitious one that is not.
+
+--- 
+
+## Example Video
+
+Here's a video of me working on a version of the project: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-wfBQuT71bY?si=vWIftCbeAFhqdzDY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

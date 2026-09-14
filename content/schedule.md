@@ -55,18 +55,16 @@ funds undergraduate work.
   - Layer and rename tracks in Reaper
   - Build the arrangement
 - Some layering and mixing of the project from Monday
-- [slides] [Audio hardware](/lectures/week-2/audio-hardware/)
+- [slides] [Audio hardware](/lectures/week-2/audio-hardware/) - 25 minutes
 
 ## 9/11
 - [lab] Finish the in-class project
   - Mixing and exporting
-- [slides] Finish [Audio hardware](/lectures/week-2/audio-hardware/#/4)
+- [slides] Finish [Audio hardware](/lectures/week-2/audio-hardware/#/4) - 25 minutes
 
 ## 9/14
 - [due] **Project 1: Arranging Clips** — due today by class
 - Listen to loops projects
-### homework
-- [project] **Project 2: [Satirical PSA](/projects/project-2-psa/)** — have your script ready by Monday 9/21
 
 ## 9/16
 - **Move to the studio**
@@ -76,6 +74,8 @@ funds undergraduate work.
   - Book your time in the studio to record your projects
 - [slides] [Reaper recording](/lectures/week-3/reaper-recording/)
   - One student dialogue demo
+### homework
+- [project] **Project 2: [Satirical PSA](/projects/project-2-psa/)** — have your script ready by Monday 9/21
 
 ## 9/18
 - [off] **No class**
@@ -158,16 +158,21 @@ funds undergraduate work.
 
 ## 10/23
 - [due] **WhoSampled write-up** — due tonight on D2L
-- A few volunteers share one pick from their write-up
-- [slides] [MIDI intro](/lectures/week-7/midi-intro/)
+- [lab] [How drum patterns work](/lectures/week-8/beatmaking/)
+  - Build a beat in Ableton Learning Music, then rebuild it in REAPER with Sitala
+  - Make a two-bar pattern with a backbeat, subdivisions, velocity changes, and one variation
+- [project] Introduce [Project 4: Drum Programming and Beatmaking](/projects/project-4-beats/) at the end of the lesson; today's exit pattern can become its drum track
 - [due] **Project 3: In-class mixing assignment** — due tonight by midnight
 ### homework
 - [project] [**Project 4: Drum Programming and Beatmaking**](/projects/project-4-beats/) — due Monday 11/2
 
 ## 10/26
 - [drill] [Ear training: balance and image](/lectures/ear-training-drills/#1026-balance-and-image) — 10 minutes
-- [lab] In-class work on the beatmaking project
-- [slides] [Beatmaking](/lectures/week-8/beatmaking/) — listening examples
+- [lab] [MIDI and Sitala in REAPER](/lectures/week-7/midi-intro/)
+  - Set up the instrument track and load drum samples
+  - Record or draw MIDI, quantize it, and use overdub when useful
+  - [Edit note placement and velocity](/lectures/week-9/midi-editing/)
+- [lab] Continue Project 4 with help available for setup and troubleshooting
 
 ## 10/28
 - [slides] **Synthesis and MIDI** — [electronic sound production](/lectures/week-10/electronic-sound-production/)

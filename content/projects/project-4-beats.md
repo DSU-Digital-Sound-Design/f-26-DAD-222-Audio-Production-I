@@ -1,11 +1,11 @@
 ---
-title: "Beatmaking"
+title: "Drum Programming and Beatmaking"
 number: "04"
 weight: 4
 week: 9
 assigned: "2026-10-23"
 due: "2026-11-02"
-summary: "Build a 16–32 measure composition from sampled sources triggered with MIDI in Sitala."
+summary: "Program a drum pattern and build a 16–32 measure composition from sampled sources triggered with MIDI in Sitala."
 tools: ["REAPER", "Sitala", "Freesound"]
 # this project carries its own rubric table in the body
 rubric: false
@@ -13,19 +13,23 @@ rubric: false
 
 ## Objective
 
-Create a 16-32 measure composition from several sampled sources. Use each sample
-category below on its own track, with one instance of Sitala per track. You may
-rework your loop project, but you must use new samples.
+Create a 16-32 measure composition from several sampled sources. Program your
+own two-bar drum pattern, then use repetition and variation to turn it into a
+larger arrangement. You may rework your loop project, but you must use new
+samples.
 
 ## Requirements
 
-- Include at least four tracks. Each track must use MIDI to trigger Sitala.
-- Capture audio from your source recordings. You may use a YouTube downloader or
+- Include at least four tracks. Use one Sitala track for the drum kit and
+  separate Sitala tracks for the chordal hit, vocal sample, and found sound.
+  Every track must use MIDI to trigger Sitala.
+- Capture or download the audio you use. You may use a YouTube downloader or
   record system audio with Audacity's WASAPI loopback on Windows ([setup
   guide](https://support.audacityteam.org/basics/recording-desktop-audio)). Read
   the sampling and copyright note below before choosing your sources.
-- Select and render the part of each recording you want to sample, then load it
-  into Sitala.
+- Trim or render the part of each recording you want to sample, then load it
+  into Sitala. One-shot files can go straight into Sitala if they are already
+  trimmed.
 - If you need to isolate part of a recording, such as drums without bass or a
   vocal without the accompaniment, you may use [Ultimate Vocal
   Remover](https://github.com/Anjok07/ultimatevocalremovergui). It runs locally
@@ -45,10 +49,17 @@ rework your loop project, but you must use new samples.
 
 ## Sample categories
 
-### Drum loop
+### Programmed drum pattern
 
-Use a drum loop from a classic breakbeat, such as *"Amen, Brother"* by The
-Winstons, as the rhythmic foundation of your composition.
+Load at least three one-shot samples into one Sitala instance: a kick, a snare
+or clap, and a hi-hat or another percussion sound. Program an original two-bar
+pattern. The second bar must contain at least one change, and at least one drum
+part must use more than one velocity level.
+
+You may cut the individual hits from a classic breakbeat, such as *"Amen,
+Brother"* by The Winstons, or use cleared one-shots. You may layer a sampled
+break underneath your programmed drums, but the break does not replace the
+programmed pattern.
 
 Example: [Most-used drum breaks on
 WhoSampled](https://www.whosampled.com/song-tag/Drum%20Breaks%20%28Most%20Used%29/)
@@ -107,9 +118,9 @@ Submit to D2L the following:
 
 | Criterion | Exemplary | Proficient | Developing | Emerging | Points |
 | --- | --- | --- | --- | --- | --- |
-| **Sample Sourcing (7 pts)** | All four categories present on their own tracks: drum break, chordal hit, vocal, and found sound | All four present, though one is a weak fit for its category | One category missing or doubled up on a track | Two or more categories missing | /7 |
+| **Sample Sourcing (7 pts)** | All four categories are present: drum one-shots, chordal hit, vocal, and found sound; the non-drum categories are on separate tracks | All four are present, though one is a weak fit for its category | One category is missing, or the non-drum categories are combined on a track | Two or more categories are missing | /7 |
 | **Sample Manipulation (7 pts)** | Samples reshaped through stretching, reversing, pitch shifting, or slicing so the source becomes your material | At least one sample meaningfully altered; the rest play close to source | Samples trimmed only | Samples play as downloaded | /7 |
-| **MIDI Sequencing (8 pts)** | Four or more tracks triggered by MIDI into Sitala, with parts placed deliberately rather than looped straight through | Four tracks triggered by MIDI; some parts repeat without variation | Fewer than four MIDI tracks, or audio dragged in place of sequencing | Little or no MIDI sequencing | /8 |
+| **MIDI Sequencing and Drum Pattern (8 pts)** | Four or more tracks trigger Sitala with MIDI; the two-bar drum pattern uses kick, snare or clap, and hi-hat or percussion, with a change in bar 2 and purposeful velocity differences | Four tracks trigger Sitala and the required drum parts are programmed; either the bar 2 change or velocity work is missing | Fewer than four MIDI tracks, or the drum part is a one-bar pattern or audio loop with little original programming | Little or no MIDI sequencing; no programmed drum pattern | /8 |
 | **Arrangement (8 pts)** | 16 to 32 measures that introduce, develop, and resolve; parts enter and drop out on purpose | Correct length with some development; a section or two stays static | Correct length but built from one repeating block | Off length, or a single loop repeated | /8 |
 | **Insert Processing (6 pts)** | EQ and compression on individual tracks, each addressing a specific problem in that part | EQ and compression present on several tracks and doing something audible | One processor used, or settings with no audible effect | No insert processing | /6 |
 | **Send Routing (5 pts)** | At least one reverb or delay send with two or more tracks routed to it, placing them in a shared space | A send created with two tracks routed, though the effect is subtle | A send created but only one track routed | No sends created | /5 |
