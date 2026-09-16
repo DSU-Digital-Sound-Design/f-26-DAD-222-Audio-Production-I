@@ -79,11 +79,10 @@ funds undergraduate work.
 
 ## 9/18
 - [off] **No class**
-- Work through the [Editing](/lectures/week-4/editing/) slides, begin the [editing assignment](/lectures/week-4/editing-assignment/), and bring questions Monday
+- Work through the [Editing](/lectures/week-4/editing/) slides and bring questions Monday
 - Each student should edit their own PSA and bring any questions to class Monday
 
 ## 9/21
-- [due] [Editing assignment](/lectures/week-4/editing-assignment/) — due tonight on D2L
 - Review the edits that gave you trouble
 - [lab] Another recording day for more practice, focusing on editing and mixing
 - [lab] Gain staging drill — record the same line clipped, healthy, and too quiet, then normalize and compare ([instructions](/lectures/week-3/reaper-recording/))
