@@ -83,8 +83,8 @@ funds undergraduate work.
 - Each student should edit their own PSA and bring any questions to class Monday
 
 ## 9/21
-- Review the edits that gave you trouble
 - [lab] Another recording day for more practice, focusing on editing and mixing
+  - have different students try recording to learn the process. 
 - [lab] Gain staging drill — record the same line clipped, healthy, and too quiet, then normalize and compare ([instructions](/lectures/week-3/reaper-recording/))
 
 ## 9/23
