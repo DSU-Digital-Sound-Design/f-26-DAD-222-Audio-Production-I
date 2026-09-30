@@ -1,49 +1,41 @@
 ---
-title: EQ Exploration Project
+title: In-class EQ exploration
 ---
 
-<iframe src="../musicfrequencycheatsheet.pdf" style="width:100%; height: 700px"></iframe>
+**Goal:** Hear what different frequency ranges contribute to a mixed loop, then use ReaEQ to make and explain a listening-based decision. We will compare settings and troubleshoot together in class.
 
-[Cheatsheet](../musicfrequencycheatsheet.pdf)
+<iframe src="../musicfrequencycheatsheet.pdf" style="width:100%; height: 700px" title="Music Instrument Frequency Cheatsheet"></iframe>
 
-**Objective**: Use EQ in Reaper to manipulate specific frequency ranges in a full-spectrum tracks from Looperman, referencing the **Music Instrument Frequency Cheatsheet** for guidance.
+[Open the frequency cheatsheet](../musicfrequencycheatsheet.pdf)
 
-### Instructions:
+### Get set up
 
-**Find a Three Loops**:
+1. Find three loops on Looperman that contain more than one audible sound or instrument. Try different styles, such as funk, acoustic, and rock. If a search is taking too long, ask for a loop so you can start listening.
+2. Import each loop onto its own track in one REAPER project. Work on one loop at a time; you do not need to play the three loops together.
+3. Add ReaEQ to the first track using its FX button. Add ReaEQ to the other tracks when you reach them.
 
-- Go to Looperman and search for three tracks that includes combinations of instruments. Look for tracks in these catagories, or similar:
-    - *drum and bass* or *funk*
-    - *acoustic* or *singer-songwriter*
-    - *rock* or *metal*
-- Download the tracks and import them into Reaper.
+The cheatsheet suggests places to listen. Its frequency ranges are starting points, not settings that will improve every loop. Because each loop is already mixed, an EQ move affects everything in that loop.
 
-**Open ReaEQ**:
+### Loop 1: hear the ranges
 
-- In Reaper, click on the FX button on your loop track and add **ReaEQ** from the plugin list.
+Follow the class demonstration. Try one noticeable boost or cut in each area: lows (roughly 20–200 Hz), mids (roughly 200 Hz–2 kHz), and highs (roughly 2 kHz and above). Change one area at a time. What becomes more or less audible? Make the change obvious first, then return it to a setting you might actually use.
 
-**Use the Frequency Cheatsheet**:
- 
- - Refer to the **Music Instrument Frequency Cheatsheet** to identify common frequency ranges for different instruments. For example:
-   - **Bass Guitar**: Try boosting in the 50-100 Hz range to add "weight" or "growl."
-   - **Kick Drum**: Experiment with boosting around 100 Hz for "punch" or cutting around 300-500 Hz to reduce "boxiness."
-   - **Vocals**: Cut around 200-500 Hz to reduce "muddiness," or boost around 2-5 kHz for "presence."
-   
- **Manipulate the Frequencies**:
- 
- - Using the frequency ranges from the cheatsheet, experiment with boosting or cutting certain frequencies in ReaEQ:
-   - Boost the low-end frequencies (20-200 Hz) to emphasize bass or kick drum.
-   - Reduce the mid frequencies (200 Hz-2 kHz) to create more space between instruments.
-   - Boost the high frequencies (5 kHz and above) to bring out clarity in vocals or cymbals.
+### Loop 2: solve one problem
 
-**Compare**:
- 
- - Toggle the EQ on and off to compare your adjusted version with the original. Listen to how each change impacts the sound and the balance between different instruments.
+Listen before touching ReaEQ. Identify one specific issue, such as a boomy low end, a muddy sound, or harsh highs. Choose a frequency range to test, make one targeted change, and listen again. If the change does not help, undo it and try another approach. Explain why you kept your final setting.
 
-> If you have extra time, add more tracks and experiment with EQ on those as well. The goal is to get comfortable identifying and manipulating different frequency ranges and to hear how EQ adjustments can enhance or alter a mix.
+### Loop 3: make your own decision
 
-**Reflection**:
- 
-- Write a short reflection or prepare to discuss how each EQ adjustment changed the sound of the loop. How did the frequency boosts or cuts affect the different instruments, and which adjustments were most effective?
+Choose a loop in a different style. Decide whether it needs EQ and test your idea. You may leave ReaEQ flat if the original sounds better; be ready to explain what you tried and why you kept or rejected it.
 
-Submit to D2L by the end of the week.
+### Compare and discuss
+
+For each loop, toggle ReaEQ off and on while listening to the same passage. Keep the two versions at roughly the same loudness so a louder version does not win just because it is louder. Describe both what improved and what you may have lost. Be ready to play one before-and-after example for the class.
+
+### If you finish early
+
+Return to the problem you identified in Loop 2. Duplicate that track and try a second EQ solution on the copy, such as a broad, gentle cut instead of a narrow, deeper cut. Solo one version at a time and compare both with the original at roughly the same loudness. Which solution works better in the whole loop, and what does each one change besides the sound you meant to fix? Add your choice and one sentence explaining it to your Loop 2 note.
+
+### Submit
+
+Submit your REAPER project with its audio files and three brief notes in D2L by the end of the week. For each loop, name the frequency range and boost or cut you tested, describe what you heard, and say whether you kept the change. Complete as much as you can in class; finish your notes afterward if needed.

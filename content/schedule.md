@@ -106,11 +106,11 @@ funds undergraduate work.
 ## 9/30
 - Listen to PSAs in class
 - Discuss what worked well and what could be improved
-- [lab] [EQ in-class assignment](/lectures/week-5/eq-assignment/)
-- [due] **Project 2: Satirical PSA** — due tonight by midnight
+- [due] **Project 2: Satirical PSA** — due by start of class
 
 ## 10/2
-- [lab] Exploring EQ on a multitrack recording — [instructions](/lectures/week-5/eq-multitrack/)
+- [lab] [EQ in-class assignment](/lectures/week-5/eq-assignment/)
+<!-- - [lab] Exploring EQ on a multitrack recording — [instructions](/lectures/week-5/eq-multitrack/) -->
 
 ## 10/5
 - [slides] Dynamic effects
