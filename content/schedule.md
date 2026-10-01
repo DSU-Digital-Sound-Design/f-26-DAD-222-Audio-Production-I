@@ -109,33 +109,45 @@ funds undergraduate work.
 - [due] **Project 2: Satirical PSA** — due by start of class
 
 ## 10/2
-- [lab] [EQ in-class assignment](/lectures/week-5/eq-assignment/)
+- [lab] [EQ in-class assignment](/lectures/week-5/eq-assignment/) — about 25 minutes
+- [project] Introduce [Project 3: In-class mixing assignment](/projects/project-3-mix/) — due Friday 10/23; about 5 minutes
+- [lab] Project 3 session setup — about 10 minutes: download and import the aligned multitrack, set the tempo and timebase, and save with copied media
+- [lab] First fader balance — about 8 minutes: follow a brief demonstration, loop a chorus, and bring in vocal, drums, bass, and supporting parts with master headroom
+- Save your starter session and identify any setup problems before leaving — about 2 minutes. Bring it Monday; finish folder organization if needed
 <!-- - [lab] Exploring EQ on a multitrack recording — [instructions](/lectures/week-5/eq-multitrack/) -->
 
 ## 10/5
-- [slides] Dynamic effects
-  - [ReaComp](/lectures/week-5/compression/), ReaXComp, ReaLimit, ReaGate
-  - What elements in our mix are still not sitting correctly that could use compression?
+- Open Friday's Project 3 session, resolve setup questions, and finish the high-pass check and saved static balance before adding other processing
+- [slides] [Compression and when to use it](/lectures/week-5/compression/)
+- [video] Watch REAPER Mania's [Why and How to Use Compression](https://www.youtube.com/watch?v=xwFigzGaWyI)
+- [lab] In a separate working version, compare ReaComp on one track with it bypassed at similar loudness
+- Demonstrate how to create an effects send before the independent work days
 
 ## 10/7
-- [slides] **Time-based effects** — [delay, chorus, and flanger](/lectures/week-6/delay-new/)
+- [off] **No class meeting — instructor away**
+- [slides] Independently read [Delay, chorus, and flanger](/lectures/week-6/delay-new/)
+- [video] Watch REAPER Mania's [Why and How to Use Delay](https://www.youtube.com/watch?v=ajHUF6VTrts) and [Creating Sends](https://www.youtube.com/watch?v=PBZvDTCtPfQ)
+- [lab] In your Project 3 working session, create one delay return and send a track to it. Compare two delay settings and the dry sound, then note why you kept your choice
+- [video] Optional: watch REAPER Mania's [Chorus & Flange FX](https://www.youtube.com/watch?v=DYqacYeUohw)
 
 ## 10/9
-- [slides] [Reverb](/lectures/week-6/reverb/)
+- [off] **No class meeting — instructor away**
+- [slides] Independently read [Mixing with reverb](/lectures/week-6/reverb/)
+- [video] Watch REAPER Mania's [Why and How to Use Reverb](https://www.youtube.com/watch?v=bVguIQTqClo)
+- [lab] In your Project 3 working session, create one reverb return and send a track to it. Compare two spaces and the dry sound, then note why you kept your choice
 
 ## 10/12
 - [off] No class — Native American Day
 
 ## 10/14
-- Putting together all we've learned to make a simple mix
+- Review compression, delay, and reverb questions from the independent work days
+- Put together what we've learned to make a simple mix
 - [slides] [The rough balance — faders, panning, and sends](/lectures/week-6/rough-balance/)
-- [lab] Rough balance on the bluegrass multitrack — faders and pans only
-### homework
-- [project] [Project 3: In-class mixing assignment](/projects/project-3-mix/) — due by 10/23
+- [lab] Revisit the Project 3 balance and compare the saved static mix with the processed version at similar loudness. Identify what improved and what became less clear
 
 ## 10/16
 - [drill] [Ear training: compression](/lectures/ear-training-drills/#1016-compression) — 10 minutes
-- [lab] Continue looking at [Project 3: In-class mixing assignment](/projects/project-3-mix/)
+- [lab] [Project 3 feedback checkpoint](/projects/project-3-mix/): bring a playable draft and decision notes, demonstrate one before-and-after comparison, and ask about one unresolved problem
 
 ## 10/19
 - [guest] **BAD BEAT (Tino Gomez)** visits class

@@ -41,6 +41,10 @@ theme = ["t-console-theme", "reveal-hugo"]
       label = "Slides"
       color = "#6ec1ff"
     [[params.schedule.tags]]
+      id = "video"
+      label = "Videos"
+      color = "#5cffd6"
+    [[params.schedule.tags]]
       id = "project"
       label = "Projects"
       color = "#b6ff5c"

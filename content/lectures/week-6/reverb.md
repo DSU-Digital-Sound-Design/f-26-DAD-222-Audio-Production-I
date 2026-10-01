@@ -2,6 +2,8 @@
 title: "Mixing with reverb"
 ---
 
+Watch REAPER Mania's [Why and How to Use Reverb](https://www.youtube.com/watch?v=bVguIQTqClo) alongside this lesson. It shows ReaVerbate on a track and on a shared effects return.
+
 > Download the audio files [here](https://dakotastateuniversity-my.sharepoint.com/:f:/g/personal/tate_carson_dsu_edu/Em4CtTSSKXRDhmr9Iaxn5TIBclFmF2zb6MVO49FjPDsR3A?e=2OBZ5y).
 
 Reverb does more jobs in a mix than most people expect. Five of them, with examples:
@@ -76,9 +78,9 @@ Often, you want to apply the same reverb to multiple instruments. To do this in 
 3. Add ReaVerbate to the Reverb track. Set the wet mix to 0 dB and the dry mix to -inf dB (since this is a send track).
 4. Open the routing for the Reverb send and set all send levels to -inf dB. Then bring up the send levels for each drum one at a time. Start with the snare, then add reverb to the overheads.
 
-> Try creating custom presets for the guitar and vocal tracks. Then apply this process to your drum editing project from earlier in the semester.
+For [Project 3](/projects/project-3-mix/), create one Reverb Return outside the instrument folders in your working session. Preserve your saved static balance. Use post-fader sends, compare a smaller space with a larger one, and choose what blends the instruments without obscuring the lead. Mute the return to check its contribution and record your comparison in the reverb decision note. A second return is optional.
 
-## ReaVerb
+## Optional: ReaVerb
 
 ReaVerb is the deeper of the two, and it does convolution reverb. Its modules:
 

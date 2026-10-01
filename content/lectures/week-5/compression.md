@@ -2,7 +2,11 @@
 title: "Compression and When to Use It"
 ---
 
+Watch REAPER Mania's [Why and How to Use Compression](https://www.youtube.com/watch?v=xwFigzGaWyI) alongside this lesson. Pause to try the ReaComp controls in your own session.
+
 Download [these audio tracks](../comp-audio.zip) to practice with in class.
+
+For [Project 3](/projects/project-3-mix/), use the basic insert workflow on two source tracks: identify the problem, adjust threshold and ratio, listen to attack and release, and compare at similar loudness. Keep ReaComp's Dry output at -inf dB and use its Wet output to match the processed level to bypass. The parallel and bus compression sections below are optional extensions.
 
 > Some setup: quickly rename tracks using the `Track Manager` (shortcut: `Ctrl` + `Shift` + `M`). You can also change the color of tracks by right-clicking on the track number and selecting `Set track color`. This can help you visually organize your session.
 
@@ -68,7 +72,7 @@ Other tips:
 
 ---
 
-## Applying compression to other drum elements
+## Optional: other drum elements and parallel compression
 
 * Snare: ratio 4:1, attack 15–25 ms, release 100–200 ms, 3–6 dB GR. If ghost notes disappear, ease the ratio, raise threshold, or soften the knee.
 * Overheads/rooms (control): ratio 2:1–3:1, attack 25–40 ms, release 200–400 ms.
@@ -81,7 +85,7 @@ Parallel drum compression options in Reaper:
 
 ---
 
-## Bus compression
+## Optional: bus compression
 
 After compressing individual drum tracks, try bus compression to glue the kit:
 
@@ -103,10 +107,11 @@ Remember that upward detail can be achieved more transparently via parallel comp
 
 ---
 
-## Metering and sensible targets
+## Metering for Project 3
 
-* Watch true peaks and integrated loudness (LUFS) in addition to gain reduction.
-* Keep healthy headroom on the master during mixing (e.g., peaks below −6 dBFS) and resist “mixing into loudness.” Add a limiter only to catch stray peaks if needed.
+* Watch track and master meters for clipping, and the compressor's gain-reduction meter for how it responds.
+* Aim for master peaks around -6 dBFS while mixing, leaving room for processing and effects returns.
+* Project 3 does not require a limiter or a mastered loudness target. True-peak and integrated loudness measurement can wait for later study.
 
 ---
 

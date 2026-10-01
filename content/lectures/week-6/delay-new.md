@@ -5,6 +5,8 @@ description: "A deep dive into delay effects using REAPER’s ReaDelay plugin—
 tags: ["audio production", "delay", "reaper", "sound design", "teaching"]
 ---
 
+Watch REAPER Mania's [Why and How to Use Delay](https://www.youtube.com/watch?v=ajHUF6VTrts) and [Creating Sends](https://www.youtube.com/watch?v=PBZvDTCtPfQ) alongside this lesson. If you want to explore the other effects, watch [Chorus & Flange FX](https://www.youtube.com/watch?v=DYqacYeUohw).
+
 Delay is one of the simplest and most powerful time-based effects in audio production. It records an incoming signal, waits for a set amount of time, and then plays it back—either once or many times, depending on the settings.
 
 By mixing delayed and dry signals, delay creates space, rhythm, width, and unique timbral textures. REAPER’s **ReaDelay** plugin makes it easy to explore these variations.
@@ -26,21 +28,21 @@ By adjusting **delay time**, **feedback**, and **mix**, you can shape the charac
 
 | Delay Type            | Typical Range (ms) | Sound Character                                       | Tempo-Synced Equivalents (at 120 BPM) |
 |-----------------------|-------------------:|--------------------------------------------------------|---------------------------------------|
-| Very short            | 1–10               | Comb filtering; flanging zone                          | 1/64–1/32 (≈ 31–63 ms)                |
+| Very short            | 1–10               | Comb filtering; flanging zone                          | Usually set in milliseconds                |
 | Short (ADT/Haas)      | 10–40              | Thickening, width; watch mono compatibility            | —                                     |
-| Slapback              | 75–150             | Single audible echo; classic rockabilly vocal feel     | 1/16 ≈ 125 ms; dotted-1/16 ≈ 187.5 ms |
+| Slapback              | 75–150             | Single audible echo; classic rockabilly vocal feel     | 1/16 ≈ 125 ms |
 | Rhythmic/long         | 250–800+           | Distinct rhythmic repeats; ambient/spatial echoes      | 1/8 = 250 ms; dotted-1/8 = 375 ms; 1/4 = 500 ms |
 | Very long             | 800+               | Sound design; evolving textures; looping                | —                                     |
 
 
 **Formula for Delay Time:**  
-`delay (ms) = 60000 / BPM × note_value`
+`delay (ms) = 60000 / BPM × number_of_quarter_notes`
 
-Example: At 120 BPM, a dotted eighth note equals 375 ms.
+Use 1 for a quarter note, 0.5 for an eighth, and 0.75 for a dotted eighth. At 120 BPM, a dotted eighth is 375 ms. At Project 3's 96 BPM, an eighth is 312.5 ms and a quarter is 625 ms.
 
 ---
 
-## Listening Examples
+## Optional listening examples
 
 ### Rhythmic and Long Delays
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3FsrPEUt2Dg?si=R5wCARSbeb6jybPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -116,26 +118,20 @@ Chorus and delay combine for lush, atmospheric space.
 
 ---
 
-## In-Class REAPER Exercise
+## Project 3 delay exercise
 
 **Goal:** Explore how different delay times affect perception and space.
 
-1. Download the practice files [here](../delay-files.zip).  
-   Listen to each file individually.
-2. Create three FX return tracks: *Short Delay*, *Medium Delay*, *Long Delay*.
-3. Insert **ReaDelay** on each FX track.  
-   Set **Dry** to *-inf dB* (so only the delayed signal is heard).
-4. Start with:
-   - Short Delay: 15–25 ms  
-   - Medium Delay: 120–150 ms  
-   - Long Delay: 300 ms+ or tempo-synced (⅛, ¼, dotted-⅛)
-5. Add sends from your audio tracks to the delay buses.  
-   Adjust send levels to taste.
-6. Add **ReaEQ** to roll off highs (LP ~6–8 kHz) and **ReaComp** for optional ducking.
+1. Open your Project 3 working session. Preserve the static balance you saved before adding processing. If you need separate practice audio, use [these files](../delay-files.zip).
+2. Create one track named *Delay Return*, outside the instrument folders.
+3. Insert **ReaDelay**. Set **Wet** to *0 dB* and **Dry** to *-inf dB* so only the delayed signal is heard on the return.
+4. Create a post-fader send from a vocal or chord instrument to the return. Begin with the send at -inf dB, then raise it gradually.
+5. Compare two settings on the same return, such as slapback around 120–150 ms and a longer tempo-synced eighth- or quarter-note echo. Adjust feedback as well as delay time. Mute the return to check whether the effect supports the full mix.
+6. Keep the setting that serves the song and note what you heard in both versions. Additional returns, filtering, and ducking are optional.
 
 ---
 
-## Beyond Basic Delay
+## Optional: beyond basic delay
 
 Both **flanger** and **chorus** are based on *short modulated delays*, but they differ in delay times, modulation depth, and the way they shape tone and movement.
 
@@ -146,10 +142,7 @@ Both **flanger** and **chorus** are based on *short modulated delays*, but they 
 
 
 ### Flanger in REAPER
-Try **JS: Flanger** or use **ReaDelay** as a flanger:
-- Delay: 2–5 ms  
-- Feedback: 30–60%  
-- Mod Rate: 0.2–0.5 Hz  
+Try **JS: Flanger**. Listen as you adjust its delay, feedback, and modulation controls. Compare it with the dry track at similar loudness.
 
 
 ---
@@ -162,7 +155,7 @@ Use REAPER’s built-in Chorus or JS: Chorus:
 
 ---
 
-## Creative Delay Techniques
+## Optional: creative delay techniques
 
 **Ping-Pong Delay**  
 - Two taps in ReaDelay, panned left/right with slightly different times.
@@ -178,5 +171,3 @@ Use REAPER’s built-in Chorus or JS: Chorus:
 - Delay: 8–12 ms  
 - High feedback, lowpass filter  
 - Excite with a short noise burst.
-
-

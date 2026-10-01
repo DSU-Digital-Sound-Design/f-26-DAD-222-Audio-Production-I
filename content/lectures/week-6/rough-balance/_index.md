@@ -40,7 +40,7 @@ A rough draft made with only three tools:
 2. The **pan knob**
 3. A **high-pass filter**
 
-No EQ moves, no compression, no effects. Yet.
+High-pass cleanup only. No tonal EQ, compression, delay, or reverb yet.
 
 {{% note %}}
 This is Mixing Secrets chapter 8. Get the static mix right and many problems you would have reached for plugins to solve simply disappear. The term "static" means nothing moves yet: no automation, one setting for the whole song. Automation is a DAD 322 topic.
@@ -77,7 +77,7 @@ The ranking is a musical decision and changes by genre. In a dance track the kic
 - Continue down your list, one track at a time
 
 {{% note %}}
-Working in ranked order means every decision is a comparison, not a guess. The important things get the space first; the less important things have to fit around them. Demo this live with the bluegrass multitrack before the lab.
+Working in ranked order makes each decision a comparison. The important parts get space first; supporting parts fit around them. Demonstrate with the Project 3 multitrack before students revisit their balances.
 {{%/ note %}}
 
 ---
@@ -238,7 +238,7 @@ For Project 3 the reference is the Cambridge preview mix of the same song. Turn 
 DAD 322 spends a semester on the rest:
 
 - Monitoring, rooms, and building a reference-mix library
-- Compression and EQ used *to hold a balance in place*
+- More detailed dynamics and tonal control
 - Automation: a balance that changes with the song
 - Master bus processing and mastering
 
@@ -252,24 +252,24 @@ Explicit hand-off so we don't duplicate 322. Pitch it: if mixing is the part of 
 
 ## Lab: rough balance in 20 minutes
 
-Bluegrass multitrack from the [EQ lesson](/lectures/week-5/eq-multitrack/). Faders and pans only.
+Use your [Project 3 multitrack](/projects/project-3-mix/). Revisit faders, pans, and high-pass cleanup before judging other processing.
 
-- Rank the five tracks; choose your center
-- All faders to -inf, loop a busy section
-- Build in ranked order, peak around -6 dB
+- Review your track priorities; choose your center
+- Open your saved static balance and loop a busy section
+- Refine the balance, peaking around -6 dB on the master
 - Pan: what stays center? which pair splits?
 - Toggle mono and listen
+- Compare the static WAV and processed mix at similar loudness
 
 {{% note %}}
-Five tracks: guitar, lead guitar, mandolin, banjo, bass. No drums, so the class has to argue about what deserves the center. No EQ, no compression, no effects. We listen to a few balances at the end and compare choices. While they work, circulate and watch for fader creep; it will happen to someone within ten minutes, which makes a perfect teaching moment.
+Students saved their first static balance on October 5 and tested effects independently. Use today's lab to revisit that foundation. Keep the original static file intact and make refinements in the working project. Listen to a few comparisons and ask which processing choices support the balance. Circulate and help students resolve level, filtering, and routing problems.
 {{%/ note %}}
 
 ---
 
-## Next: Project 3
+## Continue Project 3
 
-The first thing you'll do to the *Angels in Amplifiers* multitrack
-is exactly what you just practiced.
+Use this comparison to choose your next revisions to the *Angels in Amplifiers* mix. Bring a playable draft and decision notes for feedback on October 16.
 
 [Project 3: In-class mixing assignment](/projects/project-3-mix/)
 
@@ -280,5 +280,5 @@ is exactly what you just practiced.
 - [iZotope: aux vs. inserts](https://www.izotope.com/en/learn/aux-vs-inserts-to-send-or-not-to-send)
 
 {{% note %}}
-Introduce Project 3 requirements and the due date (10/23), then let them start the organization steps if time remains.
+Review the decision notes and October 16 feedback checkpoint. The final files are due October 23. Additional effects returns are optional; each choice should have an audible purpose.
 {{%/ note %}}
