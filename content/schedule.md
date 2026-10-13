@@ -140,14 +140,18 @@ funds undergraduate work.
 - [off] No class — Native American Day
 
 ## 10/14
-- Review compression, delay, and reverb questions from the independent work days
-- Put together what we've learned to make a simple mix
-- [slides] [The rough balance — faders, panning, and sends](/lectures/week-6/rough-balance/)
-- [lab] Revisit the Project 3 balance and compare the saved static mix with the processed version at similar loudness. Identify what improved and what became less clear
+- Review [Delay, chorus, and flanger](/lectures/week-6/delay-new/), [Mixing with reverb](/lectures/week-6/reverb/), and the effects-send material from the independent work days. Bring your Project 3 session and any questions
+- [lab] Build on the balance covered in class Friday: demonstrate panning, EQ, compression, and reverb and delay on sends using selected Project 3 tracks, with time to try the techniques in your own session
+- [slides] Refer to [The rough balance — faders, panning, and sends](/lectures/week-6/rough-balance/) as needed
+- Keep the saved static balance unchanged and work in a separate version. Compare the static and processed mixes at similar loudness, listening for what improved and what became less clear
+
+### homework
+- Bring a working version of your [Project 3 mix](/projects/project-3-mix/) Friday, October 16, that opens with all media and is ready to play. Come with one question or mixing problem, and keep your original static balance saved separately
+- Friday is a progress check. All final processing and the four written decision notes do not need to be complete yet
 
 ## 10/16
 - [drill] [Ear training: compression](/lectures/ear-training-drills/#1016-compression) — 10 minutes
-- [lab] [Project 3 feedback checkpoint](/projects/project-3-mix/): bring a playable draft and decision notes, demonstrate one before-and-after comparison, and ask about one unresolved problem
+- [lab] [Project 3 feedback checkpoint](/projects/project-3-mix/): I'll listen to each student's whole mix and give individual feedback. Bring a working session with all media and one question or mixing problem. Final processing and written decision notes can still be in progress
 
 ## 10/19
 - [guest] **BAD BEAT (Tino Gomez)** visits class
@@ -163,7 +167,7 @@ funds undergraduate work.
 
 ## 10/21
 - [drill] [Ear training: space](/lectures/ear-training-drills/#1019-space) — 10 minutes
-- Questions about the mixing assignment?
+- Follow-up questions from Friday's individual mix feedback and a quick review of [Project 3 submission requirements](/projects/project-3-mix/#submit)
 - [slides] [Sampling history](/lectures/week-7/sampling-history/) — the machines and records behind sampling, and the problem MIDI was invented to solve
   - The sample clearance section at the end sets up the rights part of your write-up
 

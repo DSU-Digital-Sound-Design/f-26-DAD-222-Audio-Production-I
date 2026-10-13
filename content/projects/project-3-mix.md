@@ -31,8 +31,9 @@ Additional effects returns are optional. More plugins do not earn more points; t
 - **October 2:** After the EQ lab, import and save the session, follow a brief fader-balance demonstration, and save your starter balance. Resolve import or alignment problems in class. Finish folder organization if needed and bring the session Monday.
 - **October 5:** Finish the high-pass check and save your static balance before adding other processing. In a separate working version, try compression on one track and practice creating an effects send.
 - **October 7 and 9:** Work independently through the delay and reverb lessons in this session. Keep your static balance unchanged and experiment in a separate working version.
-- **October 14:** Revisit the balance in class. Compare your saved static mix with the processed version at similar loudness and identify what improved or became less clear.
-- **October 16:** Bring a playable draft and your decision notes for feedback. Be ready to demonstrate one before-and-after comparison and ask about one unresolved problem.
+- **October 14:** Review questions from the [delay](/lectures/week-6/delay-new/), [reverb](/lectures/week-6/reverb/), and effects-send lessons. Build on the balance covered in class Friday with demonstrations of panning, EQ, compression, and reverb and delay on sends using selected tracks. Try the techniques in your working session and keep your original static balance saved separately.
+- **October 16:** Bring a working mix that opens with all media and is ready to play, plus one question or mixing problem. I'll listen to each student's whole mix and give individual feedback. This is a progress check; final processing and the four written decision notes do not need to be complete yet.
+- **October 21:** Ask follow-up questions from Friday's feedback and review the submission requirements.
 - **October 23:** Submit the finished files to D2L by midnight.
 
 ## Set up the session
