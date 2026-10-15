@@ -152,18 +152,18 @@ funds undergraduate work.
 ## 10/16
 - [drill] [Ear training: compression](/lectures/ear-training-drills/#1016-compression) — 10 minutes
 - [lab] [Project 3 feedback checkpoint](/projects/project-3-mix/): I'll listen to each student's whole mix and give individual feedback. Bring a working session with all media and one question or mixing problem. Final processing and written decision notes can still be in progress
+- We'll review the WhoSampled write-up and discuss what you'll submit
+- BAD BEAT (Tino Gomez) joins us Monday, October 19. We'll preview the visit today. Explore his music and links in [Monday's schedule](#week-09)
 
-## 10/19
-- [guest] **BAD BEAT (Tino Gomez)** visits class
-  - Las Vegas techno and house producer and DJ, co-founder of the [MNTRA](https://www.instagram.com/mntravegas/) collective and the Techno Taco Tuesday party
-  - How a track gets built: drum machines, synths, and arranging for a dancefloor
-  - How he uses compression, reverb, and delay in his own music, picking up the effects work we just finished
-  - Running a collective and a recurring night: booking, promoting, and making a living in the scene
-  - Come with a question. The session counts toward participation.
 ### homework
 - **WhoSampled write-up** — due Friday 10/23 on D2L
   - Find three of your favorite sampling uses on [WhoSampled](http://whosampled.com). Why do you like them? Describe how the artist used the sample and what it was about the original recording that made them want to use it.
   - For one of the three, trace the rights side: who cleared it, who got paid, and who didn't.
+
+## 10/19
+- [guest] **BAD BEAT (Tino Gomez)** visits class
+  - Las Vegas-based DJ, producer, and event promoter associated with techno and house; founder of MNTRA Entertainment and co-founder of Techno Taco Tuesday
+  - [MNTRA website](https://www.mntra.vegas/) · [Instagram](https://www.instagram.com/badbeat/) · [Facebook](https://www.facebook.com/tinobadbeat/) · [SoundCloud](https://soundcloud.com/badbeat)
 
 ## 10/21
 - [drill] [Ear training: space](/lectures/ear-training-drills/#1019-space) — 10 minutes
