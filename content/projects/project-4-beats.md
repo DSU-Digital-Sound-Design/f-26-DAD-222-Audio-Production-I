@@ -105,7 +105,7 @@ and share it in class. For a version you can release, use cleared sources such a
 compositions such as Brahms works, or a paid clearance service such as
 [Tracklib](https://www.tracklib.com/). Check the license for every Freesound file;
 some require attribution. We will discuss the rights behind famous samples during
-the WhoSampled class session.
+the sampling history lesson.
 
 ## Submission instructions
 

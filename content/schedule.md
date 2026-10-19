@@ -152,13 +152,7 @@ funds undergraduate work.
 ## 10/16
 - [drill] [Ear training: compression](/lectures/ear-training-drills/#1016-compression) — 10 minutes
 - [lab] [Project 3 feedback checkpoint](/projects/project-3-mix/): I'll listen to each student's whole mix and give individual feedback. Bring a working session with all media and one question or mixing problem. Final processing and written decision notes can still be in progress
-- We'll review the WhoSampled write-up and discuss what you'll submit
 - BAD BEAT (Tino Gomez) joins us Monday, October 19. We'll preview the visit today. Explore his music and links in [Monday's schedule](#week-09)
-
-### homework
-- **WhoSampled write-up** — due Friday 10/23 on D2L
-  - Find three of your favorite sampling uses on [WhoSampled](http://whosampled.com). Why do you like them? Describe how the artist used the sample and what it was about the original recording that made them want to use it.
-  - For one of the three, trace the rights side: who cleared it, who got paid, and who didn't.
 
 ## 10/19
 - [guest] **BAD BEAT (Tino Gomez)** visits class
@@ -169,10 +163,8 @@ funds undergraduate work.
 - [drill] [Ear training: space](/lectures/ear-training-drills/#1019-space) — 10 minutes
 - Follow-up questions from Friday's individual mix feedback and a quick review of [Project 3 submission requirements](/projects/project-3-mix/#submit)
 - [slides] [Sampling history](/lectures/week-7/sampling-history/) — the machines and records behind sampling, and the problem MIDI was invented to solve
-  - The sample clearance section at the end sets up the rights part of your write-up
 
 ## 10/23
-- [due] **WhoSampled write-up** — due tonight on D2L
 - [lab] [How drum patterns work](/lectures/week-8/beatmaking/)
   - Build a beat in Ableton Learning Music, then rebuild it in REAPER with Sitala
   - Make a two-bar pattern with a backbeat, subdivisions, velocity changes, and one variation

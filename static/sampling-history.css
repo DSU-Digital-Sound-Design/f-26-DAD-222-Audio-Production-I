@@ -1,0 +1,22 @@
+/* Local layout rules for the sampling history deck. */
+.reveal ol {
+  margin-left: 1.7em;
+}
+.reveal table th {
+  color: var(--fg-bright);
+}
+.reveal .sampling-pair {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.5em;
+}
+.reveal .sampling-pair iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  margin: 0;
+}
+.reveal .sampling-pair p {
+  margin: 0.2em 0;
+  font-size: 0.8em;
+}

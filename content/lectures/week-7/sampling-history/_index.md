@@ -2,282 +2,274 @@
 title = "Sampling History"
 outputs = ["Reveal"]
 [reveal_hugo]
-# show_notes = "separate-page"
+custom_css = "sampling-history.css"
 +++
 
-## Introduction
+## Sampling history
 
-* Sampling: reusing a portion of an existing sound recording in a new recording.  
-* Mash-ups: layering two or more existing tracks (often a vocal from one, instrumental from another).  
-* Remixes: alternate versions built from stems or multitracks of a released song.  
+By the end, you can:
 
+- Distinguish a sample from a replayed musical idea.
+- Connect looping and sound editing to your own production.
+- Explain how MIDI triggers a sampler without carrying audio.
 
 {{% note %}}
-Use has been debated legally/ethically, but it’s also a major creative engine across electronic, hip hop, pop, and experimental music.
-
-Key distinction: quotation/contrafacts borrow musical ideas; sampling reuses recorded audio (fixed media).
+Plan for about 35 minutes, leaving time for Project 3 questions. Opening distinctions and jazz: 5 minutes; musique concrète: 7; hip hop and comparison: 6; samplers and MIDI: 10; source choices and exit check: 7. Use short excerpts, not full videos. The jazz overview and Fairlight overview are optional if time is tight. Listening responses and the exit check are oral, ungraded checks, not a new submission.
 {{%/ note %}}
-
 
 ---
 
-## Early History - Jazz
+## What are we reusing?
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-0mA6BP9NGA?si=re8vd-uY-jmtVTKX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+- **Sample:** audio taken from an existing recording.
+- **Interpolation:** a musical part performed and recorded again.
+- **Remix:** a new version, often made from a song's stems.
 
 {{% note %}}
-Early jazz musicians frequently quoted short melodic phrases from well-known tunes during solos and wrote contrafacts (new melodies over existing chord changes). This is not “sampling,” since no recordings were reused—rather, it’s live musical borrowing that foreshadows later reuse practices.
+Ask: if I sing a melody into a microphone, have I sampled the original recording? No. Reusing a musical idea and reusing recorded audio are different acts. A mash-up combines existing tracks, often a vocal from one with another track's instrumental. These categories can overlap: a remix can contain samples.
 {{%/ note %}}
-
 
 ---
 
-## Jazz Contrafacts 
+## Borrowing before samplers
 
-<div style="display:flex; flex-wrap:wrap; gap:1rem;">
-  <div style="flex:1 1 300px;">
-    <iframe width="100%" height="315" src="https://www.youtube.com/embed/HF_oBfItRO0?si=UDgsZDeuevCvB7jm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <p style="margin-top:0.5rem; text-align:center;">Original</p>
-  </div>
-  <div style="flex:1 1 300px;">
-    <iframe width="100%" height="315" src="https://www.youtube.com/embed/S6jQnrnWj4c?si=kxugKtz9eJnSkffX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <p style="margin-top:0.5rem; text-align:center;">Contrafact</p>
-  </div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-0mA6BP9NGA?si=re8vd-uY-jmtVTKX" title="Jazz musical borrowing example" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Listen for a borrowed phrase. Is an old recording being reused?
+
+{{% note %}}
+Optional overview example. Play only a short passage you can identify and discuss. Jazz quotation and contrafacts are precedents for musical reuse, not audio sampling. Do not imply that jazz invented borrowing or that these traditions form a single direct lineage.
+{{%/ note %}}
+
+---
+
+## Same harmony, new melody
+
+<div class="sampling-pair">
+<div><iframe width="560" height="315" src="https://www.youtube.com/embed/HF_oBfItRO0?si=UDgsZDeuevCvB7jm" title="Back Home Again in Indiana" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><p>“Indiana”</p></div>
+<div><iframe width="560" height="315" src="https://www.youtube.com/embed/S6jQnrnWj4c?si=kxugKtz9eJnSkffX" title="Charlie Parker recording of Donna Lee" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><p>“Donna Lee”</p></div>
 </div>
 
-{{% note %}}
-Donna Lee (often associated with Charlie Parker; formally credited to Miles Davis) is a bebop contrafact on the chord changes of “(Back Home Again in) Indiana.” Contrafacts reuse harmony, not recorded audio.
-{{%/ note %}}
-
-
-
-
-
----
-
-## Early History - Electronics
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/c4ea0sBrw6M?si=3V3fzrJwbWmkJYZ-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+A contrafact reuses chord changes. Does it reuse recorded audio?
 
 {{% note %}}
-Pierre Schaeffer’s musique concrète (from 1948) assembled recordings of everyday sound—edited, looped, reversed, and filtered on tape—toward acousmatic listening (separating sound from its source). This marks the beginning of systematic composition with recorded media.
+Play brief excerpts of each theme. Donna Lee uses the chord changes of (Back Home Again in) Indiana with a different melody. Answer: no recorded audio is copied. Beginners may not hear the harmony immediately; point out that the melodies differ, then explain the shared harmonic framework. Do not assess harmonic recognition here.
 {{%/ note %}}
 
 ---
 
-## Musique Concrète Techniques
+## Musique concrète
 
-* **Splicing**: Cutting and rearranging tape to reorder audio.  
-* **Looping**: Creating repeating patterns of sound from tape recordings.  
-* **Reverse Playback**: Playing sounds backward for new effects.  
----
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c4ea0sBrw6M?si=3V3fzrJwbWmkJYZ-" title="Introduction to musique concrète" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-* **Speed Manipulation**: Changing the speed of a recording to alter pitch and timbre.
-* **Filtering**: Using EQ to remove or emphasize certain frequencies.
-* **Reverb**: Adding artificial reverb to create a sense of space.
-
----
-
-## Pierre Schaeffer - Études de bruits (1948)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CTf0yE15zzI?si=_H3WbDe-kOPN4G3b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Listen for a familiar sound made unfamiliar. What changed?
 
 {{% note %}}
-00:00 Étude aux chemins de fer - trains
-02:53 Étude aux tourniquets - toy tops and percussion instruments
-04:52 Étude violette - piano recorded for Schaeffer by Boulez
-08:12 Étude noire - piano recorded for Schaeffer by Boulez
-12:11 Étude pathétique - sauce pans, canal boats, singing, speech, harmonica, piano
-{{%/ note %}}
-
-
----
-
-## The Rise of Hip Hop
-
-[Most Sampled Tracks | WhoSampled](https://www.whosampled.com/most-sampled-tracks/)
-
-{{% note %}}
-Hip hop’s earliest technique was turntable looping of drum breaks (two copies of the same record). High-end samplers arrived in the late 1970s but were rare and expensive. Sampling became widespread in hip hop with more affordable gear in the mid- to late-1980s (E-mu SP-1200, Ensoniq Mirage, Akai S-series/MPC). Many early rap records used replayed bands (interpolations) rather than master-recording samples.
-{{%/ note %}}
-
-
----
-
-
-## Comparing Musique Concrète and Early Hip Hop Sampling
-
----
-
-<table style="font-size:0.7em; width:100%;">
-  <thead>
-    <tr>
-      <th>Aspect</th>
-      <th>Musique Concrète</th>
-      <th>Early Hip Hop Sampling</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Time Period</strong></td>
-      <td>1940s–1950s</td>
-      <td>Late 1970s–1980s</td>
-    </tr>
-    <tr>
-      <td><strong>Primary Techniques</strong></td>
-      <td>Tape splicing, looping, speed manipulation</td>
-      <td>Turntable looping, scratching, early samplers</td>
-    </tr>
-    <tr>
-      <td><strong>Source Material</strong></td>
-      <td>Everyday sounds, field recordings</td>
-      <td>Funk, soul, disco records</td>
-    </tr>
-    <tr>
-      <td><strong>Aesthetic Goals</strong></td>
-      <td>Abstract soundscapes, acousmatic listening</td>
-      <td>Danceable grooves, rhythmic energy</td>
-    </tr>
-    <tr>
-      <td><strong>Cultural Context</strong></td>
-      <td>Avant-garde art music</td>
-      <td>Urban youth culture, party scenes</td>
-    </tr>
-  </tbody>
-</table>
-
-{{% note %}}
-Both practices involve recontextualizing recorded sound, but their goals, techniques, and cultural contexts differ significantly.
+Musique concrète starts with recorded sound, including everyday noises, rather than only conventional instruments. Schaeffer's experiments date to 1948; early work used discs, with tape becoming a later studio tool. Avoid describing every 1948 technique as tape splicing. Invite descriptions of attack, repetition, speed, or timbre before naming techniques.
 {{%/ note %}}
 
 ---
 
-## The Kraftwerk Connection
+## Rearrange time
 
-* Kraftwerk drew on avant-garde studio techniques (tape, synthesis) and minimalism.  
-* Afrika Bambaataa & Soulsonic Force’s “Planet Rock” (1982) **interpolates** motifs from Kraftwerk’s “Trans-Europe Express” and rhythmic ideas from “Numbers,” fused with the TR-808 electro aesthetic.
-
-[Planet Rock by Afrika Bambaataa and Soulsonic Force - Samples, Covers and Remixes | WhoSampled](https://www.whosampled.com/Afrika-Bambaataa/Planet-Rock/)
+- **Splice:** cut a recording and join pieces in a new order.
+- **Loop:** repeat a chosen section.
+- **Reverse:** play a recording backward.
 
 {{% note %}}
-The connection shows how experimental/electronic practices fed into hip hop and electro—not always by sampling masters directly, but often by re-performing (interpolating) and recontextualizing ideas.
+Connect to REAPER: split an item, move the pieces, repeat a selection, and reverse an item. These operations have physical precedents in disc and tape studios. Ask students which operation they already used in their editing work.
 {{%/ note %}}
 
-
 ---
 
-## Early Sampler - Fairlight CMI
+## Change the sound
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/n6QsusDS_8A?si=_GrS531-h7Nb_IHp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
----
-
-### Sesame Street: Herbie Hancock Makes Sounds
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oKoisNv1ftw?si=m0GpDG83YPes86jv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
----
-
-## Examples from the Fairlight/other samplers
-
-- [Tracks Sampled by Kate Bush | WhoSampled](https://www.whosampled.com/Kate-Bush/samples/)
-- [Tracks Sampled by Herbie Hancock | WhoSampled](https://www.whosampled.com/Herbie-Hancock/samples/)
-- [Tracks Sampled by Devo | WhoSampled](https://www.whosampled.com/Devo/samples/)
-- [Fairlight CMI - Samples, Covers and Remixes | WhoSampled](https://www.whosampled.com/Fairlight-CMI/)
-
----
-
-# What MIDI is
-
-* Musical Instrument Digital Interface
-* Proposed in 1981, announced in 1982, first public demo in January 1983
-* Transmits performance data, not audio
+- **Playback speed:** faster is higher; slower is lower.
+- **Filtering:** change which frequencies remain.
+- **Reverb:** add a sense of space.
 
 {{% note %}}
-
-Spoken notes
-
-* Define MIDI carefully: it’s a protocol and a family of specs for representing and exchanging musical performance information between instruments, computers, and controllers.
-* Timeline: proposal in 1981, industry alignment in 1982, and the first public demonstration at Winter NAMM 1983.
-* Contrast MIDI data vs audio: note numbers and velocities vs waveforms. This is why you can edit MIDI so freely in a DAW.
-* The problem it solved: before 1983, every manufacturer had its own incompatible interface. Dave Smith (Sequential) and Ikutaro Kakehashi (Roland) got competitors to agree on one standard—the NAMM demo was a Prophet-600 talking to a Jupiter-6.
-
-References
-MIDI history and first demo: The MIDI Association history chapters and photos of Prophet-600 ↔ Jupiter-6 at Winter NAMM 1983. ([MIDI.org][1])
-
-{{% /note %}}
+The pitch/speed relationship describes ordinary playback without pitch preservation. Modern DAWs can separate pitch and duration. Tie filtering and reverb to the EQ and effects sends students have already used. Tape splicing and these effects developed across studio practices; do not present all of them as Schaeffer's inventions.
+{{%/ note %}}
 
 ---
 
-# What MIDI sends
+## Schaeffer, 1948
 
-* Channel voice messages: note on/off with velocity, poly key pressure, channel pressure, control change, program change, pitch bend
-* Common controller (CC) mappings: CC1 modulation, CC7 volume, CC10 pan, CC11 expression, CC64 sustain
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CTf0yE15zzI?si=_H3WbDe-kOPN4G3b" title="Pierre Schaeffer Cinq études de bruits 1948" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Hear the opening train study. When does noise become a pattern?
 
 {{% note %}}
-
-Spoken notes
-
-* Channel voice messages are the bread and butter: they target a specific channel and carry musical intent. Demonstrate with a controller and a soft synth: send note on/off, wiggle the mod wheel (CC1), ride expression (CC11).
-* Pitch bend is high-resolution and centered at 0x2000; devices set bend range.
-
-References
-Message categories and CC examples: About MIDI Part 3 and Expanded MIDI 1.0 Messages List. ([MIDI.org][2])
-
-{{% /note %}}
+Use 30–45 seconds of the opening Étude aux chemins de fer, then ask for one audible example of repetition or changing texture. Later selections are optional: 02:53 Étude aux tourniquets; 04:52 Étude violette; 08:12 Étude noire; 12:11 Étude pathétique. These are cue points in this upload, not a requirement to play the whole set.
+{{%/ note %}}
 
 ---
 
-## Samplers meet MIDI: workstations and grooveboxes
+## Hip hop extends the break
 
-<div style="display:flex; gap: 1rem; align-items:flex-start; flex-wrap: wrap">
-  <div style="flex: 0 0 340px; max-width: 100%; text-align:center">
-    <iframe width="320" height="180" src="https://www.youtube.com/embed/SENzTt3ftiU?start=165" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
-  <div style="flex: 1 1 360px; min-width: 260px">
-    <ul>
-      <li>Akai MPC lineage (from MPC60 in 1988)</li>
-      <li>Sampling + sequencing + pads in one box</li>
-      <li>Timing correct, note repeat, and swing as defining workflow concepts</li>
-    </ul>
-  </div>
-</div>
+- Bronx DJs in the 1970s kept dancers moving by extending drum breaks.
+- Two turntables let a DJ repeat a recorded passage live.
+- Digital samplers later made it possible to store and retrigger sounds.
+
+[Explore sampled records on WhoSampled](https://www.whosampled.com/most-sampled-tracks/)
 
 {{% note %}}
+A break is a passage where drums or percussion come forward. Credit the Black and Latino communities of the Bronx and pioneers such as DJ Kool Herc and Grandmaster Flash. Demonstrate the idea by repeating a short drum passage, or describe switching between two copies of a record. Distinguish the 1970s turntable practice from later digital sampling. Ask: what does repetition do for the dancer?
 
-Spoken notes
-
-* Explain why the MPC paradigm matters to production culture: tight pad performance, step and realtime sequencing, and that famous swing feel.
-* Tie back to MIDI: MPCs both generate and respond to MIDI—great for hybrid rigs with soft synths and modules.
-
-References
-Historical/contextual coverage of MPC impact; recent Roger Linn commentary for modern perspective. ([Le Monde.fr][6])
-
-{{% /note %}}
+Background: https://nmaahc.si.edu/explore/stories/hip-hop-bronx and https://postalmuseum.si.edu/stamp-stories-hip-hop .
+{{%/ note %}}
 
 ---
 
-## Sample Clearance—The Practical Bits
+## Shared tools, different aims
 
-* Two rights to clear: master (sound recording) and publishing (composition).  
-* Key cases to know: Grand Upright v. Warner (1991); Bridgeport v. Dimension Films (2005, 6th Cir.); VMG Salsoul v. Ciccone (2016, 9th Cir.).  
-* Classroom guidance: prefer public-domain/CC, licensed packs, or your own recordings. Use interpolation where appropriate. Keep stems/notes of sources and transformations.
+| | Musique concrète | Early hip hop |
+| --- | --- | --- |
+| Starting point | Recorded noises and instruments | Breaks from records |
+| Repetition | Explore a sound's texture | Extend a groove |
+| Setting | Experimental radio and studios | Bronx parties and dance floors |
+
+What does a loop let each musician do?
 
 {{% note %}}
-These cases shape the modern legal framework for sampling. Emphasize the difference between transformative educational use and commercial release, and encourage students to document sources and transformations for transparency.
+These are examples of emphasis, not fixed boundaries. Musique concrète can be rhythmic, and hip hop can transform timbre radically. Neither tradition should be reduced to one technique or one purpose. Ask for the shared operation first, then the difference in how it serves the music.
+{{%/ note %}}
 
-Grand Upright v. Warner (1991)
-• Biz Markie sampled Gilbert O’Sullivan without permission.
-• Court ruled sampling without clearance is theft (“Thou shalt not steal”).
-• Started the strict sample-clearance era in the U.S. music industry.
+---
 
-Bridgeport v. Dimension Films (2005)
-• N.W.A. used a 2-second Funkadelic guitar hit.
-• Court: any unlicensed sampling of a sound recording = infringement.
-• Established the rule: “Get a license or do not sample.”
+## The Kraftwerk connection
 
-VMG Salsoul v. Madonna (2016)
-• Dispute over a tiny horn stab in “Vogue.”
-• Court found it de minimis—too small to matter.
-• Reintroduced a limited “small-sample exception,” creating a circuit split with Bridgeport.
+- “Planet Rock” (1982) replays musical ideas from Kraftwerk's “Trans-Europe Express” and “Numbers.”
+- This is **interpolation**: borrowing a part without copying that recording.
+
+[Compare the source relationships](https://www.whosampled.com/Afrika-Bambaataa/Planet-Rock/)
+
+{{% note %}}
+Use the source comparison to contrast a recognizable melody or rhythm with copied recorded sound. Ask students to explain the difference in one sentence. Kraftwerk's electronic studio practices influenced electro and hip hop, but this example is not proof that every borrowed part is a master-recording sample.
+{{%/ note %}}
+
+---
+
+## Fairlight: play a recording
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n6QsusDS_8A?si=_GrS531-h7Nb_IHp" title="Fairlight CMI sampler demonstration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+A stored sound can be played from a keyboard. What changes across keys?
+
+{{% note %}}
+Optional overview. Preview the clip and choose a brief keyboard demonstration rather than playing it in full. Explain that a sampler stores audio and maps it to playable notes. Listen for pitch changes. Do not imply every sampler changes pitch and duration in the same way.
+
+Optional listening links retained from the original deck:
+https://www.whosampled.com/Kate-Bush/samples/
+https://www.whosampled.com/Herbie-Hancock/samples/
+https://www.whosampled.com/Devo/samples/
+https://www.whosampled.com/Fairlight-CMI/
+These are sample relationships, not an inventory of Fairlight use.
+{{%/ note %}}
+
+---
+
+## Herbie Hancock samples
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oKoisNv1ftw?si=m0GpDG83YPes86jv" title="Herbie Hancock demonstrates sampling on Sesame Street" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+What gets recorded? What action makes it play back?
+
+{{% note %}}
+Use a short passage showing sound capture and keyboard playback. Have students describe the two stages: recording audio into memory, then triggering that audio. Connect the second stage to triggering a sound in Sitala. Do not infer that a keyboard demonstration necessarily uses an external MIDI connection.
+{{%/ note %}}
+
+---
+
+## Why MIDI mattered
+
+- Instruments from different makers needed a shared way to communicate.
+- MIDI means **Musical Instrument Digital Interface**.
+- It sends performance instructions. It does not send the audio itself.
+
+{{% note %}}
+MIDI's first public demonstration was at Winter NAMM in 1983, connecting Sequential and Roland instruments. Keep the chronology in notes; the learning goal is the difference between instructions and sound.
+
+Source: https://midi.org/midi-history-chapter-6-midi-begins-1981-1983 .
+{{%/ note %}}
+
+---
+
+## What MIDI tells an instrument
+
+- **Note on/off:** which note starts or stops, and when.
+- **Velocity:** how strongly the note was played.
+- **Controllers:** changes such as modulation or sustain.
+
+{{% note %}}
+Demonstrate one note in REAPER with Vital or Sitala. Move the note to change timing, edit its velocity, and change the instrument sound without changing the MIDI. Velocity often affects loudness or timbre; the instrument decides how it responds. Other message types include pitch bend, program change, and pressure. Optional CC examples: CC1 modulation, CC7 volume, CC10 pan, CC11 expression, CC64 sustain. Do not make students memorize the message taxonomy for this lesson.
+{{%/ note %}}
+
+---
+
+## MIDI triggers the sample
+
+1. A pad or piano-roll note sends a MIDI instruction.
+2. The sampler plays its stored audio.
+3. REAPER receives that audio for mixing.
+
+If you change the sample but keep the MIDI, what stays the same?
+
+{{% note %}}
+Expected answer: the note pattern and its timing remain; the resulting sound changes. In Sitala, each drum pad is mapped to a MIDI note. MIDI can select different drum sounds, not only transpose one sound. Demonstrate the same short pattern with two different kick samples. This is the bridge to Project 4's MIDI-triggered drum track.
+{{%/ note %}}
+
+---
+
+## MPC: performing the groove
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SENzTt3ftiU?start=165" title="How J Dilla humanized his MPC3000" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Listen for notes placed ahead of or behind the beat.
+
+{{% note %}}
+The Akai MPC60, introduced in 1988, combined sampling, sequencing, and pads. This clip concerns J Dilla's later MPC3000. Start at the embedded 2:45 cue and use a short excerpt. Explain quantization as moving notes toward a timing grid; swing shifts alternate subdivisions. Human timing need not equal a single swing setting. Ask what would change if every hit were snapped to the grid.
+
+Primary background on the MPC60: https://www.rogerlinndesign.com/about/roger-faq .
+{{%/ note %}}
+
+---
+
+## A recording has two rights
+
+- **Sound recording:** the particular recorded performance.
+- **Composition:** the underlying music and lyrics.
+- Sampling may involve both. Replaying a part can still involve the composition.
+
+{{% note %}}
+For a release, check permissions for every protected work involved. Interpolation does not copy the original master, but it is not a general escape from composition rights. Fair use and other exceptions depend on the facts; there is no universal safe sample length. Keep court-case detail out of the beginner lesson.
+
+Primary source: https://www.copyright.gov/engage/musicians/ .
+{{%/ note %}}
+
+---
+
+## Choose sources you can use
+
+- Record your own sounds, or use samples licensed for your intended use.
+- Check the recording's license, even if the composition is public domain.
+- Save the source, license, and required credit with your project.
+
+{{% note %}}
+A Creative Commons license may require attribution or restrict commercial use or adaptations. A public-domain composition does not automatically make a recent recording public domain. Educational use is not automatically fair use. For this course, follow the Project 4 submission instructions and discuss proposed public releases separately. Credit is useful documentation, not a substitute for permission.
+
+Sources: https://www.copyright.gov/engage/musicians/ and https://www.copyright.gov/help/faq/faq-fairuse.html .
+{{%/ note %}}
+
+---
+
+## Quick check before Project 4
+
+- You record a new performance of a borrowed melody. Sample or interpolation?
+- You replace a snare in Sitala. Does the MIDI pattern have to change?
+- Name one editing technique from today you could use in your beat.
+
+{{% note %}}
+Give pairs a minute, then take a few oral answers. No upload or written assignment. Expected answers: interpolation; no, if the replacement uses the same note mapping; looping, cutting/reordering, reversal, playback-speed changes, filtering, or reverb, with a specific production purpose. If students still say MIDI contains the sound, repeat the sample-swap demonstration before moving on. Preview Project 4: they will build a drum pattern and use MIDI-triggered sounds.
 {{%/ note %}}

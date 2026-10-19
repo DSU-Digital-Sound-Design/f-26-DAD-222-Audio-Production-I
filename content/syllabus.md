@@ -97,7 +97,6 @@ quality, so you can score your own work before you submit it.
   - Favorite-sound and class-playlist submissions on D2L (week 1)
   - In-class editing and EQ exercises
   - FX Roulette and Vital Roulette sessions
-  - The WhoSampled sampling write-up
   - The guest artist session on October 19 — come with a question
   - Vital patch sharing and the Recreate That Sound ear-training session
   - Spoken feedback during critique sessions — one specific observation and one
