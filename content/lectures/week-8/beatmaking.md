@@ -39,8 +39,9 @@ Keep a steady four-count with your foot:
 
 `1 2 3 4 | 1 2 3 4`
 
-Clap only on 2 and 4. Keep the foot going while you clap. Then speak or tap two
-even sounds for every beat:
+Clap only on beats 2 and 4 while your foot keeps tapping every beat. Then count
+aloud: say each number when your foot taps, and say "and" halfway between that
+tap and the next one. Keep the numbers and "ands" equally spaced:
 
 `1 & 2 & 3 & 4 &`
 
@@ -49,16 +50,16 @@ voice is supplying the subdivision. A programmed beat uses the same layers.
 
 ## 2. Build the pattern in Ableton Learning Music, 10 minutes
 
-Open [Make Beats](https://learningmusic.ableton.com/make-beats/make-beats) in a
-browser. The grid has 16 steps. Steps 1, 5, 9, and 13 mark beats 1, 2, 3, and 4.
+Open <a href="https://learningmusic.ableton.com/make-beats/make-beats" target="_blank" rel="noopener noreferrer">Make Beats</a> in a
+new tab. The grid has 16 steps. Steps 1, 5, 9, and 13 mark beats 1, 2, 3, and 4.
 
 Work through these short activities:
 
-1. [Beat and tempo](https://learningmusic.ableton.com/make-beats/beat-and-tempo.html)
-2. [Backbeats](https://learningmusic.ableton.com/make-beats/backbeats.html)
-3. [Bars](https://learningmusic.ableton.com/make-beats/bars.html)
+1. <a href="https://learningmusic.ableton.com/make-beats/beat-and-tempo.html" target="_blank" rel="noopener noreferrer">Beat and tempo</a>
+2. <a href="https://learningmusic.ableton.com/make-beats/backbeats.html" target="_blank" rel="noopener noreferrer">Backbeats</a>
+3. <a href="https://learningmusic.ableton.com/make-beats/bars.html" target="_blank" rel="noopener noreferrer">Bars</a>
 
-Then open [Play with beats](https://learningmusic.ableton.com/make-beats/play-with-beats.html)
+Then open <a href="https://learningmusic.ableton.com/make-beats/play-with-beats.html" target="_blank" rel="noopener noreferrer">Play with beats</a>
 and make your own one-bar pattern. Start with this recipe if the empty grid is
 intimidating:
 
