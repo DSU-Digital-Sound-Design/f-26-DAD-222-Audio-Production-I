@@ -177,7 +177,7 @@ These are sample relationships, not an inventory of Fairlight use.
 What gets recorded? What action makes it play back?
 
 {{% note %}}
-Use a short passage showing sound capture and keyboard playback. Have students describe the two stages: recording audio into memory, then triggering that audio. Connect the second stage to triggering a sound in Sitala. Do not infer that a keyboard demonstration necessarily uses an external MIDI connection.
+Use a short passage showing sound capture and keyboard playback. Have students describe the two stages: recording audio into memory, then triggering that audio. Connect the second stage to triggering a sound in Speedrum Lite. Do not infer that a keyboard demonstration necessarily uses an external MIDI connection.
 {{%/ note %}}
 
 ---
@@ -203,7 +203,7 @@ Source: https://midi.org/midi-history-chapter-6-midi-begins-1981-1983 .
 - **Controllers:** changes such as modulation or sustain.
 
 {{% note %}}
-Demonstrate one note in REAPER with Vital or Sitala. Move the note to change timing, edit its velocity, and change the instrument sound without changing the MIDI. Velocity often affects loudness or timbre; the instrument decides how it responds. Other message types include pitch bend, program change, and pressure. Optional CC examples: CC1 modulation, CC7 volume, CC10 pan, CC11 expression, CC64 sustain. Do not make students memorize the message taxonomy for this lesson.
+Demonstrate one note in REAPER with Vital or Speedrum Lite. Move the note to change timing, edit its velocity, and change the instrument sound without changing the MIDI. Velocity often affects loudness or timbre; the instrument decides how it responds. Other message types include pitch bend, program change, and pressure. Optional CC examples: CC1 modulation, CC7 volume, CC10 pan, CC11 expression, CC64 sustain. Do not make students memorize the message taxonomy for this lesson.
 {{%/ note %}}
 
 ---
@@ -217,7 +217,7 @@ Demonstrate one note in REAPER with Vital or Sitala. Move the note to change tim
 If you change the sample but keep the MIDI, what stays the same?
 
 {{% note %}}
-Expected answer: the note pattern and its timing remain; the resulting sound changes. In Sitala, each drum pad is mapped to a MIDI note. MIDI can select different drum sounds, not only transpose one sound. Demonstrate the same short pattern with two different kick samples. This is the bridge to Project 4's MIDI-triggered drum track.
+Expected answer: the note pattern and its timing remain; the resulting sound changes. In Speedrum Lite, each drum pad is mapped to a MIDI note. MIDI can select different drum sounds, not only transpose one sound. Demonstrate the same short pattern with two different kick samples. This is the bridge to Project 4's MIDI-triggered drum track.
 {{%/ note %}}
 
 ---
@@ -267,7 +267,7 @@ Sources: https://www.copyright.gov/engage/musicians/ and https://www.copyright.g
 ## Quick check before Project 4
 
 - You record a new performance of a borrowed melody. Sample or interpolation?
-- You replace a snare in Sitala. Does the MIDI pattern have to change?
+- You replace a snare in Speedrum Lite. Does the MIDI pattern have to change?
 - Name one editing technique from today you could use in your beat.
 
 {{% note %}}

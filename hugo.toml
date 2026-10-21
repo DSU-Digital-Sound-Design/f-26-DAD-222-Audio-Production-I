@@ -84,7 +84,7 @@ theme = ["t-console-theme", "reveal-hugo"]
     value = "3"
   [[params.facts]]
     key = "Software"
-    value = "REAPER, Vital, Sitala"
+    value = "REAPER, Vital, Speedrum Lite"
   [[params.facts]]
     key = "Grading"
     value = "Projects 50% · Attendance & participation 30% · Final project 20%"

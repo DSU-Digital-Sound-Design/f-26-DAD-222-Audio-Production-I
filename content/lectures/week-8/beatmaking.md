@@ -18,7 +18,7 @@ By the end of class, you should be able to:
 - find the four main beats in a 16-step grid;
 - place a snare or clap on beats 2 and 4 to create a backbeat;
 - use hi-hats to divide the beat into smaller parts;
-- program a two-bar drum pattern in Sitala; and
+- program a two-bar drum pattern in Speedrum Lite; and
 - change note placement and velocity to make the second bar different.
 
 ## Four useful terms
@@ -47,7 +47,7 @@ even sounds for every beat:
 Your foot is holding the pulse, your hands are playing the backbeat, and your
 voice is supplying the subdivision. A programmed beat uses the same layers.
 
-## 2. Build the pattern in Ableton Learning Music, 12 minutes
+## 2. Build the pattern in Ableton Learning Music, 10 minutes
 
 Open [Make Beats](https://learningmusic.ableton.com/make-beats/make-beats) in a
 browser. The grid has 16 steps. Steps 1, 5, 9, and 13 mark beats 1, 2, 3, and 4.
@@ -70,7 +70,7 @@ intimidating:
 Change the tempo. Notice that the pattern stays the same even though its speed
 changes.
 
-## 3. Hear what can change, 8 minutes
+## 3. Hear what can change, 5 minutes
 
 Listen to a short section of each track in class.
 
@@ -91,9 +91,13 @@ even when it does not sound locked to a rigid grid?
 There is no single correct kick pattern. A listener usually needs enough
 repetition to recognize the pattern and enough change to stay interested.
 
-## 4. Rebuild your beat in REAPER, 15 minutes
+## 4. Rebuild your beat in REAPER, 12 minutes
 
-1. Create an instrument track and add Sitala.
+Use the setup from the [MIDI and Speedrum Lite lab](/lectures/week-7/midi-intro/).
+Use drum sounds from **99Sounds: 99 Drum Samples I**. You can keep the three
+808 sounds from the introduction or choose other hits from the pack.
+
+1. Open your saved instrument track, or add Speedrum Lite to a new one. Load kick, snare or clap, and hi-hat samples onto three pads if needed.
 2. Create a two-bar MIDI item.
 3. Set the MIDI editor grid to sixteenth notes.
 4. Add kick notes for the first bar.
@@ -105,7 +109,7 @@ repetition to recognize the pattern and enough change to stay interested.
 If you lose track of the beat, find beats 1, 2, 3, and 4 first. Add the notes
 between them only after the main pulse makes sense.
 
-## 5. Make the repetition breathe, 7 minutes
+## 5. Make the repetition breathe, 5 minutes
 
 Velocity controls how strongly a MIDI note triggers the drum sampler. Lower
 every other hi-hat slightly. Keep the main hats louder and the hats between the

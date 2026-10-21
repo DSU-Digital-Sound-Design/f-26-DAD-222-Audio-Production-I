@@ -165,27 +165,31 @@ funds undergraduate work.
 - [slides] [Sampling history](/lectures/week-7/sampling-history/) — the machines and records behind sampling, and the problem MIDI was invented to solve
 
 ## 10/23
-- [lab] [How drum patterns work](/lectures/week-8/beatmaking/)
-  - Build a beat in Ableton Learning Music, then rebuild it in REAPER with Sitala
-  - Make a two-bar pattern with a backbeat, subdivisions, velocity changes, and one variation
-- [project] Introduce [Project 4: Drum Programming and Beatmaking](/projects/project-4-beats/) at the end of the lesson; today's exit pattern can become its drum track
-- [due] **Project 3: In-class mixing assignment** — due tonight by midnight
-### homework
-- [project] [**Project 4: Drum Programming and Beatmaking**](/projects/project-4-beats/) — due Monday 11/2
-
-## 10/26
-- [drill] [Ear training: balance and image](/lectures/ear-training-drills/#1026-balance-and-image) — 10 minutes
-- [lab] [MIDI and Sitala in REAPER](/lectures/week-7/midi-intro/)
+- Before class: [download and install Speedrum Lite](/lectures/week-7/midi-intro/#download-and-install-speedrum-lite)
+- Download **99Sounds: 99 Drum Samples I** and [prepare the three starter sounds](/lectures/week-7/midi-intro/#prepare-three-drum-sounds)
+- [lab] [MIDI and Speedrum Lite in REAPER](/lectures/week-7/midi-intro/)
   - Set up the instrument track and load drum samples
   - Record or draw MIDI, quantize it, and use overdub when useful
   - [Edit note placement and velocity](/lectures/week-9/midi-editing/)
-- [lab] Continue Project 4 with help available for setup and troubleshooting
+- [project] Introduce [Project 4: Drum Programming and Beatmaking](/projects/project-4-beats/) — due Monday 11/2
+- [due] **Project 3: In-class mixing assignment** — due tonight by midnight
+
+## 10/26
+- [drill] [Ear training: balance and image](/lectures/ear-training-drills/#1026-balance-and-image) — 10 minutes
+- [lab] [How drum patterns work](/lectures/week-8/beatmaking/)
+  - Build a beat in Ableton Learning Music, then rebuild it in REAPER with Speedrum Lite
+  - Make a two-bar pattern with a backbeat, subdivisions, velocity changes, and one variation
+  - Today's exit pattern can become the Project 4 drum track
+- Save the exit pattern for Project 4. Bring it and one non-drum sample to Wednesday's checkpoint
 
 ## 10/28
-- [slides] **Synthesis and MIDI** — [electronic sound production](/lectures/week-10/electronic-sound-production/)
+- [lab] [From a vocal recording to a MIDI part](/lectures/week-7/midi-intro/#worked-example-turn-a-vocal-recording-into-a-midi-part) — 15 minutes: extract a phrase, pitch-shift it, glue it to a WAV, and trigger it in Speedrum Lite
+- [lab] [Project 4 feedback checkpoint](/projects/project-4-beats/#october-28-checkpoint) — 20 minutes: bring a session with a two-bar drum pattern and one non-drum sample triggered by MIDI. Check sample files, get feedback, and work on the remaining parts; no additional graded submission
+- [slides] Begin **Synthesis and MIDI** — [electronic sound production](/lectures/week-10/electronic-sound-production/) — 15 minutes; continue Friday
 
 ## 10/30
 - Install [Vital Synth](https://vital.audio/) if you haven't already
+- [slides] Continue [electronic sound production](/lectures/week-10/electronic-sound-production/)
 - [lab] [Vital Roulette game](/lectures/week-10/vital-roulette/)
 
 ## 11/2

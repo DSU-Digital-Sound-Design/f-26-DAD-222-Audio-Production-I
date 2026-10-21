@@ -23,7 +23,7 @@ Your piece needs at least two techniques from the semester. Some options:
   [book studio time](https://sites.google.com/view/charmstudios/studio-documentation).
 - **Audio effects.** EQ, compression, reverb, delay, or anything else we've
   covered, used as part of the sound rather than as cleanup.
-- **MIDI percussion with Sitala.**
+- **MIDI percussion with Speedrum Lite.**
 - **Sounds you designed in Vital.**
 
 **Not a composer?** That's fine. Send me a proposal for a podcast, a sound

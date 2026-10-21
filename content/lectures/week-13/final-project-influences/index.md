@@ -66,7 +66,7 @@ Some examples of translation:
 
 Write down a short plan: influence, then technique, then your adaptation.
 
-Kuhn and Hein build every project from the same formula: a music concept plus a technology concept plus a fun hook. Your adaptation line should name all three, and the technology concept should come from this course: a Vital patch, a Sitala kit, REAPER routing or automation, or a field recording chain.
+Kuhn and Hein build every project from the same formula: a music concept plus a technology concept plus a fun hook. Your adaptation line should name all three, and the technology concept should come from this course: a Vital patch, a Speedrum Lite kit, REAPER routing or automation, or a field recording chain.
 
 ## Step 4: Small-Group Sharing (15 minutes)
 
