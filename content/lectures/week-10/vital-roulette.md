@@ -44,7 +44,9 @@ Use a simple one-bar MIDI loop or chord progression that plays through Vital.
    - SFX  
 4. Choose a preset from that style.  
 5. Listen carefully—don’t touch any controls yet.  
-6. Take short notes describing what you *hear* rather than what you *see*.
+6. Take short notes describing what you *hear* before inspecting the controls.
+
+Start after the guided pluck-and-pad task in the [synthesis deck](../electronic-sound-production/). For the first round, I'll model an audible description, a prediction about its cause, and a test using one control. If your Vital setup is still unresolved, listen and make predictions with a partner.
 
 ---
 
@@ -68,15 +70,16 @@ Try to describe sounds in sensory or emotional terms first (“glassy shimmer,�
 Each round introduces a new **style** and a new **preset**.  
 Spin the wheel, select a preset from the chosen style, listen carefully, and take notes.  
 
-As rounds progress, time decreases—forcing faster decisions and sharper listening.
+For October 30, use about 15 minutes:
 
-- **Round 1:** 5 minutes  
-- **Round 2:** 4 minutes  
-- **Round 3:** 3 minutes  
-- **Round 4:** 2 minutes  
-- **Round 5:** 1 minute 30 seconds  
-- **Round 6:** 1 minute  
-- **Round 7:** 30 seconds  
+- Instructor model, 4 minutes: describe the sound, predict a cause, inspect the patch, and change or bypass one relevant control to test the prediction.
+- Student round 1, 4 minutes: write an audible description and a possible cause. Inspect the patch, test one control, and compare the result with the prediction.
+- Student round 2, 4 minutes: repeat with another preset. Share what supported or changed your explanation.
+- Discussion, 3 minutes: distinguish what you heard from what the control test established.
+
+For each round, keep the MIDI phrase unchanged and return the control to its original setting before testing another explanation. Match comparison loudness when practical. If testing a control is not yet comfortable, describe the prediction and have a partner or instructor operate it.
+
+Additional rounds are optional. Shorten the time only once students can describe and test a sound successfully. Multiple routings or effects may produce similar audible results; the goal is a supported explanation of this patch.
 
 ---
 

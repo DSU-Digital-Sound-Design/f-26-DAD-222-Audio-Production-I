@@ -5,438 +5,351 @@ outputs = ["Reveal"]
 # show_notes = "separate-page"
 +++
 
-# Electronic sound production – synthesis
+# Electronic sound production
+
+Synthesis: building and shaping a sound
 
 {{% note %}}
-Purpose of today
+Instructor preparation
 
-- Bridge from MIDI editing, sequencing, and sampling into synthesis as a core way of making sound.
-- Equip you with the mental model of signal flow so you can patch any soft synth, modular, or hardware.
+- Have Vital installed and a REAPER instrument track receiving MIDI. Use one oscillator, no effects, and a comfortable monitoring level.
+- Prepare a pluck and a pad from the same waveform, pitch, and filter setting. Change only the amplitude envelope. Match their perceived loudness as closely as practical.
+- Open the linked Ableton exercises before class. If unavailable, demonstrate the same controls in Vital; students can predict and sketch on paper while a partner or instructor operates the synth.
 
-What synthesis means
+Suggested pacing across the scheduled meetings
 
-- Synthesis generates sound from the ground up by following a procedure or algorithm.
-- Example mindset: instead of searching for the perfect sample, we design the sound’s building blocks and their relationships.
-
-Guiding questions
-
-- What produces the raw tone?
-- What shapes its spectrum over time?
-- What shapes its loudness and articulation over time?
-- What controls those changes?
+- October 28, 15 minutes: opening comparison, signal path, waveforms, and filter prediction. Stop after “Check: pitch or brightness?”
+- October 30, 50 minutes: retrieval and setup, 5; amplifier and envelopes, 10; guided Vital pluck-to-pad task, 15; one modulation demonstration and exit check, 5; modeled Roulette round and two student rounds with discussion, 15.
+- History and synthesis-method slides follow the exit check as optional reference. Use a short excerpt in a later lesson or if time permits. Do not play every video in the core lesson.
+- November 2: extend the saved patches with the fuller Vital introduction as time permits after the ear-training drill and beatmaking presentations. The initial two patches are practice, not a new graded submission.
 {{%/ note %}}
 
 ---
 
-## Case study: recreating a trumpet
+## Same source, different articulation
 
-- Goal
-  - Recreate the gist of a trumpet tone without sampling one.
-- High level approach
-  - Identify partials (harmonics) in a recorded trumpet note.
-  - Use several oscillators to match partial frequencies and relative levels.
-  - Introduce slight detune and amplitude modulation for realism.
+Listen to a pluck and a pad on the same note.
+
+- What changes at the beginning and end?
+- Which control might explain the difference?
 
 {{% note %}}
-Show spectrogram in Sonic Visualizer 
+Play the prepared pair without showing the controls. Ask everyone to write a prediction, then compare with a partner. Accept everyday descriptions such as “fades in” or “stops slowly.” Reveal that only the amplitude envelope changed. Return to this pair during the patch task.
 
-Additive path
-
-- Start with sine oscillators set to harmonic ratios 1f, 2f, 3f, 4f, etc.
-- Amplitude for each partial typically decreases roughly as 1/n, then deviates by register and dynamics.
-- Add a slow random or very low depth LFO to simulate breath and lip fluctuations.
-- Shape the spectral brightness with a very gentle low-pass filter keyed to velocity.
-
-Takeaway
-
-- The method above is additive synthesis. We will contrast it with subtractive, FM, wavetable, granular, physical modeling, and sample-based methods.
+Connect to sampling: last week MIDI triggered recorded audio. Here MIDI triggers a synthesizer that generates and shapes its sound.
 {{%/ note %}}
 
 ---
 
+## What you will be able to do
 
-
-## Analog days: synthesizers in the 1960s and 1970s
-
-- Names to know
-  - Robert Moog, Donald Buchla, and contemporaries
-- Key characteristics
-  - Analog
-  - Modular
-  - Voltage controlled
+- Identify the oscillator, filter, and amplifier by their jobs.
+- Predict a change in brightness or articulation.
+- Save a pluck and a pad, then explain two choices.
 
 {{% note %}}
-Analog
-
-- Continuous electrical voltages represent audio and control signals.
-
-Modular
-
-- Separate hardware modules specialized for tasks: oscillators, filters, envelopes, amplifiers, mixers, sequencers.
-- Patch cables define signal flow rather than a fixed internal wiring.
-
-Voltage control
-
-- One voltage controls another parameter. Keyboard pitch CV drives oscillator pitch; an envelope CV drives a VCA’s gain; an LFO CV sweeps a filter.
-- Early controllers included keyboards, joysticks, ribbon controllers, and sequencers.
-
-Cultural context
-
-- Moog’s East Coast approach emphasized keyboard performance and subtractive tone shaping.
-- Buchla’s West Coast approach emphasized timbre modulation, touch plates, and non–keyboard interfaces.
-{{%/ note %}}
-
-
----
-
-## East Coast vs West Coast synthesis
-
-- East Coast (Moog tradition)
-  - Start bright, then subtract using filters.
-  - Common patch: VCO → VCF → VCA with ADSR envelopes.
-- West Coast (Buchla tradition)
-  - Start simple, then add complexity with waveshaping and modulation.
-  - Common patch: complex oscillator → waveshaper/wavefolder → low-pass gate.
-
-{{% note %}}
-Why this distinction matters
-
-- It frames two complementary mindsets: sculpting by removal vs sculpting by transformation.
-- Modern instruments often blend both: wavefolding inside subtractive synths, or filters inside complex-oscillator designs.
+Use these as the success criteria for the exit check. Students do not need to memorize historical names or every synthesis method today. These patches can become starting points for Project 5, which will ask for original patches used in a composition.
 {{%/ note %}}
 
 ---
 
-## Moog - show by Wendy Carlos
+## The audio path
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4SBDH5uhs4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Oscillator → Filter → Amplifier → Output
+
+- Oscillator: generates the raw sound.
+- Filter: shapes its frequency content.
+- Amplifier: controls its level.
 
 {{% note %}}
-This video shows Wendy Carlos in 1970 demonstrating the Moog synthesizer, explaining how fundamental waveforms and sound-shaping tools are used to build electronic sounds from scratch. It’s a historical glimpse into the basics of analog synthesis and early electronic music technology.
+Trace one held note through the path. This is a useful starting model for subtractive synthesis, not the architecture of every synthesizer.
 
-Wendy Carlos is a pioneering American composer and electronic musician best known for popularizing the Moog synthesizer and for her groundbreaking 1968 album *Switched-On Bach*, which introduced synthesized classical music to a wide audience. She won three Grammy Awards for this work and helped make electronic music mainstream. Carlos also composed iconic film scores, including those for Stanley Kubrick’s *A Clockwork Orange* and *The Shining*, and Disney’s *Tron*. She is recognized both for her musical innovations and as a trailblazer for transgender visibility in the arts.
+Keep the control path distinct: an envelope sends changing control values to amplifier gain. Audio does not travel through the envelope generator. An envelope can also control filter cutoff or other destinations.
 
+In Vital, point to Oscillator 1, Filter 1, and Envelope 1. The amplitude control is part of the instrument's routing; students do not need to locate a separate hardware-style VCA panel. Confirm that Oscillator 1 is actually routed through the enabled filter before demonstrating cutoff.
 {{%/ note %}}
 
 ---
 
-## Buchla 200e
+## Oscillators: pitch and waveform
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Y7nxZdkqWpk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Frequency sets the repetition rate and pitch.
+Waveform changes the harmonic content and timbre.
+
+[Explore oscillators](https://learningsynths.ableton.com/en/oscillators/how-synths-make-sound)
 
 {{% note %}}
-**Buchla 200e Modular Synthesizer — Brief Overview with Lecture Timestamps**
-
-- **About the Buchla 200e:**  
-  The Buchla 200e is an iconic modular synthesizer, designed by Don Buchla, that blends analog warmth with digital precision. Its modular architecture uses patch cables for free-form signal routing. Instead of a piano keyboard, it uses touch plates and X/Y pads for expressive, real-time control, making it ideal for experimental sound design and teaching core synthesis concepts.
-
-**Key Tutorial Moments (with Timestamps):**
-
-- **Oscillators & Frequency Modulation**  
-  Demonstrates analog triangle and sine wave oscillators with cross-modulation (FM), showing flexibility in timbre creation.  
-  *2:19–2:31*
-
-- **Envelope/Dynamics Manager**  
-  Covers Buchla’s quad function generators and characteristic low-pass gate, illustrating percussive amplitude envelopes and dynamic sound shaping.  
-  *8:34*
-
-- **Touch Plate Interface**  
-  Shows the expressive, non-keyboard tactile input system that enables fast, precise live modulation and interaction outside the MIDI paradigm.  
-  *12:07*
-
-- **Complex Waveform Generator (261e)**  
-  Explores digital and analog combined FM, symmetry, and timbral modulation for rich sound palettes.  
-  *15:53*
-
-- **Mixed Output / Additive Synthesis**  
-  Demonstrates mixing oscillator outputs and additive layering for evolved timbres and sound experimentation.  
-  *21:35*
-
-- **Harmonic Oscillator**  
-  Details control over individual harmonics—ideal for illustrating additive synthesis and organ-like tones—plus spectral morphing and modular patching.  
-  *24:08*
-
+Hold pitch constant while changing waveform. Then keep the waveform and change pitch. Ask students to describe which dimension changed each time. Avoid adding unison, detune, and effects yet, so the comparison has one cause.
 {{%/ note %}}
 
 ---
 
-## Yamaha DX7
+## Basic waveforms
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Q1Ha0MMT0aA?start=165" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<img src="basic-waveforms.png" alt="Basic periodic waveforms for comparing their cycle shapes" style="max-height: 320px; width: auto;">
 
-{{% note %}}
-Context
-
-- Released 1983, early all‑digital, MIDI‑capable, and comparatively affordable.
-
-FM essentials
-
-- Operators are sine oscillators with independent envelopes.
-- Carriers are audible; modulators change a carrier’s spectrum.
-- Algorithms define how operators connect. Small changes in index or ratio have big spectral effects.
-
-Performance impact
-
-- Velocity and aftertouch can address operator envelopes for expressive dynamics and brightness.
-
-Here are key moments from the **“Yamaha DX7 – The Synthesizer that Defined the ’80s”** video that would be effective for a sound synthesis lecture. Each timestamp corresponds to a topic critical for understanding FM synthesis, the DX7’s impact, and related sound examples:
-
-- **00:43 – The Science of FM Synthesis**  
-  - Introduces John Chowning’s algorithm at Stanford (1967)
-  - Explains the basics of FM versus subtractive synthesis:  
-    - *Subtractive*: Complex wave filtered down.
-    - *FM*: One wave modulates another (e.g., violin finger modulating pitch).
-  - Highlights why FM is powerful: easily emulates bells, marimbas, percussive tones.
-
-- **02:10 – The Yamaha DX7 and FM Technology**  
-  - 1983 release, first programmable FM synth.
-  - Ability to create custom sounds/operators.
-  - Major leap from analog to digital, paving the way for precision and versatility.
-
-- **02:44 – Electric Piano Sound Demonstrations**  
-  - Famous “E. Piano 1” preset becomes foundational in 1980s ballads (e.g., Chicago’s “Hard Habit to Break,” Whitney Houston’s “Didn’t We Almost Have It All”).
-
-- **03:51 – Other Iconic Tones**  
-  - Demonstrates DX7’s bass and fretless bass capabilities:
-    - “Take My Breath Away” (Top Gun soundtrack)
-    - Kenny Loggins’ “Danger Zone”
-  - Harmonica emulation: Tina Turner’s “What’s Love Got to Do with It?”
-
-- **05:06 – Ahead of Its Time: Storage and Programming**  
-  - User programmability, cartridges, and software/app support.
-  - Custom sound design: Preset culture and limitations—few custom patches were used.
-
-- **05:34 – Brian Eno and Custom FM Programming**  
-  - Eno’s custom patches (shown from Keyboard Magazine).
-  - Use in ambient and pop music (notably “Apollo: Atmospheres and Soundtracks”).
-
-- **06:11 – Cultural/Technical Legacy and ‘80s Revival**  
-  - Summarizes how the DX7 influenced new genres and is still emulated by modern artists (La Roux, Tame Impala, The Weeknd).
-  - Mentions Yamaha’s modern Montage synth as FM’s successor.
-
-{{%/ note %}}
-
-
----
-
-## Basic synthesis model
-
-![](basic-synth-model.png)
+Predict, then listen: which sounds smoother, sine or saw?
 
 {{% note %}}
-### Three Core Modules in Synthesis
+Use the same note at comparable loudness. Let students predict privately before hearing the pair, then explain their answer.
 
-- **Oscillator**
-  - Provides a basic waveform, which determines the timbre.
-  - Sets the frequency, affecting the pitch of the sound.
-
-- **Filter**
-  - Alters the spectrum or timbre of the basic waveform.
-  - Can remove or boost certain frequency components.
-
-- **Amplifier**
-  - Applies an envelope to control the amplitude of the audio.
-  - Affects loudness and articulation of the sound.
-
-### Analogue Modeling Synthesis in DAWs
-
-- **Not Actual Analogue Synthesis**
-  - In Digital Audio Workstations (DAWs), the process is not true analogue synthesis but a digital emulation known as analogue modeling synthesis.
-
-- **Voltage Control (V)**
-  - The "V" often seen in module names stands for voltage control.
-  - This is a nod to historical modules that were controlled by electrical voltage.
-
+Sine contains only the fundamental. Ideal triangle and square waves contain odd harmonics; triangle's upper harmonics fall off faster. An ideal saw contains all integer harmonics. Real digital implementations limit their bandwidth. Teach the audible comparison first; the harmonic formulas are optional enrichment.
 {{%/ note %}}
 
 ---
 
-# Pitch and timbre source: the oscillator
+## Filters: changing brightness
 
-[Learning Synths - Oscillators](https://learningsynths.ableton.com/en/oscillators/how-synths-make-sound)
+A low-pass filter attenuates high frequencies.
 
-{{% note %}}
-Core idea
+[Explore filters](https://learningsynths.ableton.com/en/filters/filters-in-the-real-world)
 
-- An oscillator repeats a single cycle at a target frequency derived from MIDI note plus tuning and modulation.
-
-Aliasing awareness
-
-- Digital oscillators must band-limit high harmonics to avoid aliasing. Good synths use techniques like BLEP or oversampling.
-
-Practical controls
-
-- Coarse and fine tune for pitch, phase reset for consistency, unison voices for width, and drift for analog feel.
-{{%/ note %}}
-
-
----
-
-## Basic Waveforms
-
-![](basic-waveforms.png)
+Hold a saw note. Predict what lowering cutoff will do, then try it.
 
 {{% note %}}
-Harmonic content quick guide
+Connect to earlier EQ work. Keep pitch, waveform, envelope, and effects unchanged. Lower cutoff, listen, then restore it. Ask for “darker” or “less bright,” and ask whether the played MIDI note changed. Filtering can also change level, so avoid equating brighter with louder.
 
-- Sine contains only the fundamental; useful for pure tones or FM operators.
-- Triangle contains odd harmonics dropping with the square of the harmonic number; mellow.
-- Square contains odd harmonics at 1/n strength; hollow and clarinet‑like.
-- Saw contains all integer harmonics at 1/n; bright and buzzy; subtractive workhorse.
-
-Pulse width
-
-- Varying a square’s duty cycle changes which harmonics are present and their strengths. Pulse‑width modulation produces animated chorusing.
+Cutoff sets the transition region. Resonance emphasizes frequencies near cutoff. Demonstrate resonance only after students recognize cutoff. Filter slope, drive, and key tracking can wait for later patch work.
 {{%/ note %}}
 
 ---
 
-## Noise
+## Filter responses
 
-![](whitenoise.jpg)
+<img src="filter-types.jpg" alt="Frequency-response diagrams comparing filter types" style="max-height: 320px; width: auto;">
+
+Which response would reduce a saw's high-frequency buzz?
 
 {{% note %}}
-Noise colors
-
-- White noise has equal energy per Hz; bright.
-- Pink noise has equal energy per octave; more natural for wind and surf.
-- Brownian and blue are other useful colors.
-
-Applications
-
-- Percussion transients, snares, cymbals, foley, and wind.
-- Modulate noise level or filter cutoff with envelopes for realistic attacks and decays.
+Have students point to the response and explain what happens to the highs. Low-pass is the target. Briefly distinguish high-pass, band-pass, and notch using the image. Leave them as reference rather than adding four independent demonstrations today.
 {{%/ note %}}
 
 ---
 
-## Timbre modification: the filter
+## Check: pitch or brightness?
 
-![](filter-types.jpg)
+A held note becomes darker; its MIDI note stays the same.
 
-[Learning Synths - Fitlers](https://learningsynths.ableton.com/en/filters/filters-in-the-real-world)
+Which is the likely change?
+
+- Oscillator tuning
+- Low-pass cutoff
+
+Explain what you expect to hear if tuning changes instead.
 
 {{% note %}}
-In mixing vs synthesis
-
-- Mix EQ is often subtle; synth filters are creative sculpting tools with pronounced character and saturation.
-
-Common responses
-
-- Low‑pass removes highs, high‑pass removes lows, band‑pass isolates a band, notch removes a band.
-
-Key parameters
-
-- Cutoff sets the transition frequency.
-- Resonance emphasizes a narrow region near cutoff; high resonance can self‑oscillate and act as a sine source.
-- Slope is often 12 dB or 24 dB per octave; steeper slopes sound more decisive.
-
-Musical controls
-
-- Envelope amount pushes the filter open on each note.
-- Key tracking ties cutoff to pitch so higher notes are brighter.
-- Drive adds nonlinearity for harmonically rich tone.
+Give everyone 20 seconds to choose and explain before taking responses. Target: lower low-pass cutoff changes the spectrum; tuning changes the oscillator's repetition rate and pitch. Demonstrate both if answers suggest confusion. End Wednesday here and begin Friday by recalling the audio path without looking.
 {{%/ note %}}
 
 ---
 
-# Loudness modification: the amplifier
+## Amplifier and envelope
 
+The amplifier changes audio level.
+The envelope controls how that level changes over time.
+
+MIDI note-on starts the envelope.
+Note-off starts its release.
 
 {{% note %}}
-Role
+Return to the opening pluck and pad. Show Envelope 1 in Vital and identify its control of amplitude. The envelope is a control signal, not an audio source. Change only attack while holding pitch, waveform, and filter constant.
 
-- The amplifier (VCA) scales the audio signal. Its gain is controlled by envelopes, velocity, aftertouch, or other modulators.
-
-Clarity
-
-- Even when the oscillator is constant, the envelope at the VCA creates perceived note onsets, sustains, and releases.
+This describes the normal gated ADSR behavior used in today's task. Synthesizers can offer other trigger and looping modes.
 {{%/ note %}}
 
 ---
 
-## Applying articulation with an envelope
+## ADSR: time and level
 
-![](envelope.png)
+<img src="envelope.png" alt="ADSR amplitude envelope showing attack, decay, sustain level, and release after note-off" style="max-height: 290px; width: auto;">
 
-[Learning Synths - Envelopes](https://learningsynths.ableton.com/en/envelopes/change-over-time)
+Attack, decay, release: time. Sustain: level.
 
 {{% note %}}
+Attack is time to peak. Decay is time from peak to sustain. Sustain is the level held after decay while the key remains down. Release is the fade after note-off.
 
-### Role of Envelope Generators
+Trace the key-down interval explicitly. Ask whether raising sustain means holding the key longer; it does not. In the figure, peak level is shown as velocity-dependent. Velocity only affects level when the instrument maps it that way; that behavior is not universal.
 
-- **Functionality**
-  - Envelope generators in synthesizers allow the amplifier to both set the maximum amplitude and shape the amplitude over the duration of a note.
-
-### ADSR Parameters
-
-- **Attack Time**
-  - The duration it takes for the sound's amplitude to reach its maximum value.
-
-- **Decay Time**
-  - The time needed for the amplitude to drop to the sustain level.
-
-- **Sustain Level**
-  - The amplitude level that is maintained after the decay phase.
-  - This level is held as long as the note is sustained.
-
-- **Release Time**
-  - Triggered by a 'note-off' message.
-  - The duration it takes for the amplitude to drop to its minimum value.
-
+Optional interactive support: https://learningsynths.ableton.com/en/envelopes/change-over-time
 {{%/ note %}}
 
 ---
 
-![](adsr-examples.png)
+## Predict the articulation
 
----
+<img src="adsr-examples.png" alt="Three ADSR settings and their envelope shapes: sharp attack, sudden release, and a plucked shape" style="max-height: 340px; width: auto;">
 
-## Modulation sources and destinations
-
-[Learning Synths - Modulation](https://learningsynths.ableton.com/en/lfos/change-that-repeats)
+Which shape keeps fading while you hold the key? Why?
 
 {{% note %}}
-Sources
+Target: the plucked shape, c, decays toward zero sustain even while the key stays down. Demonstrate with a long held note. Contrast with a sustained pad.
 
-- LFOs for cyclical change, envelopes for event‑based change, key tracking, velocity, aftertouch, mod wheel, random/S&H, step sequencers.
-
-Destinations
-
-- Pitch, pulse width, filter cutoff and resonance, oscillator mix, wavetable position, waveshaper amount, pan, effects parameters.
-
-Best practice
-
-- Use small amounts on multiple destinations for organic motion rather than one extreme modulation.
+Then ask which parameter changes the tail after key-up. Target: release. Have students sketch a pad envelope before they touch the synth.
 {{%/ note %}}
 
 ---
 
-{{< slide class="stepped" >}}
+## Guided Vital patch: pluck
 
-## Methods of synthesis at a glance
-
-- Subtractive
-- Additive
-- FM and phase modulation
-- Wavetable
-- Granular
-- Physical modeling
-- Sample‑based and hybrid
+1. Initialize a patch. Use one saw oscillator, no effects.
+2. Enable a low-pass filter and route Oscillator 1 through it.
+3. Use fast attack, short decay, low sustain, short release.
+4. Save as `YourName_Pluck_v1`.
 
 {{% note %}}
-Quick contrasts
+Allow about 7 minutes of the 15-minute patch task. Demonstrate each step and let students follow. First verify MIDI input and sound, then filter routing. Keep the patch simple; wavetable morphing and unison come later.
 
-- Subtractive starts rich and removes content with filters.
-- Additive builds from many simple components.
-- FM creates sidebands via modulation; highly efficient and expressive.
-- Wavetable scans through single‑cycle waveframes for evolving tone.
-- Granular rearranges micro‑snippets of audio for textures and time‑stretching.
-- Physical modeling simulates the physics of instruments for realistic response.
-- Modern instruments often blend methods.
+Approximate starting values: attack 5 ms, decay 250 ms, sustain 0%, release 100 ms. These are starting points, not assessed targets. Hold a note to check that it fades while the key stays down. Listen for clicks and soften the attack if necessary. Keep output at a comfortable level.
+
+If setup fails, use the Ableton Synth Playground or work with a partner. Record the settings or a sketch so the student can rebuild the patch in Vital later. A Playground sketch does not replace a saved Vital preset for Project 5.
 {{%/ note %}}
-
 
 ---
 
-Experiment with the [Synth Playground](https://learningsynths.ableton.com/en/playground)
+## Your turn: pluck to pad
+
+Keep the oscillator and filter unchanged.
+
+- Lengthen attack and release; raise sustain.
+- Hold a note, then release it. Compare with the pluck.
+- Save as `YourName_Pad_v1` and explain two changes to a partner.
+
+{{% note %}}
+Allow about 8 minutes. Students predict the change before adjusting controls. Offer attack 400 ms, sustain 70%, release 800 ms as optional starting values; decay can remain unchanged.
+
+Check that both patches exist and that students can explain “slower entry” and “longer tail” with reference to attack and release. Differentiate the sustained sound from a long release after note-off. Invite students to switch between presets while the partner listens without seeing the screen.
+
+Both are practice patches that can be developed for Project 5. No additional graded submission is required.
+{{%/ note %}}
+
+---
+
+## Modulation: source and destination
+
+A source changes a destination parameter.
+
+Envelope → amplifier gain: note articulation.
+LFO → filter cutoff: repeating brightness change.
+
+[Explore repeating change](https://learningsynths.ableton.com/en/lfos/change-that-repeats)
+
+{{% note %}}
+Keep this to one instructor demonstration today. An LFO is a low-frequency oscillator used here as a control source. Route it to cutoff, start with a modest amount, and change only its rate. Ask students to predict whether the motion will speed up or become deeper. Rate changes speed; modulation amount changes depth.
+
+Contrast a triggered envelope with this repeating LFO example. More routing practice comes in the modulation lesson. A moving sound could also come from effects or another source, so listening gives a hypothesis to test, not proof of the patch's wiring.
+{{%/ note %}}
+
+---
+
+## Exit check
+
+Play your pluck and pad for a partner.
+
+- Trace the audio path and explain two envelope choices.
+- Predict a cutoff change, then test it.
+- Confirm that both presets are saved.
+
+{{% note %}}
+Ask each student for a brief written explanation or check it verbally while circulating. Success means identifying the three audio stages, connecting settings to audible differences, and making a prediction that can be tested. If time is short, collect the explanation and revisit unresolved questions next class.
+
+Use a modeled round of Vital Roulette next: describe what is audible, predict a cause, change or bypass one relevant control, then compare. The fuller Vital introduction extends today's saved patches with waveform choices, unison, and morphing.
+
+The core lesson ends here. The remaining slides are optional history and reference.
+{{%/ note %}}
+
+---
+
+# Optional history and reference
+
+Different instruments offer different ways to shape sound.
+
+{{% note %}}
+Choose one example and connect it to the audio and control paths already learned. These slides are available for review and later lessons. They are not a second required lecture before students can try their patches.
+{{%/ note %}}
+
+---
+
+## Wendy Carlos and the Moog
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4SBDH5uhs4Q" title="Wendy Carlos demonstrates the Moog synthesizer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Listen for a change in source, brightness, or articulation.
+
+{{% note %}}
+Preview and select a brief excerpt before class. Pause after one audible transformation. Ask students to name the changed dimension and suggest a module that could cause it.
+
+Historical context: Moog's modular instruments used separate modules and voltage control. Patch cables could carry audio or control signals. Wendy Carlos's work offers an example of synthesis used for musical interpretation and performance.
+{{%/ note %}}
+
+---
+
+## Buchla: shaping the source
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y7nxZdkqWpk" title="Buchla 200e synthesizer demonstration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+What changes in the tone while a sound continues?
+
+{{% note %}}
+Choose a short, previewed excerpt. A useful broad comparison is Moog-associated subtractive filtering and Buchla-associated timbre shaping and modulation. These are tendencies, not exclusive rules or a complete account of either designer.
+
+The 200e is a later instrument, not a recording of a 1960s system. Ask for an audible observation before introducing terms such as wavefolding or complex oscillator. Students do not need to reproduce this patch today.
+{{%/ note %}}
+
+---
+
+## Yamaha DX7: another approach
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Q1Ha0MMT0aA?start=165" title="Yamaha DX7 electric piano and synthesis demonstration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Describe the attack and how brightness changes afterward.
+
+{{% note %}}
+Use a brief electric-piano example. The DX7, released in 1983, helped popularize digital FM synthesis. Avoid claiming that every synthesizer follows the subtractive audio path.
+
+For enrichment: operators combine oscillators and envelopes. Carrier outputs contribute to the audible result; modulators change other operators. The detailed FM mechanism and algorithms are beyond today's outcomes.
+
+Historical source: https://usa.yamaha.com/products/contents/music_production/synth_50th/history/chapter002.html
+{{%/ note %}}
+
+---
+
+## Building a trumpet-like tone
+
+- Listen to a recorded note's attack and sustained tone.
+- Inspect its harmonics and their relative levels.
+- Combine sine oscillators, then shape their levels over time.
+
+{{% note %}}
+Optional additive-synthesis case study. Use a recording and spectrum or spectrogram in Sonic Visualizer. Start with harmonic ratios 1f, 2f, 3f, and so on, using levels observed in the recording. There is no fixed 1/n amplitude recipe for a trumpet.
+
+A static harmonic balance alone will not reproduce the changing attack and spectrum. Compare the initial construction with a version whose partial levels change over time. Ask what remains different from the recording. The purpose is to show another method, not to promise acoustic realism from a few oscillators.
+{{%/ note %}}
+
+---
+
+## Synthesis methods: reference
+
+- Subtractive: filter a harmonically rich source.
+- Additive: combine simpler components.
+- FM: use oscillators to modulate other oscillators.
+- Wavetable: select or scan waveform frames.
+
+{{% note %}}
+These are methods, not mutually exclusive instrument categories. Vital uses wavetables and also offers filtering and modulation. The patch task used a simple waveform and subtractive shaping within that instrument.
+
+Other methods include granular synthesis, which works with short grains of audio, physical modeling, which simulates aspects of vibrating systems, and sample-based approaches. Offer these as directions for later exploration rather than vocabulary to memorize now.
+{{%/ note %}}
+
+---
+
+## Further exploration
+
+[Open the Synth Playground](https://learningsynths.ableton.com/en/playground)
+
+Choose one sound to change. Predict, adjust one control, and explain what you hear.
+
+{{% note %}}
+Optional extension: add noise for a percussive attack, or compare two waveforms under the same envelope. Noise is a useful sound source without a stable repeating cycle. Keep effects off initially so the cause of the change is audible.
+
+For the next guided practice, return to the saved pluck and pad in Vital. Develop them with the Vital introduction, then use them as starting points for original work in Project 5.
+{{%/ note %}}
