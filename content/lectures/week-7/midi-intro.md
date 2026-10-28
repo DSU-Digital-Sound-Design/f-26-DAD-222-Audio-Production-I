@@ -184,7 +184,7 @@ Create separate Speedrum Lite tracks for the chordal hit, vocal sample, and foun
 Keep the full drum kit in one Speedrum Lite instance so you can see and edit the pattern
 together.
 
-By the October 28 checkpoint, bring your drum pattern and at least one of these
+By the October 30 checkpoint, bring your drum pattern and at least one of these
 non-drum parts working with MIDI. We will use workshop time to check the
 remaining tracks and answer questions.
 

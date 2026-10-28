@@ -48,13 +48,13 @@ an ending. Bring parts in and out, leave space for the vocal or chordal hit,
 and make at least one phrase differ from the previous one. A simple arrangement
 with audible choices can meet the full requirements.
 
-## October 28 checkpoint
+## October 30 checkpoint
 
 Bring a working session that opens with all its samples. Be ready to play your
 two-bar drum pattern and at least one non-drum sample triggered by MIDI. Bring
 one question about timing, sample preparation, arrangement, or file management.
 This is a feedback check, not an additional graded submission. Your arrangement
-and final mix can still be in progress.
+and final mix can still be in progress. **The finished project is due Monday, November 2.**
 
 ## Sample categories
 

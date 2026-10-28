@@ -180,23 +180,23 @@ funds undergraduate work.
   - Build a beat in Ableton Learning Music, then rebuild it in REAPER with Speedrum Lite
   - Make a two-bar pattern with a backbeat, subdivisions, velocity changes, and one variation
   - Today's exit pattern can become the Project 4 drum track
-- Save the exit pattern for Project 4. Bring it and one non-drum sample to Wednesday's checkpoint
+- Save the exit pattern for Project 4. Bring it and one non-drum sample to Friday's checkpoint
 
 ## 10/28
-- [lab] [From a vocal recording to a MIDI part](/lectures/week-7/midi-intro/#worked-example-turn-a-vocal-recording-into-a-midi-part) — 15 minutes: extract a phrase, pitch-shift it, glue it to a WAV, and trigger it in Speedrum Lite
-- [lab] [Project 4 feedback checkpoint](/projects/project-4-beats/#october-28-checkpoint) — 20 minutes: bring a session with a two-bar drum pattern and one non-drum sample triggered by MIDI. Check sample files, get feedback, and work on the remaining parts; no additional graded submission
-- [slides] Begin [electronic sound production](/lectures/week-10/electronic-sound-production/) — 15 minutes: compare a pluck and pad, trace the audio path, and predict waveform and filter changes. Stop after “Check: pitch or brightness?”; continue Friday
+- [lab] Review beatmaking projects in progress, discuss questions, and identify what remains to finish for [Project 4](/projects/project-4-beats/)
 
 ## 10/30
+- [lab] [Project 4 feedback checkpoint](/projects/project-4-beats/#october-30-checkpoint) — 20 minutes: bring a session with a two-bar drum pattern and one non-drum sample triggered by MIDI. Check sample files, get feedback, and work on the remaining parts; no additional graded submission
+- **Reminder:** [Project 4: Drum Programming and Beatmaking](/projects/project-4-beats/) is due **Monday, November 2**
 - Install [Vital Synth](https://vital.audio/) if you haven't already
-- [slides] Continue [electronic sound production](/lectures/week-10/electronic-sound-production/): recall the signal path, then compare amplifier and envelope behavior
-- [lab] Follow the deck's guided Vital task: save a pluck, turn it into a pad, and explain the envelope changes to a partner. Complete the exit check before Roulette
-- [lab] [Vital Roulette game](/lectures/week-10/vital-roulette/) — one modeled round and two student rounds with discussion, about 15 minutes; use additional rounds only if time permits
+- [slides] Begin [electronic sound production](/lectures/week-10/electronic-sound-production/): compare a pluck and pad, introduce the signal path, and explore waveforms, filters, and envelopes
+- [lab] Begin the deck's guided Vital task as time permits: build a pluck and turn it into a pad. Continue unfinished work Monday; complete the exit check before Roulette
+- [lab] If time remains after the checkpoint and guided Vital task, begin [Vital Roulette](/lectures/week-10/vital-roulette/) with a modeled round
 
 ## 11/2
 - [drill] [Ear training: one hidden difference](/lectures/ear-training-drills/#112-one-hidden-difference) — 10 minutes
 - Play beatmaking projects in class
-- [lab] Continue [Vital Synth](/lectures/week-10/vital-intro/) from Friday's saved pluck and pad as time permits: explore waveform choices, unison, and morphing
+- [lab] Continue Friday's [electronic sound production and Vital practice](/lectures/week-10/electronic-sound-production/), finishing the pluck and pad task and exit check. Then use the [Vital introduction](/lectures/week-10/vital-intro/) to explore waveform choices, unison, and morphing as time permits
   - [Vital Synth manual (PDF)](https://hooklineismyhomie.weebly.com/uploads/1/4/9/6/149651803/vital_user_manual.pdf)
 - [due] **Project 4: Drum Programming and Beatmaking** — due today
 

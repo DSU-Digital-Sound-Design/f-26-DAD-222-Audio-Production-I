@@ -18,10 +18,10 @@ Instructor preparation
 
 Suggested pacing across the scheduled meetings
 
-- October 28, 15 minutes: opening comparison, signal path, waveforms, and filter prediction. Stop after “Check: pitch or brightness?”
-- October 30, 50 minutes: retrieval and setup, 5; amplifier and envelopes, 10; guided Vital pluck-to-pad task, 15; one modulation demonstration and exit check, 5; modeled Roulette round and two student rounds with discussion, 15.
+- October 28: beatmaking project review; synthesis has not started.
+- October 30: after the 20-minute Project 4 checkpoint, begin with the opening comparison, signal path, waveforms, and filter prediction. Introduce envelopes and begin the guided Vital task as time permits. Resume at the stopping point Monday; do not rush the deck or require Roulette today.
 - History and synthesis-method slides follow the exit check as optional reference. Use a short excerpt in a later lesson or if time permits. Do not play every video in the core lesson.
-- November 2: extend the saved patches with the fuller Vital introduction as time permits after the ear-training drill and beatmaking presentations. The initial two patches are practice, not a new graded submission.
+- November 2: after the ear-training drill and beatmaking presentations, continue unfinished synthesis material and the pluck-to-pad task. Complete the exit check before Roulette. Extend the patches with the fuller Vital introduction as time permits. The initial two patches are practice, not a new graded submission.
 {{%/ note %}}
 
 ---
@@ -138,7 +138,7 @@ Which is the likely change?
 Explain what you expect to hear if tuning changes instead.
 
 {{% note %}}
-Give everyone 20 seconds to choose and explain before taking responses. Target: lower low-pass cutoff changes the spectrum; tuning changes the oscillator's repetition rate and pitch. Demonstrate both if answers suggest confusion. End Wednesday here and begin Friday by recalling the audio path without looking.
+Give everyone 20 seconds to choose and explain before taking responses. Target: lower low-pass cutoff changes the spectrum; tuning changes the oscillator's repetition rate and pitch. Demonstrate both if answers suggest confusion. If stopping here, begin the next session by recalling the audio path without looking.
 {{%/ note %}}
 
 ---
