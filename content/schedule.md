@@ -196,22 +196,29 @@ funds undergraduate work.
 ## 11/2
 - [drill] [Ear training: one hidden difference](/lectures/ear-training-drills/#112-one-hidden-difference) — 10 minutes
 - Play beatmaking projects in class
-- [lab] Continue Friday's [electronic sound production and Vital practice](/lectures/week-10/electronic-sound-production/), finishing the pluck and pad task and exit check. Then use the [Vital introduction](/lectures/week-10/vital-intro/) to explore waveform choices, unison, and morphing as time permits
+- [slides] Continue the [electronic sound production introduction](/lectures/week-10/electronic-sound-production/). Resume hands-on Vital practice Wednesday after students install the synth.
   - [Vital Synth manual (PDF)](https://hooklineismyhomie.weebly.com/uploads/1/4/9/6/149651803/vital_user_manual.pdf)
 - [due] **Project 4: Drum Programming and Beatmaking** — due today
+### homework
+- Install [Vital](https://vital.audio/) before Wednesday. Check that it opens and produces sound in REAPER; bring any setup questions to class.
 
 ## 11/4
-- [slides] [Modulation — LFOs and mod envelopes](/lectures/week-11/vital-modulation/)
+- [lab] Vital setup check: confirm everyone can load the instrument and play a note in REAPER; troubleshoot installation questions
+- [lab] Short [pluck demo](/lectures/week-10/electronic-sound-production/#/pluck-demo): start from an initialized patch and show how the oscillator, filter, and amplitude envelope shape the sound
+- [lab] Walk through instructor-created Vital presets. Compare their sound and musical role, then look at the oscillator, filter, and envelope choices behind them
+- [lab] Try the pluck settings and save a practice patch. If time permits, change the amplitude envelope to make a pad. Use the [Vital introduction](/lectures/week-10/vital-intro/) as a reference
+- Modulation begins Friday, after this practice with the basic controls
 
 ## 11/6
-- [slides] [Effects and post-processing](/lectures/week-11/effects/)
+- [slides] [Modulation — LFOs and mod envelopes](/lectures/week-11/vital-modulation/) — begin with one LFO assignment and one envelope assignment, then practice on a saved patch
 - **Last day to withdraw** from full-term courses
 ### homework
 - [project] [Project 5: Vital Synth](/projects/project-5-synth/) — due Monday 11/23
 
 ## 11/9
 - [drill] [Ear training: synthesis ears](/lectures/ear-training-drills/#119-synthesis-ears) — 10 minutes
-- [slides] [Drum synthesis](/lectures/week-12/drum-synthesis/)
+- [slides] [Effects and post-processing](/lectures/week-11/effects/) — compare a patch dry and processed, then apply effects to a Project 5 patch
+- Optional follow-up: [Drum synthesis](/lectures/week-12/drum-synthesis/) for students who want to build percussion patches
 - No class Wednesday or Friday — I'm at the ATMI conference. On Monday 11/16 we'll have some volunteers share their patches from previous classes
 
 ## 11/11

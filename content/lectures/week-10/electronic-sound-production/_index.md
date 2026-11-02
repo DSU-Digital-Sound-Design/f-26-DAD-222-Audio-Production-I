@@ -21,7 +21,9 @@ Suggested pacing across the scheduled meetings
 - October 28: beatmaking project review; synthesis has not started.
 - October 30: after the 20-minute Project 4 checkpoint, begin with the opening comparison, signal path, waveforms, and filter prediction. Introduce envelopes and begin the guided Vital task as time permits. Resume at the stopping point Monday; do not rush the deck or require Roulette today.
 - History and synthesis-method slides follow the exit check as optional reference. Use a short excerpt in a later lesson or if time permits. Do not play every video in the core lesson.
-- November 2: after the ear-training drill and beatmaking presentations, continue unfinished synthesis material and the pluck-to-pad task. Complete the exit check before Roulette. Extend the patches with the fuller Vital introduction as time permits. The initial two patches are practice, not a new graded submission.
+- November 2: after the ear-training drill and beatmaking presentations, continue the synthesis introduction at the class's stopping point. Students install Vital for homework before Wednesday.
+- November 4: check installations and MIDI input, then give a short pluck demonstration using the guided steps below. Walk through instructor-created presets, comparing their musical roles and the oscillator, filter, and amplitude-envelope choices behind them. Let students try the pluck and save a practice patch; extend it into a pad if time permits. These are practice patches, not a new graded submission. Keep the focus on basic controls; modulation begins Friday, November 6.
+- Roulette and the fuller Vital introduction are optional extensions once students are comfortable with the basic controls.
 {{%/ note %}}
 
 ---
@@ -188,6 +190,8 @@ Then ask which parameter changes the tail after key-up. Target: release. Have st
 {{%/ note %}}
 
 ---
+
+{{% slide id="pluck-demo" %}}
 
 ## Guided Vital patch: pluck
 
