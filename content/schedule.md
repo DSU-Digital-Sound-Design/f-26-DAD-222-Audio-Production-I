@@ -210,7 +210,8 @@ funds undergraduate work.
 - Modulation begins Friday, after this practice with the basic controls
 
 ## 11/6
-- [slides] [Modulation — LFOs and mod envelopes](/lectures/week-11/vital-modulation/) — begin with one LFO assignment and one envelope assignment, then practice on a saved patch
+- [lab] Review Wednesday's Vital work: check setup in REAPER, revisit the [pluck demo](/lectures/week-10/electronic-sound-production/#/pluck-demo), and compare the oscillator, filter, and envelope choices in instructor-created presets. Try the settings and save a practice patch
+- [slides] Begin [modulation — LFOs and mod envelopes](/lectures/week-11/vital-modulation/) as time permits: assign an LFO to filter cutoff, compare rate and depth, then try an envelope assignment on the saved patch
 - **Last day to withdraw** from full-term courses
 ### homework
 - [project] [Project 5: Vital Synth](/projects/project-5-synth/) — due Monday 11/23
