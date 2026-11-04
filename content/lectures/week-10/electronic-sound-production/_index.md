@@ -195,13 +195,13 @@ Then ask which parameter changes the tail after key-up. Target: release. Have st
 
 ## Guided Vital patch: pluck
 
-1. Initialize a patch. Use one saw oscillator, no effects.
-2. Enable a low-pass filter and route Oscillator 1 through it.
-3. Use fast attack, short decay, low sustain, short release.
+1. Right-click the preset name → `Initialize Preset`. Use one saw oscillator, one unison voice, no effects.
+2. Enable Filter 1 and its `OSC1` input. Use low-pass, cutoff about 2 kHz, low resonance.
+3. In `Env 1`: attack 5 ms, decay 250 ms, sustain 0%, release 100 ms. Delay and hold: zero.
 4. Save as `YourName_Pluck_v1`.
 
 {{% note %}}
-Allow about 7 minutes of the 15-minute patch task. Demonstrate each step and let students follow. First verify MIDI input and sound, then filter routing. Keep the patch simple; wavetable morphing and unison come later.
+Allow about 7 minutes of the 15-minute patch task. Demonstrate each step and let students follow. First verify MIDI input and sound, then filter routing. Confirm that Oscillator 1's routing selector reads Filter 1. Choose Analog: 12dB or Analog: 24dB and check that the blend control is at the low-pass end, with the response graph sloping down toward the highs. Keep the patch simple; wavetable morphing and additional unison voices come later. Show the save icon beside the preset name and reload the saved preset to verify it.
 
 Approximate starting values: attack 5 ms, decay 250 ms, sustain 0%, release 100 ms. These are starting points, not assessed targets. Hold a note to check that it fades while the key stays down. Listen for clicks and soften the attack if necessary. Keep output at a comfortable level.
 
@@ -214,7 +214,7 @@ If setup fails, use the Ableton Synth Playground or work with a partner. Record 
 
 Keep the oscillator and filter unchanged.
 
-- Lengthen attack and release; raise sustain.
+- In `Env 1`, try attack 400 ms, sustain 70%, release 800 ms. Leave decay at 250 ms.
 - Hold a note, then release it. Compare with the pluck.
 - Save as `YourName_Pad_v1` and explain two changes to a partner.
 

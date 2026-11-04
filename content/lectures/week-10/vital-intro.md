@@ -17,14 +17,16 @@ By the end of this demo you will:
 
 Tip: UI labels below appear in code style (for clarity), e.g., `Osc 1`, `Filter 1`, `Cutoff`.
 
+For November 4, follow the [guided pluck demo](/lectures/week-10/electronic-sound-production/#/pluck-demo) and save one practice patch. Turn it into a pad if time permits. The oscillator, unison, and morphing sections below are reference material for further exploration. No additional graded submission is required today.
+
 ---
 
 ## 0) Reinitialize the patch
 
-1. Open the preset menu (click the current preset name at the top).
-2. Choose `Initialize Patch`.
+1. Right-click the current preset name at the top.
+2. Choose `Initialize Preset`. A normal left-click opens the preset browser instead.
 
-Result: Vital loads a simple sawtooth with neutral routing and no effects. This gives a predictable starting point for learning and repeatable results in class.
+Check the starting state: Oscillator 1 should be a sawtooth, with oscillators 2 and 3, the sampler, and effects off. Use one unison voice. If your version has a custom default preset, confirm these settings before continuing.
 
 ---
 
@@ -33,25 +35,26 @@ Result: Vital loads a simple sawtooth with neutral routing and no effects. This 
 ### 1.1 Explore the oscillator
 
 1. Go to `Osc 1`. You should see a default saw.
-2. Move the `Position` slider (right of the waveform) to audition a few basic waveforms: `Sine`, `Square`, `Triangle`. Listen for how the harmonic content changes.
-3. Choose a more complex wavetable (e.g., `Quad Saw`, `Stabbed`, or `Harmonic Series`).
-4. Move the `Position` slider (right of the waveform). This scans through frames of the wavetable and morphs the shape in real time.
+2. Click the wavetable name above Oscillator 1's waveform and load `Basic Shapes`. The initialized saw alone does not provide all the basic waveforms when you move its position slider.
+3. Move the `Position` slider to the right of the waveform to audition sine, square, and triangle shapes. Listen for how the harmonic content changes.
+4. For optional exploration, choose another wavetable from your installed library and move its `Position` slider. This scans through the wavetable's frames. Available wavetable names depend on the content you installed.
 
 
 ### 1.2 Pitch and fine tuning
 
-1. Locate `Semitone` and `Cents` for `Osc 1`.
+1. Locate the two tuning values under `Pitch` for `Osc 1`: semitone transposition on the left and fine tuning in cents on the right.
 2. Try transposing by ±12 semitones to understand range and octave placement.
-3. Nudge `Cents` by ±3–10 to introduce gentle detune. This becomes more noticeable once unison is enabled.
+3. Nudge the cents value by a few cents, then return it to zero. This shifts the pitch of the whole oscillator. Relative detuning between two oscillators, or between unison voices, creates beating and thickening. Use `Unison Detune` for the unison example below.
 
 Guideline: Keep extreme detune for later; small offsets stack well when layering other oscillators.
 
 ### 1.3 Add a filter (timbre shaping)
 
 1. Find `Filter 1`. If it looks greyed out, click the small activation dot next to `Filter 1`.
-2. Choose a type. Start with `Analog: 12dB` or `Analog: 24dB` for classic subtractive shaping.
-3. Turn `Cutoff` down to remove highs; sweep to learn the range.
-4. Raise `Resonance` to emphasize frequencies at the cutoff for more character.
+2. Confirm that the `OSC1` input button in Filter 1 is enabled and Oscillator 1's routing selector reads `Filter 1`.
+3. Choose `Analog: 12dB` or `Analog: 24dB` and set the filter's blend control to its low-pass end. Check that the response graph passes lows and slopes down toward the highs.
+4. Start with cutoff around 2 kHz and low resonance. Hold a saw note and lower cutoff to remove highs, then raise it again. If nothing changes, recheck the filter's power and `OSC1` input.
+5. Raise `Resonance` to emphasize frequencies at the cutoff for more character.
 
 Listening targets:
 
@@ -62,7 +65,7 @@ Listening targets:
 
 1. In `Osc 1`, set `Unison Voices` to 4–5.
 2. Increase `Unison Detune` until you hear width, then back off slightly to avoid chorusing blur.
-3. Use `Level` to maintain headroom; unison adds gain.
+3. Watch the output meter and use `Level` to maintain headroom as the sound changes.
 
 Rule of thumb: If your meter is peaking red, lower oscillator or master levels now to prevent clipping later.
 
@@ -82,7 +85,7 @@ Creative approach: Pick one spectral and one wave mode you like; note the ranges
 
 ### 1.6 Shape loudness with the amplitude envelope
 
-1. Go to the main amplitude envelope (often `Env 1` or clearly marked Amp envelope).
+1. Select `Env 1`, which controls amplitude in Vital.
 2. Set ADSR:
    * `Attack`: 0–10 ms for plucks, longer (100–800 ms) for pads.
    * `Decay`: time to fall from peak to sustain.
@@ -101,20 +104,21 @@ Starting recipes:
 
 ## 2) Save and version your work
 
-1. Open the preset menu and choose `Save`.
+1. Click the save icon beside the preset name to open the preset-saving dialog.
 2. Use a descriptive name and category, e.g., `DSU_FirstPatch__Pad__WarmSweep__v1`.
 3. Increment versions as you iterate: `v2`, `v3`, etc.
 
-Documentation tip: In the preset comments (if available), jot key settings such as cutoff range, unison voices, and morph mode. Future you will thank present you.
+After saving, reload the preset to confirm it recalls your settings. Save the REAPER project too; the project and the Vital preset are separate files.
 
 ---
 
-## 3) Suggested 20-minute practice flow
+## 3) Practice for November 4
 
-1. Reinit and build a pluck (5 min): low sustain, short decay, low release, low-pass filter with moderate resonance.
-2. Duplicate the patch into a pad (5 min): longer attack/release, lower cutoff, gentle unison detune.
-3. Add motion (5 min): pick one spectral morph and one wave morph; move each manually to find musical ranges.
-4. Commit and label (5 min): save two versions with clear names and comments.
+1. Build a pluck with one saw oscillator, one unison voice, and no effects. Enable Filter 1, confirm its `OSC1` input, and use a low-pass response with cutoff around 2 kHz and low resonance.
+2. In `Env 1`, set delay and hold to zero, attack to 5 ms, decay to 250 ms, sustain to 0%, and release to 100 ms. Hold a note and check that it fades while the key stays down.
+3. Save as `YourName_Pluck_v1`.
+4. If time permits, keep the oscillator and filter unchanged and make a pad. Set attack to 400 ms, sustain to 70%, and release to 800 ms. Leave decay at 250 ms and save as `YourName_Pad_v1`.
+5. Explain how attack changes the beginning and release changes the tail. Compare both patches at a comfortable listening level.
 
 ---
 
@@ -136,12 +140,8 @@ Documentation tip: In the preset comments (if available), jot key settings such 
 
 ---
 
-## Assignment for the remainder of class
+## Before you leave
 
-Create at least three distinct presets from this starting workflow:
-
-* One pluck, one pad, one lead or keys-type patch.
-* Each must demonstrate a different filter approach and a different morph mode.
-* Save with descriptive names and categories, and include a one-line comment describing the intended musical role.
+Confirm that your pluck preset is saved and that you can explain one filter choice and one envelope choice. Save the pad too if you made one. These are practice patches that you can develop for Project 5. Modulation begins Friday, November 6.
 
 
