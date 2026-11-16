@@ -1,141 +1,78 @@
+## Instructor notes: Recreate That Sound
 
-## Class Exercise: Recreate That Sound — Ear Training in Synthesis
+**Purpose:** Practice connecting audible evidence to a synthesis decision,
+testing that decision, and transferring the result to Project 5. Do not treat
+reconstruction as guessing the original preset's settings.
 
-50 minutes, Vital. Ear training through reverse-engineering: students hear a
-sound, then rebuild it.
+### Before class
 
----
+- Audition the lead and bass clips linked on the student page. Note the actual direction and timing of brightness changes. Let the recordings determine the target; do not assume their filenames describe every feature accurately.
+- Check playback on the classroom system and student headphones. Use comfortable levels and adjust reference and demonstration patches to similar perceived loudness. Avoid clipping.
+- Prepare an initialized Vital patch and a simple repeated MIDI note for each reference. Match pitch, register, note length, and, where known, tempo. Make the same MIDI available to students so performance differences do not obscure patch comparisons.
+- Prepare a dry amplitude-envelope demonstration and a dry filter-envelope demonstration using the same oscillator and MIDI note. Make loudness decay and brightness decay easy to distinguish.
+- Prepare a minimal bass demonstration with one oscillator routed through a low-pass filter and an LFO assigned to cutoff. Check that the movement continues during a held note. This is a scaffold to reveal only if needed.
+- Keep the pad and pluck as optional follow-up material. Do not add them to the required class rounds.
 
-### 1. Introduction and Setup (5 minutes)
+### Timing: 50 minutes total
 
-* Explain the game: they'll hear short synthesized sounds and rebuild them in Vital.
-* Push note-taking: perceived waveform, filter type, envelopes, modulation, effects.
-* Check everyone has Vital open in a DAW with a default patch loaded.
+| Minutes | Activity | Evidence to look for |
+| --- | --- | --- |
+| 0–5 | Setup and first listen | Two audible observations before touching controls |
+| 5–12 | Guided comparison | Students distinguish loudness change from brightness change |
+| 12–24 | Brightness round | A prediction, saved attempt, and one tested revision |
+| 24–37 | Repeating-movement round | Rate and movement matched before optional sound layers |
+| 37–45 | Project 5 transfer | A before-and-after comparison with a musical purpose |
+| 45–50 | Exit check | A demonstration and explanation of a deliberate change |
 
----
+### Guided comparison
 
-## 2. Example Round 1 – Bright Filtered Lead (10 minutes)
+Play the two prepared examples without showing settings first. Ask which
+example fades in loudness and which loses brightness. Have everyone commit
+to a prediction with a brief written response before showing the controls.
+Replay after revealing the routing. If several students confuse the two,
+repeat with a sustained oscillator and a more obvious filter sweep.
 
-**Concept:** Subtractive synthesis and envelope modulation of filters.
-**Reference description:** Bright sawtooth lead with filter envelope sweep and mild resonance.
+For the first reconstruction, model one short test aloud: name an audible
+difference, predict a control change, replay the same note, and decide whether
+to keep it. Do not walk through a complete reference recipe before students try.
 
-**Playback sound:** 10-second phrase with one sustained note that opens in brightness over ~0.5s.
+### Coaching during the rounds
 
-**Instructor Patch Settings (Vital)**
+Ask “What difference do you hear?” before suggesting a control. Then ask
+“What would you expect that change to do?” Encourage one control change at a
+time and comparison against a saved attempt. Students can use plain language
+before attaching technical terms to what they hear.
 
-* **Osc 1:** Saw wave
-* **Osc 2:** Off
-* **Filter 1:** Low-pass 24dB
+If a student cannot produce the feature, check routing before asking for more
+listening. Demonstrate the missing connection, then let the student choose
+and test the settings. If a student is overwhelmed, narrow the task to one
+contrast, such as a faster versus slower brightness decay or LFO cycle.
 
-  * Cutoff: ~1.2 kHz
-  * Resonance: 0.25
-  * Envelope 2 → Cutoff modulation amount: +40%
-* **Envelope 1 (amp):** A 0.01s / D 0.4s / S 0.8 / R 0.3s
-* **Envelope 2 (mod):** A 0.01s / D 0.5s / S 0 / R 0.4s
-* **Unison:** 3 voices, Detune 0.07
-* **FX:** Mild chorus, small plate reverb
-* **Output:** -6 dB
+If students work in pairs, require a role swap in Round 2 and have each person
+explain a decision. Keep individual patch saving and Project 5 transfer time.
+Use a written comparison when a student cannot reliably distinguish a feature
+on the room system; offer replay on headphones and a more pronounced example.
 
-**Target recognition clues:**
-Students should identify the saw timbre, low-pass envelope sweep, and moderate resonance.
+Avoid asking students to identify an exact oscillator count, waveform, or
+effect chain solely by ear. Treat these as hypotheses. A different architecture
+that produces the intended audible behavior is a valid solution.
 
----
+### Formative feedback
 
-## 3. Example Round 2 – LFO Wobble Bass (10 minutes)
+During partner checks and the exit check, listen for:
 
-**Concept:** LFO modulation, tempo-sync, and filter rhythm.
-**Reference description:** A thick, dark bass sound with rhythmic filter movement synced to tempo.
+- **Observation:** The student names an audible feature rather than only a knob value.
+- **Test:** A prediction leads to a controlled change and a comparison.
+- **Explanation:** The student connects the result to the control and can keep or reject the change with a reason.
+- **Transfer:** The Project 5 revision has a stated musical purpose and is auditioned in context.
 
-**Playback sound:** 1-bar loop at 120 BPM with a repeating 1/4-note wobble.
+Give one specific next step, such as “your repetition speed is close; compare
+the depth next.” Do not score preset similarity or add a separate graded
+submission. If time is tight, reduce patch polishing and preserve transfer
+and the exit check. Use recurring misconceptions to choose the next review.
 
-**Instructor Patch Settings (Vital)**
+### After class
 
-* **Osc 1:** Square wave
-* **Sub Osc:** Sine wave, -12 semitones, level ~0.5
-* **Filter 1:** Low-pass 24dB
-
-  * Cutoff: ~400 Hz
-  * Resonance: 0.3
-  * Drive: +2 dB
-  * LFO 1 → Cutoff modulation amount: +60%
-* **LFO 1:** Rate 1/4 sync, shape = smooth triangle
-* **Envelope 1:** Short, tight (A 0.005s / D 0.3s / S 0.8 / R 0.2s)
-* **FX:** Distortion (soft-clip ~30%), EQ with low-shelf boost +2 dB at 100 Hz
-* **Output:** Mono
-
-**Target recognition clues:**
-Students should notice the tempo-locked movement, sub-layer reinforcement, and saturation.
-
----
-
-## 4. Example Round 3 – Evolving Ambient Pad (10 minutes)
-
-**Concept:** Layering oscillators, slow modulation, stereo width, and FX.
-**Reference description:** Wide, slowly evolving pad with subtle motion.
-
-**Playback sound:** 15-second held chord with gentle timbral motion.
-
-**Instructor Patch Settings (Vital)**
-
-* **Osc 1:** Saw wave
-* **Osc 2:** Wavetable “Spectral Warp” or “Complex Square,” detuned +7 cents
-* **Filter 1:** Low-pass 12 dB, cutoff ~5 kHz
-* **Envelope 1 (amp):** A 1.5s / D 3s / S 0.7 / R 4s
-* **LFO 1 → Filter Cutoff:** Amount 20%, rate 0.08 Hz (free-run)
-* **LFO 2 → Osc1 Fine Pitch:** ±2 cents random shape, rate 0.5 Hz
-* **Unison:** 7 voices, detune 0.12
-* **FX Chain:**
-
-  * Chorus: depth 40%, mix 60%
-  * Reverb: large hall, mix 45%
-  * Delay: 1/4 sync, feedback 25%, mix 20%
-* **Output:** -8 dB
-
-**Target recognition clues:**
-Students should detect slow filter movement, lush stereo width, and evolving timbre.
-
----
-
-## 5. Bonus Round – Percussive Pluck (5 minutes)
-
-**Concept:** Short envelopes, fast attack, filter-based timbre shaping.
-**Reference description:** Bright, bell-like pluck with short decay.
-
-**Instructor Patch Settings (Vital)**
-
-* **Osc 1:** Sine-saw morph, position 60%
-* **Filter 1:** Low-pass 12 dB
-
-  * Cutoff ~2 kHz
-  * Envelope 2 → Cutoff +50%
-* **Envelope 1 (amp):** A 0s / D 0.25s / S 0 / R 0.15s
-* **Envelope 2:** A 0s / D 0.2s / S 0 / R 0.2s
-* **FX:** Delay (ping-pong 1/8 sync), Reverb small room 25% mix
-* **Output:** -6 dB
-
-**Target recognition clues:**
-Students should pick up the quick transient, sharp envelope, and bright tone that fades fast.
-
----
-
-## 6. Review and Reflection (10 minutes)
-
-**Discussion prompts**
-
-* Which parameters changed the sound most?
-* How did small modulation adjustments affect realism?
-* What reverse-engineering strategies helped? (Matching envelope shape first is a common one.)
-* Have them share patches and describe their process in 2-3 sentences.
-
-**Optional extension:** each student designs a "mystery sound" for next
-class, then they swap and recreate each other's.
-
----
-
-## Instructor Preparation Notes
-
-* Prepare short audio clips (5–15 s) of each patch rendered dry and wet.
-* Use a shared naming convention like “Vital_Exercise1_Lead.wav”.
-* Optionally, export each Vital patch as `.vital` to share after the exercise for comparison.
-* Keep playback levels consistent (~-6 LUFS) for fair listening.
-
+Offer demonstration presets after students have attempted their own solutions.
+Describe them as possible constructions, not an answer key. Students may
+compare routing and explain one difference without replacing their work.

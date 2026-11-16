@@ -239,8 +239,7 @@ funds undergraduate work.
 - **Final project proposal** — due Friday 11/20, presented in class
 
 ## 11/18
-- [slides] [Connecting influences to your creative voice](/lectures/week-13/final-project-influences/)
-- [lab] [Recreate That Sound: synthesis ear training](/lectures/week-13/vital-listening/) — reverse-engineer patches in Vital before Project 5 is due
+- [lab] [Recreate That Sound: synthesis ear training](/lectures/week-13/vital-listening/) — listen, predict, and test envelope and LFO changes, then improve a Project 5 patch
 
 ## 11/20
 - [due] **Final project proposal** — due today, presented in class
