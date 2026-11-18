@@ -239,11 +239,13 @@ funds undergraduate work.
 - **Final project proposal** — due Friday 11/20, presented in class
 
 ## 11/18
-- [lab] [Recreate That Sound: synthesis ear training](/lectures/week-13/vital-listening/) — listen, predict, and test envelope and LFO changes, then improve a Project 5 patch
+- Recreate That Sound moved to Friday, 11/20.
 
 ## 11/20
 - [due] **Final project proposal** — due today, presented in class
-- Play in-progress Vital projects in class — last round of feedback before they're due
+- Start with student questions about [Project 5: Vital Synth](/projects/project-5-synth/).
+- [lab] [Recreate That Sound: synthesis ear training](/lectures/week-13/vital-listening/) — listen, predict, and test envelope and LFO changes, then improve a Project 5 patch
+- Play your in-progress Vital project and get feedback before it's due Monday, 11/23.
 - After you play your project, spend a few minutes presenting your final project proposal
 
 ## 11/23
